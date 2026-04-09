@@ -1,0 +1,41 @@
+{
+  "id": "template-4",
+  "name": "HeatFix",
+  "source": "https://heatfix.framer.website/",
+  "style": "modern-orange",
+  "match_score": 95,
+  "sections": [
+    "topbar-promo-marquee",
+    "hero-split-stats",
+    "about-img-left-stats",
+    "process-4steps-numbered",
+    "services-6cards-grid",
+    "why-choose-6features",
+    "google-reviews-2x2",
+    "cta-form-right",
+    "footer-dark-4cols"
+  ],
+  "colors": {
+    "primary_orange": "#FF6333",
+    "light_bg": "#F6F7F9",
+    "white": "#FFFFFF",
+    "black": "#000000",
+    "text_gray": "#3B3B3B"
+  },
+  "fonts": {
+    "heading": "Figtree",
+    "body": "Figtree",
+    "accent": "Inter Display"
+  },
+  "layout": {
+    "max_width": 1312,
+    "container_padding": "120px 30px",
+    "hero_padding": "213px 30px 76px",
+    "card_radius": 16,
+    "button_radius": 50,
+    "section_gap": "0px"
+  },
+  "best_for": ["services-local", "chauffagiste", "climatisation", "depannage", "urgence"],
+  "created_at": "2026-04-02",
+  "placeholder_images": true
+}
