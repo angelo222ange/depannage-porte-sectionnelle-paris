@@ -17,19 +17,19 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://porte-sectionnelle-paris.fr'),
-  title: "Porte Sectionnelle Paris | Installation & Depannage 24h/24",
+  metadataBase: new URL('https://depannage-porte-sectionnelle-paris.fr'),
+  title: "Depannage Porte Sectionnelle Paris 24h/24 | Intervention 30 min",
   description:
-    "Specialiste porte sectionnelle a Paris. Installation, depannage, reparation et motorisation. Intervention 30 min, 24h/24. Devis gratuit au 09 72 12 41 41.",
+    "Depannage porte sectionnelle a Paris 24h/24, 7j/7. Technicien sur place en 30 min. Ressort casse, panne moteur, deraillement. Tel : 09 72 12 41 41.",
   openGraph: {
     type: 'website',
     locale: 'fr_FR',
-    siteName: 'Porte Sectionnelle Paris',
+    siteName: 'Depannage Porte Sectionnelle Paris',
     images: [{
-      url: 'https://porte-sectionnelle-paris.fr/images/portes/hero-porte-sectionnelle-paris.webp',
+      url: 'https://depannage-porte-sectionnelle-paris.fr/images/portes/hero-porte-sectionnelle-paris.webp',
       width: 1200,
       height: 630,
-      alt: 'Porte Sectionnelle Paris — Installation et Depannage',
+      alt: 'Depannage Porte Sectionnelle Paris — Installation et Depannage',
     }],
   },
 };

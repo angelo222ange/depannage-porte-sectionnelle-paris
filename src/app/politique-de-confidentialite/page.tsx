@@ -3,10 +3,10 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Politique de Confidentialite | Porte Sectionnelle Paris",
+  title: "Politique de Confidentialite | Depannage Porte Sectionnelle Paris",
   description:
-    "Politique de confidentialite et protection des donnees personnelles du site porte-sectionnelle-paris.fr. RGPD et droits des utilisateurs.",
-  alternates: { canonical: "https://porte-sectionnelle-paris.fr/politique-de-confidentialite/" },
+    "Politique de confidentialite et protection des donnees personnelles du site depannage-porte-sectionnelle-paris.fr. RGPD et droits des utilisateurs.",
+  alternates: { canonical: "https://depannage-porte-sectionnelle-paris.fr/politique-de-confidentialite/" },
 };
 
 export default function PolitiqueConfidentialitePage() {
@@ -14,7 +14,7 @@ export default function PolitiqueConfidentialitePage() {
     {
       title: "Collecte des donnees personnelles",
       content: [
-        "Dans le cadre de l'utilisation du site porte-sectionnelle-paris.fr, nous sommes amenes a collecter les donnees personnelles suivantes :",
+        "Dans le cadre de l'utilisation du site depannage-porte-sectionnelle-paris.fr, nous sommes amenes a collecter les donnees personnelles suivantes :",
         "- Nom et prenom : pour identifier votre demande",
         "- Adresse email : pour vous recontacter suite a votre demande",
         "- Numero de telephone : pour vous joindre dans le cadre d'une intervention",
@@ -52,14 +52,14 @@ export default function PolitiqueConfidentialitePage() {
         "- Droit a la limitation : restreindre le traitement de vos donnees",
         "- Droit a la portabilite : recevoir vos donnees dans un format structure et lisible",
         "- Droit d'opposition : vous opposer au traitement de vos donnees personnelles",
-        "Pour exercer ces droits, contactez-nous par email a contact@porte-sectionnelle-paris.fr ou par telephone au 09 72 12 41 41.",
+        "Pour exercer ces droits, contactez-nous par email a contact@depannage-porte-sectionnelle-paris.fr ou par telephone au 09 72 12 41 41.",
         "Vous pouvez egalement introduire une reclamation aupres de la CNIL (Commission Nationale de l'Informatique et des Libertes) : www.cnil.fr.",
       ],
     },
     {
       title: "Cookies",
       content: [
-        "Le site porte-sectionnelle-paris.fr utilise des cookies pour assurer son bon fonctionnement et ameliorer l'experience utilisateur.",
+        "Le site depannage-porte-sectionnelle-paris.fr utilise des cookies pour assurer son bon fonctionnement et ameliorer l'experience utilisateur.",
         "Les cookies utilises sont :",
         "- Cookies techniques : necessaires au fonctionnement du site (session, preferences d'affichage)",
         "- Cookies analytiques : pour mesurer la frequentation du site et ameliorer nos services (Google Analytics)",
@@ -85,8 +85,8 @@ export default function PolitiqueConfidentialitePage() {
       title: "Contact",
       content: [
         "Pour toute question relative a la protection de vos donnees personnelles :",
-        "Porte Sectionnelle Paris",
-        "Email : contact@porte-sectionnelle-paris.fr",
+        "Depannage Porte Sectionnelle Paris",
+        "Email : contact@depannage-porte-sectionnelle-paris.fr",
         "Telephone : 09 72 12 41 41",
       ],
     },

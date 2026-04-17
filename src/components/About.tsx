@@ -52,7 +52,7 @@ export default function About() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             marginBottom: "16px",
@@ -95,7 +95,7 @@ export default function About() {
               display: "inline-flex",
               alignItems: "center",
               gap: "0px",
-              backgroundColor: "#FF6333",
+              backgroundColor: "#E63946",
               padding: "8px 8px 8px 24px",
               borderRadius: "50px",
               fontSize: "15px",

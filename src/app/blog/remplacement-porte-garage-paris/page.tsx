@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   title: "Remplacement Porte de Garage Paris | Guide 2026",
   description:
     "Quand et comment remplacer votre porte de garage a Paris ? Signes d'usure, types de remplacement, delais, budget. Guide complet par nos experts.",
-  alternates: { canonical: "https://porte-sectionnelle-paris.fr/blog/remplacement-porte-garage-paris/" },
+  alternates: { canonical: "https://depannage-porte-sectionnelle-paris.fr/blog/remplacement-porte-garage-paris/" },
   openGraph: {
     title: "Remplacement Porte de Garage Paris | Guide 2026",
     description: "Quand remplacer votre porte de garage a Paris ? Signes d'usure, types, delais et budget.",
-    url: "https://porte-sectionnelle-paris.fr/blog/remplacement-porte-garage-paris/",
+    url: "https://depannage-porte-sectionnelle-paris.fr/blog/remplacement-porte-garage-paris/",
     images: ["/images/portes/installation-porte-sectionnelle.webp"],
   },
 };
@@ -26,9 +26,9 @@ export default function Article() {
       {/* Breadcrumb */}
       <div style={{ maxWidth: "1312px", margin: "0 auto", padding: "180px 30px 0" }}>
         <nav style={{ fontSize: "14px", color: "#3B3B3B" }}>
-          <a href="/" style={{ color: "#FF6333" }}>Accueil</a>
+          <a href="/" style={{ color: "#E63946" }}>Accueil</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
-          <a href="/blog/" style={{ color: "#FF6333" }}>Blog</a>
+          <a href="/blog/" style={{ color: "#E63946" }}>Blog</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span>Remplacement porte de garage Paris</span>
         </nav>
@@ -37,7 +37,7 @@ export default function Article() {
       {/* Article hero */}
       <section style={{ padding: "40px 30px 0", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ display: "inline-block", backgroundColor: "#FFF1EC", color: "#FF6333", padding: "6px 14px", borderRadius: "50px", fontSize: "13px", fontWeight: 600, marginBottom: "20px" }}>
+          <span style={{ display: "inline-block", backgroundColor: "#FFEEF0", color: "#E63946", padding: "6px 14px", borderRadius: "50px", fontSize: "13px", fontWeight: 600, marginBottom: "20px" }}>
             Remplacement
           </span>
           <h1 style={{ fontSize: "48px", fontWeight: 600, color: "#000000", lineHeight: "56px", marginBottom: "16px" }}>
@@ -101,11 +101,11 @@ export default function Article() {
           </p>
 
           {/* CTA mid-article */}
-          <div style={{ backgroundColor: "#FFF1EC", borderRadius: "16px", padding: "32px", margin: "40px 0", textAlign: "center" as const }}>
+          <div style={{ backgroundColor: "#FFEEF0", borderRadius: "16px", padding: "32px", margin: "40px 0", textAlign: "center" as const }}>
             <p style={{ fontSize: "18px", fontWeight: 600, color: "#000000", marginBottom: "12px" }}>
               Votre porte de garage a besoin d&apos;etre remplacee ?
             </p>
-            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#FF6333", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>
+            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#E63946", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>
               Appelez le {siteConfig.telephone}
             </a>
           </div>
@@ -134,7 +134,7 @@ export default function Article() {
             <li><strong>Reprise maconnerie (si necessaire) :</strong> a partir de 300 euros</li>
           </ul>
           <p style={{ marginBottom: "20px" }}>
-            Nos techniciens chez <strong>Porte Sectionnelle Paris</strong> vous accompagnent de la visite technique a la mise en service. Nous proposons une <a href="/installation-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>installation complete</a> avec garantie sur la fourniture et la main d&apos;oeuvre. Pour toute question sur le remplacement de votre <a href="/porte-de-garage-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>porte de garage</a>, n&apos;hesitez pas a nous contacter.
+            Nos techniciens chez <strong>Depannage Porte Sectionnelle Paris</strong> vous accompagnent de la visite technique a la mise en service. Nous proposons une <a href="/installation-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>installation complete</a> avec garantie sur la fourniture et la main d&apos;oeuvre. Pour toute question sur le remplacement de votre <a href="/porte-de-garage-paris/" style={{ color: "#E63946", fontWeight: 600 }}>porte de garage</a>, n&apos;hesitez pas a nous contacter.
           </p>
 
       </BlogArticleLayout>
@@ -144,9 +144,9 @@ export default function Article() {
         "@context": "https://schema.org",
         "@type": "Article",
         headline: "Remplacement Porte de Garage a Paris : Guide Complet",
-        author: { "@type": "Organization", name: "Porte Sectionnelle Paris" },
+        author: { "@type": "Organization", name: "Depannage Porte Sectionnelle Paris" },
         datePublished: "2026-04-07",
-        image: "https://porte-sectionnelle-paris.fr/images/portes/installation-porte-sectionnelle.webp",
+        image: "https://depannage-porte-sectionnelle-paris.fr/images/portes/installation-porte-sectionnelle.webp",
       }) }} />
 
       <CTAForm />

@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   title: "Depannage Porte Sectionnelle : Guide Urgence Paris",
   description:
     "Porte sectionnelle bloquee ? Decouvrez les etapes de diagnostic, les gestes d'urgence et quand appeler un professionnel. Depannage rapide a Paris.",
-  alternates: { canonical: "https://porte-sectionnelle-paris.fr/blog/depannage-porte-sectionnelle-urgence/" },
+  alternates: { canonical: "https://depannage-porte-sectionnelle-paris.fr/blog/depannage-porte-sectionnelle-urgence/" },
   openGraph: {
     title: "Depannage Porte Sectionnelle : Guide Urgence Paris",
     description: "Porte sectionnelle bloquee ? Etapes de diagnostic et gestes d'urgence a Paris.",
-    url: "https://porte-sectionnelle-paris.fr/blog/depannage-porte-sectionnelle-urgence/",
+    url: "https://depannage-porte-sectionnelle-paris.fr/blog/depannage-porte-sectionnelle-urgence/",
     images: ["/images/portes/depannage-porte-sectionnelle.webp"],
   },
 };
@@ -26,9 +26,9 @@ export default function Article() {
       {/* Breadcrumb */}
       <div style={{ maxWidth: "1312px", margin: "0 auto", padding: "180px 30px 0" }}>
         <nav style={{ fontSize: "14px", color: "#3B3B3B" }}>
-          <a href="/" style={{ color: "#FF6333" }}>Accueil</a>
+          <a href="/" style={{ color: "#E63946" }}>Accueil</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
-          <a href="/blog/" style={{ color: "#FF6333" }}>Blog</a>
+          <a href="/blog/" style={{ color: "#E63946" }}>Blog</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span>Depannage porte sectionnelle urgence</span>
         </nav>
@@ -37,7 +37,7 @@ export default function Article() {
       {/* Article hero */}
       <section style={{ padding: "40px 30px 0", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ display: "inline-block", backgroundColor: "#FFF1EC", color: "#FF6333", padding: "6px 14px", borderRadius: "50px", fontSize: "13px", fontWeight: 600, marginBottom: "20px" }}>
+          <span style={{ display: "inline-block", backgroundColor: "#FFEEF0", color: "#E63946", padding: "6px 14px", borderRadius: "50px", fontSize: "13px", fontWeight: 600, marginBottom: "20px" }}>
             Urgence
           </span>
           <h1 style={{ fontSize: "48px", fontWeight: 600, color: "#000000", lineHeight: "56px", marginBottom: "16px" }}>
@@ -99,11 +99,11 @@ export default function Article() {
           </p>
 
           {/* CTA mid-article */}
-          <div style={{ backgroundColor: "#FFF1EC", borderRadius: "16px", padding: "32px", margin: "40px 0", textAlign: "center" as const }}>
+          <div style={{ backgroundColor: "#FFEEF0", borderRadius: "16px", padding: "32px", margin: "40px 0", textAlign: "center" as const }}>
             <p style={{ fontSize: "18px", fontWeight: 600, color: "#000000", marginBottom: "12px" }}>
               Porte bloquee ? Nos techniciens interviennent en urgence
             </p>
-            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#FF6333", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>
+            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#E63946", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>
               Appelez le {siteConfig.telephone}
             </a>
           </div>
@@ -115,7 +115,7 @@ export default function Article() {
             Certaines situations exigent une <strong>intervention professionnelle immediate</strong>. N&apos;essayez jamais de reparer vous-meme un ressort de torsion casse : la force emmagasinee peut etre mortelle. De meme, un cable de levage rompu ou un panneau desolidarise de ses charnires necessite un equipement specifique et un savoir-faire technique que seul un technicien qualifie possede.
           </p>
           <p style={{ marginBottom: "20px" }}>
-            Si votre porte reste ouverte et que vous ne parvenez pas a la fermer, votre garage est vulnerable. Dans ce cas, faites appel a un <a href="/depannage-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>service de depannage en urgence</a> capable d&apos;intervenir rapidement pour securiser les lieux.
+            Si votre porte reste ouverte et que vous ne parvenez pas a la fermer, votre garage est vulnerable. Dans ce cas, faites appel a un <a href="/depannage-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>service de depannage en urgence</a> capable d&apos;intervenir rapidement pour securiser les lieux.
           </p>
 
           <h2 style={{ fontSize: "28px", fontWeight: 600, color: "#000000", lineHeight: "36px", marginTop: "48px", marginBottom: "20px" }}>
@@ -132,14 +132,14 @@ export default function Article() {
             <li><strong>Intervention en urgence soir et week-end :</strong> majoration de 30 a 50 %</li>
           </ul>
           <p style={{ marginBottom: "20px" }}>
-            Ces tarifs sont indicatifs. Un devis precis est toujours etabli avant toute intervention. Chez Porte Sectionnelle Paris, le deplacement et le diagnostic sont inclus dans le tarif de <a href="/reparation-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>reparation</a>. Pas de mauvaise surprise.
+            Ces tarifs sont indicatifs. Un devis precis est toujours etabli avant toute intervention. Chez Depannage Porte Sectionnelle Paris, le deplacement et le diagnostic sont inclus dans le tarif de <a href="/reparation-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>reparation</a>. Pas de mauvaise surprise.
           </p>
 
           <h2 style={{ fontSize: "28px", fontWeight: 600, color: "#000000", lineHeight: "36px", marginTop: "48px", marginBottom: "20px" }}>
             Prevenir les pannes grace a l&apos;entretien regulier
           </h2>
           <p style={{ marginBottom: "20px" }}>
-            La meilleure facon d&apos;eviter un depannage en urgence reste l&apos;<a href="/entretien-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>entretien preventif regulier</a>. Une visite annuelle par un technicien qualifie permet de detecter l&apos;usure des ressorts avant rupture, de lubrifier les mecanismes et de verifier l&apos;equilibrage de la porte. Cet investissement modeste de quelques dizaines d&apos;euros vous evite des depannages en urgence bien plus couteux et des periodes d&apos;immobilisation contraignantes.
+            La meilleure facon d&apos;eviter un depannage en urgence reste l&apos;<a href="/entretien-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>entretien preventif regulier</a>. Une visite annuelle par un technicien qualifie permet de detecter l&apos;usure des ressorts avant rupture, de lubrifier les mecanismes et de verifier l&apos;equilibrage de la porte. Cet investissement modeste de quelques dizaines d&apos;euros vous evite des depannages en urgence bien plus couteux et des periodes d&apos;immobilisation contraignantes.
           </p>
 
       </BlogArticleLayout>
@@ -149,9 +149,9 @@ export default function Article() {
         "@context": "https://schema.org",
         "@type": "Article",
         headline: "Depannage Porte Sectionnelle : Guide Urgence",
-        author: { "@type": "Organization", name: "Porte Sectionnelle Paris" },
+        author: { "@type": "Organization", name: "Depannage Porte Sectionnelle Paris" },
         datePublished: "2026-04-03",
-        image: "https://porte-sectionnelle-paris.fr/images/portes/depannage-porte-sectionnelle.webp",
+        image: "https://depannage-porte-sectionnelle-paris.fr/images/portes/depannage-porte-sectionnelle.webp",
       }) }} />
 
       <CTAForm />

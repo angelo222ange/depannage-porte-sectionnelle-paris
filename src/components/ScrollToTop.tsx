@@ -27,7 +27,7 @@ export default function ScrollToTop() {
         width: "48px",
         height: "48px",
         borderRadius: "50%",
-        backgroundColor: "#FF6333",
+        backgroundColor: "#E63946",
         border: "none",
         cursor: "pointer",
         display: "flex",

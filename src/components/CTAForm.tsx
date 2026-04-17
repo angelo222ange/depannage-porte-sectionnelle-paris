@@ -31,7 +31,7 @@ export default function CTAForm({ heading, subtitle }: CTAFormProps = {}) {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          site: "porte-sectionnelle-paris.fr",
+          site: "depannage-porte-sectionnelle-paris.fr",
           type: "devis",
           nom: formData.name,
           email: formData.email,
@@ -73,7 +73,7 @@ export default function CTAForm({ heading, subtitle }: CTAFormProps = {}) {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -118,7 +118,7 @@ export default function CTAForm({ heading, subtitle }: CTAFormProps = {}) {
                   width: "44px",
                   height: "44px",
                   borderRadius: "50%",
-                  backgroundColor: "#FFF1EC",
+                  backgroundColor: "#FFEEF0",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
@@ -127,7 +127,7 @@ export default function CTAForm({ heading, subtitle }: CTAFormProps = {}) {
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <path
                     d="M17.5 14.19V16.44C17.5 16.98 17.08 17.43 16.54 17.475C16.12 17.505 15.775 17.52 15.5 17.52C8.045 17.52 2 11.475 2 4.02C2 3.745 2.015 3.4 2.045 2.98C2.09 2.44 2.54 2.02 3.08 2.02H5.33C5.595 2.02 5.82 2.215 5.855 2.48C5.885 2.715 5.915 2.905 5.945 3.055C6.18 4.27 6.61 5.415 7.21 6.46L6.025 7.25C6.025 7.25 6.62 8.85 8.64 10.87C10.66 12.89 12.27 13.495 12.27 13.495L13.055 12.305C14.105 12.905 15.25 13.34 16.465 13.575C16.615 13.605 16.805 13.635 17.04 13.665C17.305 13.7 17.5 13.925 17.5 14.19Z"
-                    stroke="#FF6333"
+                    stroke="#E63946"
                     strokeWidth="1.5"
                   />
                 </svg>
@@ -162,7 +162,7 @@ export default function CTAForm({ heading, subtitle }: CTAFormProps = {}) {
                   width: "44px",
                   height: "44px",
                   borderRadius: "50%",
-                  backgroundColor: "#FFF1EC",
+                  backgroundColor: "#FFEEF0",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
@@ -171,7 +171,7 @@ export default function CTAForm({ heading, subtitle }: CTAFormProps = {}) {
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <path
                     d="M2.5 6.667L8.832 10.8867C9.5265 11.3295 10.4735 11.3295 11.168 10.8867L17.5 6.667M4.167 15.833H15.833C16.754 15.833 17.5 15.087 17.5 14.167V5.833C17.5 4.913 16.754 4.167 15.833 4.167H4.167C3.247 4.167 2.5 4.913 2.5 5.833V14.167C2.5 15.087 3.247 15.833 4.167 15.833Z"
-                    stroke="#FF6333"
+                    stroke="#E63946"
                     strokeWidth="1.5"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -195,7 +195,7 @@ export default function CTAForm({ heading, subtitle }: CTAFormProps = {}) {
                     color: "#000000",
                                       }}
                 >
-                  contact@porte-sectionnelle-paris.fr
+                  contact@depannage-porte-sectionnelle-paris.fr
                 </span>
               </div>
             </div>
@@ -208,7 +208,7 @@ export default function CTAForm({ heading, subtitle }: CTAFormProps = {}) {
                   width: "44px",
                   height: "44px",
                   borderRadius: "50%",
-                  backgroundColor: "#FFF1EC",
+                  backgroundColor: "#FFEEF0",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
@@ -217,12 +217,12 @@ export default function CTAForm({ heading, subtitle }: CTAFormProps = {}) {
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <path
                     d="M10 10.833C11.3807 10.833 12.5 9.714 12.5 8.333C12.5 6.953 11.3807 5.833 10 5.833C8.6193 5.833 7.5 6.953 7.5 8.333C7.5 9.714 8.6193 10.833 10 10.833Z"
-                    stroke="#FF6333"
+                    stroke="#E63946"
                     strokeWidth="1.5"
                   />
                   <path
                     d="M10 18.333C10 18.333 16.667 13.333 16.667 8.333C16.667 4.651 13.682 1.667 10 1.667C6.318 1.667 3.333 4.651 3.333 8.333C3.333 13.333 10 18.333 10 18.333Z"
-                    stroke="#FF6333"
+                    stroke="#E63946"
                     strokeWidth="1.5"
                   />
                 </svg>
@@ -366,7 +366,7 @@ export default function CTAForm({ heading, subtitle }: CTAFormProps = {}) {
                       width: "100%",
                       padding: "16px 24px",
                       borderRadius: "50px",
-                      backgroundColor: "#FF6333",
+                      backgroundColor: "#E63946",
                       color: "#FFFFFF",
                       fontSize: "16px",
                       fontWeight: 600,

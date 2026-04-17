@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   description:
     "Porte de garage enroulable a Paris. Installation, reparation et motorisation pour garages urbains. Zero debordement, gain de place. Tel : 09 72 12 41 41.",
   alternates: {
-    canonical: "https://porte-sectionnelle-paris.fr/porte-de-garage-enroulable-paris/",
+    canonical: "https://depannage-porte-sectionnelle-paris.fr/porte-de-garage-enroulable-paris/",
   },
   openGraph: {
     title: "Porte de Garage Enroulable Paris | Pose & Depannage",
     description: "Porte de garage enroulable a Paris. Installation, reparation et motorisation pour garages urbains. Zero debordement, gain de place. Devis gratuit.",
-    url: "https://porte-sectionnelle-paris.fr/porte-de-garage-enroulable-paris/",
+    url: "https://depannage-porte-sectionnelle-paris.fr/porte-de-garage-enroulable-paris/",
     images: ["/images/portes/porte-rideau-metallique.webp"],
   },
 };
@@ -119,7 +119,7 @@ export default function PorteDeGarageEnroulableParis() {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "12px",
-                backgroundColor: "#FF6333",
+                backgroundColor: "#E63946",
                 padding: "14px 32px",
                 borderRadius: "50px",
                 fontSize: "16px",
@@ -147,7 +147,7 @@ export default function PorteDeGarageEnroulableParis() {
             color: "#3B3B3B",
                       }}
         >
-          <a href="/" style={{ color: "#FF6333" }}>Accueil</a>
+          <a href="/" style={{ color: "#E63946" }}>Accueil</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span>Porte de garage enroulable Paris</span>
         </nav>
@@ -191,7 +191,7 @@ export default function PorteDeGarageEnroulableParis() {
               style={{
                 fontSize: "14px",
                 fontWeight: 600,
-                color: "#FF6333",
+                color: "#E63946",
                 textTransform: "uppercase" as const,
                 letterSpacing: "1.5px",
                                 display: "block",
@@ -259,7 +259,7 @@ export default function PorteDeGarageEnroulableParis() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -348,7 +348,7 @@ export default function PorteDeGarageEnroulableParis() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -423,14 +423,14 @@ export default function PorteDeGarageEnroulableParis() {
                     width: "48px",
                     height: "48px",
                     borderRadius: "12px",
-                    backgroundColor: "#FFF1EC",
+                    backgroundColor: "#FFEEF0",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                     marginBottom: "20px",
                   }}
                 >
-                  <span style={{ fontSize: "20px", fontWeight: 700, color: "#FF6333" }}>{item.num}</span>
+                  <span style={{ fontSize: "20px", fontWeight: 700, color: "#E63946" }}>{item.num}</span>
                 </div>
                 <h3
                   style={{
@@ -499,7 +499,7 @@ export default function PorteDeGarageEnroulableParis() {
             >
               C&apos;est precisement dans ces situations que la <strong>porte enroulable</strong> prend tout son sens. Son coffre de 25 a 30 cm se fixe directement sous le linteau sans necessiter de rail au plafond ni de degagement lateral. Pour un garage etroit de 2,40 m de large donnant sur un trottoir passant du 11e ou du 18e arrondissement, la porte enroulable est souvent la seule option viable sans debordement exterieur. Les coproprietes parisiennes l&apos;apprecient aussi car elle ne modifie pas la structure du batiment et respecte les contraintes architecturales des facades classees. Notre equipe, forte de plus de <strong>25 ans d&apos;experience</strong> sur le terrain, vous conseille objectivement entre les deux solutions apres un releve de cotes gratuit et sans engagement.
             </p>
-            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#FF6333", fontSize: "15px", fontWeight: 600, textDecoration: "none", marginTop: "20px" }}>
+            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#E63946", fontSize: "15px", fontWeight: 600, textDecoration: "none", marginTop: "20px" }}>
               Devis gratuit : {siteConfig.telephone}
             </a>
           </div>
@@ -560,7 +560,7 @@ export default function PorteDeGarageEnroulableParis() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -622,7 +622,7 @@ export default function PorteDeGarageEnroulableParis() {
       {/* Zones d'intervention */}
       <section style={{ padding: "80px 30px", backgroundColor: "#F6F7F9" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px" }}>Zones d&apos;intervention</span>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px" }}>Zones d&apos;intervention</span>
           <h2 style={{ fontSize: "36px", fontWeight: 600, color: "#000000", lineHeight: "42px", marginBottom: "32px" }}>
             <strong>Porte de garage enroulable</strong> dans toute la region parisienne
           </h2>
@@ -641,7 +641,7 @@ export default function PorteDeGarageEnroulableParis() {
             ].map((zone, i) => (
               <a key={i} href={zone.href} style={{ display: "flex", alignItems: "center", justifyContent: "space-between", backgroundColor: "#FFFFFF", borderRadius: "12px", padding: "14px 18px", textDecoration: "none", border: "1px solid #E5E7EB" }}>
                 <span style={{ fontSize: "14px", fontWeight: 500, color: "#1A1A1A", }}>{zone.label}</span>
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
               </a>
             ))}
           </div>
@@ -651,13 +651,13 @@ export default function PorteDeGarageEnroulableParis() {
       {/* Avis clients */}
       <section style={{ padding: "80px 30px", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px", textAlign: "center" }}>Temoignages</span>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px", textAlign: "center" }}>Temoignages</span>
           <h2 style={{ fontSize: "36px", fontWeight: 600, color: "#000000", lineHeight: "42px", marginBottom: "40px", textAlign: "center" }}>
             Avis clients — <strong>Porte de garage enroulable</strong> a <strong>Paris</strong>
           </h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "24px" }}>
             {[
-              { name: "Romain D.", location: "Paris 11e", color: "#FF6333", text: "Porte enroulable en aluminium posee dans notre garage du 11e arrondissement. Le coffre compact passe inapercu sous le linteau. Parfait pour notre plafond bas, une porte sectionnelle n'aurait pas pu rentrer. Ouverture silencieuse et rapide." },
+              { name: "Romain D.", location: "Paris 11e", color: "#E63946", text: "Porte enroulable en aluminium posee dans notre garage du 11e arrondissement. Le coffre compact passe inapercu sous le linteau. Parfait pour notre plafond bas, une porte sectionnelle n'aurait pas pu rentrer. Ouverture silencieuse et rapide." },
               { name: "Beatrice C.", location: "Paris 18e", color: "#2563EB", text: "Installation d'une porte enroulable isolee pour remplacer notre vieux rideau metallique de garage. La difference d'isolation est flagrante, les lames en aluminium a double paroi gardent bien la chaleur. Motorisation discrete, les voisins ne s'en plaignent pas." },
               { name: "Jean-Marc L.", location: "Vincennes", color: "#10B981", text: "Le technicien nous a conseille l'enroulable plutot que la sectionnelle vu la configuration de notre garage sans retombee de linteau. Choix parfait, le coffre se loge dans les 25 cm disponibles. Pose propre et rapide en demi-journee." },
               { name: "Pascale H.", location: "Paris 2e", color: "#8B5CF6", text: "Porte de garage enroulable posee dans notre immeuble haussmannien. L'esthetique exterieure est preservee grace au coffre invisible depuis la rue. La copropriete a valide sans souci puisqu'aucune modification de facade n'etait necessaire." },
@@ -700,7 +700,7 @@ export default function PorteDeGarageEnroulableParis() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -904,7 +904,7 @@ export default function PorteDeGarageEnroulableParis() {
             >
               Cote securite, chaque <strong>porte enroulable</strong> que nous installons integre un systeme <strong>anti-relevage</strong> qui bloque toute tentative d&apos;ouverture forcee, une <strong>detection d&apos;obstacle</strong> qui stoppe immediatement la descente en cas de presence sous le tablier, et un dispositif stop-chute qui immobilise la porte si la tension de la sangle ou du ressort venait a faiblir. L&apos;<strong>isolation thermique et acoustique</strong> apportee par les lames a double paroi aluminium contribue egalement au confort quotidien.
             </p>
-            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#FF6333", fontSize: "15px", fontWeight: 600, textDecoration: "none", marginTop: "20px" }}>
+            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#E63946", fontSize: "15px", fontWeight: 600, textDecoration: "none", marginTop: "20px" }}>
               Devis gratuit : {siteConfig.telephone}
             </a>
           </div>
@@ -916,7 +916,7 @@ export default function PorteDeGarageEnroulableParis() {
         "@type": "Product",
         name: "Porte de garage enroulable",
         description: "Porte de garage enroulable a Paris. Installation, reparation et motorisation pour garages urbains. Zero debordement, gain de place maximal.",
-        brand: { "@type": "Organization", name: "Porte Sectionnelle Paris" },
+        brand: { "@type": "Organization", name: "Depannage Porte Sectionnelle Paris" },
         offers: { "@type": "Offer", priceCurrency: "EUR", availability: "https://schema.org/InStock" },
       }) }} />
 
@@ -924,8 +924,8 @@ export default function PorteDeGarageEnroulableParis() {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Accueil", item: "https://porte-sectionnelle-paris.fr/" },
-          { "@type": "ListItem", position: 2, name: "Porte de garage enroulable", item: "https://porte-sectionnelle-paris.fr/porte-de-garage-enroulable-paris/" },
+          { "@type": "ListItem", position: 1, name: "Accueil", item: "https://depannage-porte-sectionnelle-paris.fr/" },
+          { "@type": "ListItem", position: 2, name: "Porte de garage enroulable", item: "https://depannage-porte-sectionnelle-paris.fr/porte-de-garage-enroulable-paris/" },
         ],
       }) }} />
 

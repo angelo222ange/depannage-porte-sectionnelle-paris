@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   title: "Entretien Porte Sectionnelle Paris : Les Gestes qui Sauvent",
   description:
     "Lubrification, ressorts, cables, moteur : decouvrez les gestes d'entretien essentiels pour prolonger la duree de vie de votre porte sectionnelle a Paris.",
-  alternates: { canonical: "https://porte-sectionnelle-paris.fr/blog/entretien-porte-sectionnelle-gestes-qui-sauvent/" },
+  alternates: { canonical: "https://depannage-porte-sectionnelle-paris.fr/blog/entretien-porte-sectionnelle-gestes-qui-sauvent/" },
   openGraph: {
     title: "Entretien Porte Sectionnelle Paris : Les Gestes qui Sauvent",
     description: "Lubrification, ressorts, cables, moteur : decouvrez les gestes d'entretien essentiels pour prolonger la duree de vie de votre porte sectionnelle a Paris.",
-    url: "https://porte-sectionnelle-paris.fr/blog/entretien-porte-sectionnelle-gestes-qui-sauvent/",
+    url: "https://depannage-porte-sectionnelle-paris.fr/blog/entretien-porte-sectionnelle-gestes-qui-sauvent/",
     images: ["/images/portes/entretien-porte-sectionnelle.webp"],
   },
 };
@@ -26,9 +26,9 @@ export default function Article() {
       {/* Breadcrumb */}
       <div style={{ maxWidth: "1312px", margin: "0 auto", padding: "180px 30px 0" }}>
         <nav style={{ fontSize: "14px", color: "#3B3B3B", }}>
-          <a href="/" style={{ color: "#FF6333" }}>Accueil</a>
+          <a href="/" style={{ color: "#E63946" }}>Accueil</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
-          <a href="/blog/" style={{ color: "#FF6333" }}>Blog</a>
+          <a href="/blog/" style={{ color: "#E63946" }}>Blog</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span>Entretien porte sectionnelle : les gestes qui sauvent</span>
         </nav>
@@ -37,7 +37,7 @@ export default function Article() {
       {/* Article hero */}
       <section style={{ padding: "40px 30px 0", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ display: "inline-block", backgroundColor: "#FFF1EC", color: "#FF6333", padding: "6px 14px", borderRadius: "50px", fontSize: "13px", fontWeight: 600, marginBottom: "20px" }}>
+          <span style={{ display: "inline-block", backgroundColor: "#FFEEF0", color: "#E63946", padding: "6px 14px", borderRadius: "50px", fontSize: "13px", fontWeight: 600, marginBottom: "20px" }}>
             Entretien
           </span>
           <h1 style={{ fontSize: "48px", fontWeight: 600, color: "#000000", lineHeight: "56px", marginBottom: "16px" }}>
@@ -96,7 +96,7 @@ export default function Article() {
             Les <strong>ressorts de torsion</strong> supportent la quasi-totalite du poids de la porte. Ils sont sous haute tension et representent le composant le plus dangereux. Ne tentez jamais de les regler vous-meme. Verifiez visuellement qu&apos;ils ne presentent pas de deformation, de rouille ou de fissure.
           </p>
           <p style={{ marginBottom: "20px" }}>
-            Un test simple : debrayez le moteur et soulevez la porte a mi-hauteur. Si elle reste en place, les ressorts sont correctement equilibres. Si elle retombe ou remonte, le reglage est necessaire et doit etre confie a un <a href="/reparation-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>technicien qualifie en reparation</a>.
+            Un test simple : debrayez le moteur et soulevez la porte a mi-hauteur. Si elle reste en place, les ressorts sont correctement equilibres. Si elle retombe ou remonte, le reglage est necessaire et doit etre confie a un <a href="/reparation-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>technicien qualifie en reparation</a>.
           </p>
 
           <h2 style={{ fontSize: "28px", fontWeight: 600, color: "#000000", lineHeight: "36px", marginTop: "48px", marginBottom: "20px" }}>
@@ -110,11 +110,11 @@ export default function Article() {
           </p>
 
           {/* CTA mid-article */}
-          <div style={{ backgroundColor: "#FFF1EC", borderRadius: "16px", padding: "32px", margin: "40px 0", textAlign: "center" as const }}>
+          <div style={{ backgroundColor: "#FFEEF0", borderRadius: "16px", padding: "32px", margin: "40px 0", textAlign: "center" as const }}>
             <p style={{ fontSize: "18px", fontWeight: 600, color: "#000000", marginBottom: "12px" }}>
               Besoin d&apos;un entretien professionnel ?
             </p>
-            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#FF6333", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>
+            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#E63946", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>
               Appelez le {siteConfig.telephone}
             </a>
           </div>
@@ -146,7 +146,7 @@ export default function Article() {
             <li><strong>Traces de rouille :</strong> surtout aux points de contact metal-metal, les rails et les charniere sont les zones sensibles</li>
           </ul>
           <p style={{ marginBottom: "20px" }}>
-            Si vous observez un ou plusieurs de ces signes, ne tardez pas. Un probleme mineur non traite se transforme rapidement en panne majeure. Contactez un specialiste en <a href="/entretien-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>entretien de porte sectionnelle a Paris</a> pour un diagnostic rapide.
+            Si vous observez un ou plusieurs de ces signes, ne tardez pas. Un probleme mineur non traite se transforme rapidement en panne majeure. Contactez un specialiste en <a href="/entretien-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>entretien de porte sectionnelle a Paris</a> pour un diagnostic rapide.
           </p>
 
           <h2 style={{ fontSize: "28px", fontWeight: 600, color: "#000000", lineHeight: "36px", marginTop: "48px", marginBottom: "20px" }}>
@@ -156,10 +156,10 @@ export default function Article() {
             Un <strong>contrat de maintenance annuel</strong> inclut generalement deux visites preventives, le remplacement des pieces d&apos;usure courante (joints, roulettes, piles) et une intervention prioritaire en cas de panne. C&apos;est la solution la plus economique sur le long terme.
           </p>
           <p style={{ marginBottom: "20px" }}>
-            Chez <strong>Porte Sectionnelle Paris</strong>, nos contrats d&apos;entretien couvrent l&apos;ensemble des composants mecaniques et electroniques. Nos techniciens connaissent toutes les marques installees en region parisienne. Une porte bien entretenue, c&apos;est une porte qui fonctionne sans surprise, hiver comme ete.
+            Chez <strong>Depannage Porte Sectionnelle Paris</strong>, nos contrats d&apos;entretien couvrent l&apos;ensemble des composants mecaniques et electroniques. Nos techniciens connaissent toutes les marques installees en region parisienne. Une porte bien entretenue, c&apos;est une porte qui fonctionne sans surprise, hiver comme ete.
           </p>
           <p style={{ marginBottom: "20px" }}>
-            Ces conseils d&apos;entretien s&apos;appliquent a tous les types de fermetures : <a href="/porte-de-garage-enroulable-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>portes de garage enroulables</a>, <a href="/porte-de-garage-basculante-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>portes basculantes</a>, <a href="/rideau-metallique-industriel-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>rideaux metalliques industriels</a> et <a href="/porte-souple-rapide-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>portes souples rapides</a>. Chaque type de porte a ses specificites d&apos;entretien, mais les principes de base restent les memes : lubrification, controle visuel et intervention rapide au moindre signe d&apos;usure.
+            Ces conseils d&apos;entretien s&apos;appliquent a tous les types de fermetures : <a href="/porte-de-garage-enroulable-paris/" style={{ color: "#E63946", fontWeight: 600 }}>portes de garage enroulables</a>, <a href="/porte-de-garage-basculante-paris/" style={{ color: "#E63946", fontWeight: 600 }}>portes basculantes</a>, <a href="/rideau-metallique-industriel-paris/" style={{ color: "#E63946", fontWeight: 600 }}>rideaux metalliques industriels</a> et <a href="/porte-souple-rapide-paris/" style={{ color: "#E63946", fontWeight: 600 }}>portes souples rapides</a>. Chaque type de porte a ses specificites d&apos;entretien, mais les principes de base restent les memes : lubrification, controle visuel et intervention rapide au moindre signe d&apos;usure.
           </p>
 
       </BlogArticleLayout>
@@ -169,9 +169,9 @@ export default function Article() {
         "@context": "https://schema.org",
         "@type": "Article",
         headline: "Entretien Porte Sectionnelle a Paris : Les Gestes qui Sauvent",
-        author: { "@type": "Organization", name: "Porte Sectionnelle Paris" },
+        author: { "@type": "Organization", name: "Depannage Porte Sectionnelle Paris" },
         datePublished: "2026-03-22",
-        image: "https://porte-sectionnelle-paris.fr/images/portes/entretien-porte-sectionnelle.webp",
+        image: "https://depannage-porte-sectionnelle-paris.fr/images/portes/entretien-porte-sectionnelle.webp",
       }) }} />
 
       <CTAForm />

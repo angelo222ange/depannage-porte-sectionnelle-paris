@@ -19,7 +19,7 @@ export default function ZonesGrid() {
           style={{
             fontSize: "14px",
             fontWeight: 600,
-            color: "#FF6333",
+            color: "#E63946",
             textTransform: "uppercase" as const,
             letterSpacing: "1.5px",
                         display: "block",
@@ -68,7 +68,7 @@ export default function ZonesGrid() {
                 {zone.label}
               </span>
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </a>
           ))}

@@ -68,8 +68,8 @@ export default function Footer() {
             >
               <img
                 src="/favicon.png"
-                alt="Porte Sectionnelle Paris - logo"
-                title="Porte Sectionnelle Paris"
+                alt="Depannage Porte Sectionnelle Paris - logo"
+                title="Depannage Porte Sectionnelle Paris"
                 width={44}
                 height={44}
                 loading="lazy"
@@ -122,14 +122,14 @@ export default function Footer() {
                 display: "flex",
                 alignItems: "center",
                 gap: "8px",
-                color: "#FF6333",
+                color: "#E63946",
                 fontSize: "16px",
                 fontWeight: 600,
                 textDecoration: "none",
               }}
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="#FF6333" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="#E63946" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
               09 72 12 41 41
             </a>
@@ -155,7 +155,7 @@ export default function Footer() {
                   marginBottom: "20px",
                 }}
               >
-                Porte Sectionnelle Paris
+                Depannage Porte Sectionnelle Paris
               </h3>
               <p
                 style={{
@@ -397,9 +397,12 @@ export default function Footer() {
                   style={{
                     fontSize: "15px",
                     color: "rgba(255,255,255,0.6)",
+                    lineHeight: "1.5",
                   }}
                 >
-                  Paris et Ile-de-France
+                  32 Rue Lhomond
+                  <br />
+                  75005 Paris
                 </li>
                 <li>
                   <a
@@ -415,14 +418,14 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="mailto:contact@porte-sectionnelle-paris.fr"
+                    href="mailto:contact@depannage-porte-sectionnelle-paris.fr"
                     style={{
                       fontSize: "15px",
                       color: "rgba(255,255,255,0.6)",
                       textDecoration: "none",
                     }}
                   >
-                    contact@porte-sectionnelle-paris.fr
+                    contact@depannage-porte-sectionnelle-paris.fr
                   </a>
                 </li>
                 <li
@@ -454,7 +457,7 @@ export default function Footer() {
                 color: "rgba(255,255,255,0.5)",
               }}
             >
-              &copy; 2026 Porte Sectionnelle Paris. Tous droits réservés.
+              &copy; 2026 Depannage Porte Sectionnelle Paris. Tous droits réservés.
             </span>
             <div data-footer-bottom-links style={{ display: "flex", gap: "24px" }}>
               {quickLinks.map((link) => (

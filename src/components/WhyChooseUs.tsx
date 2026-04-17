@@ -47,7 +47,7 @@ export default function WhyChooseUs() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -64,7 +64,7 @@ export default function WhyChooseUs() {
               lineHeight: "62px",
                           }}
           >
-            Pourquoi choisir <strong>Porte Sectionnelle Paris</strong> ?
+            Pourquoi choisir <strong>Depannage Porte Sectionnelle Paris</strong> ?
           </h2>
         </div>
 
@@ -93,7 +93,7 @@ export default function WhyChooseUs() {
                   width: "56px",
                   height: "56px",
                   borderRadius: "50%",
-                  backgroundColor: "#FFF1EC",
+                  backgroundColor: "#FFEEF0",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
@@ -103,7 +103,7 @@ export default function WhyChooseUs() {
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M9 12L11 14L15 10M21 12C21 16.97 16.97 21 12 21C7.03 21 3 16.97 3 12C3 7.03 7.03 3 12 3C16.97 3 21 7.03 21 12Z"
-                    stroke="#FF6333"
+                    stroke="#E63946"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"

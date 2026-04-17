@@ -34,11 +34,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return {
       title,
       description,
-      alternates: { canonical: `https://porte-sectionnelle-paris.fr/${slug}/` },
+      alternates: { canonical: `https://depannage-porte-sectionnelle-paris.fr/${slug}/` },
       openGraph: {
         title,
         description,
-        url: `https://porte-sectionnelle-paris.fr/${slug}/`,
+        url: `https://depannage-porte-sectionnelle-paris.fr/${slug}/`,
         images: [serviceZone.config.image],
       },
     };
@@ -47,7 +47,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   // Regular zone page
   const zone = getZoneBySlug(slug);
   if (!zone) {
-    return { title: "Page introuvable | Porte Sectionnelle Paris" };
+    return { title: "Page introuvable | Depannage Porte Sectionnelle Paris" };
   }
   const zoneIndex = zones.indexOf(zone);
   const descriptionTemplates = [
@@ -61,12 +61,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `Porte Sectionnelle ${zone.name} (${zone.postalCode}) | Depannage 24h/24`,
     description,
-    alternates: { canonical: `https://porte-sectionnelle-paris.fr/${slug}/` },
+    alternates: { canonical: `https://depannage-porte-sectionnelle-paris.fr/${slug}/` },
     openGraph: {
       title: `Porte Sectionnelle ${zone.name} (${zone.postalCode}) | Depannage 24h/24`,
       description,
-      url: `https://porte-sectionnelle-paris.fr/${slug}/`,
-      images: ["https://porte-sectionnelle-paris.fr/images/portes/hero-porte-sectionnelle-fond.webp"],
+      url: `https://depannage-porte-sectionnelle-paris.fr/${slug}/`,
+      images: ["https://depannage-porte-sectionnelle-paris.fr/images/portes/hero-porte-sectionnelle-fond.webp"],
     },
   };
 }

@@ -39,7 +39,7 @@ export default function ZoneServicesGrid({ zone, currentService }: Props) {
           style={{
             fontSize: "14px",
             fontWeight: 600,
-            color: "#FF6333",
+            color: "#E63946",
             textTransform: "uppercase" as const,
             letterSpacing: "1.5px",
             display: "block",
@@ -99,9 +99,9 @@ export default function ZoneServicesGrid({ zone, currentService }: Props) {
                   <p style={{ fontSize: "14px", fontWeight: 400, color: "#3B3B3B", lineHeight: "22px", marginBottom: "16px" }}>
                     {service.shortTitle} de <strong>porte sectionnelle</strong> {preposition} <strong>{zone.name}</strong> ({zone.postalCode}) par nos techniciens qualifies.
                   </p>
-                  <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", display: "inline-flex", alignItems: "center", gap: "6px" }}>
+                  <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", display: "inline-flex", alignItems: "center", gap: "6px" }}>
                     En savoir plus
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
                   </span>
                 </div>
               </a>

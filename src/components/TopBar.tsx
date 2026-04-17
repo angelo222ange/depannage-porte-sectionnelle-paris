@@ -31,7 +31,7 @@ export default function TopBar() {
               color: "#000000",
                           }}
           >
-            Porte Sectionnelle Paris — Intervention en 30 min, 24h/24, 7j/7 — Appelez le 09 72 12 41 41
+            Depannage Porte Sectionnelle Paris — Intervention en 30 min, 24h/24, 7j/7 — Appelez le 09 72 12 41 41
           </span>
         ))}
       </div>

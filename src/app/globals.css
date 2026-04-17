@@ -36,7 +36,7 @@ ul, ol {
 .text-body-sm { font-size: 14px; font-weight: 400; color: #3B3B3B; line-height: 22px; }
 .text-body-lg { font-size: 17px; font-weight: 400; color: #1A1A1A; line-height: 30px; }
 .text-muted { font-size: 14px; font-weight: 400; color: #999999; }
-.text-label { font-size: 14px; font-weight: 600; color: #FF6333; text-transform: uppercase; letter-spacing: 1.5px; }
+.text-label { font-size: 14px; font-weight: 600; color: #E63946; text-transform: uppercase; letter-spacing: 1.5px; }
 .text-h1 { font-size: 64px; font-weight: 600; color: #000000; line-height: 70px; }
 .text-h2 { font-size: 42px; font-weight: 600; color: #000000; line-height: 48px; }
 .text-h2-sm { font-size: 36px; font-weight: 600; color: #000000; line-height: 42px; }
@@ -44,9 +44,9 @@ ul, ol {
 .text-h3-sm { font-size: 18px; font-weight: 600; color: #000000; }
 
 /* Buttons */
-.btn-primary { display: inline-flex; align-items: center; gap: 8px; background-color: #FF6333; color: #FFFFFF; padding: 14px 28px; border-radius: 50px; font-size: 15px; font-weight: 600; text-decoration: none; border: none; cursor: pointer; }
+.btn-primary { display: inline-flex; align-items: center; gap: 8px; background-color: #E63946; color: #FFFFFF; padding: 14px 28px; border-radius: 50px; font-size: 15px; font-weight: 600; text-decoration: none; border: none; cursor: pointer; }
 .btn-outline { display: inline-flex; align-items: center; gap: 8px; background-color: #FFFFFF; color: #000000; padding: 14px 28px; border-radius: 50px; font-size: 15px; font-weight: 600; text-decoration: none; border: 1px solid #E5E7EB; }
-.link-accent { font-size: 15px; font-weight: 600; color: #FF6333; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+.link-accent { font-size: 15px; font-weight: 600; color: #E63946; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
 
 /* Layout */
 .section-padding { padding: 80px 30px; }
@@ -61,9 +61,9 @@ ul, ol {
 /* Colors */
 .bg-white { background-color: #FFFFFF; }
 .bg-grey { background-color: #F6F7F9; }
-.bg-accent { background-color: #FF6333; }
-.bg-accent-light { background-color: #FFF1EC; }
-.color-accent { color: #FF6333; }
+.bg-accent { background-color: #E63946; }
+.bg-accent-light { background-color: #FFEEF0; }
+.color-accent { color: #E63946; }
 
 /* ══════════════════════════════════════════════
    MOBILE RESPONSIVENESS — max-width: 768px

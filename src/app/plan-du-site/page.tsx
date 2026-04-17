@@ -3,10 +3,10 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Plan du Site | Porte Sectionnelle Paris",
+  title: "Plan du Site | Depannage Porte Sectionnelle Paris",
   description:
-    "Plan du site porte-sectionnelle-paris.fr. Retrouvez toutes nos pages : services, zones d'intervention, blog et informations legales.",
-  alternates: { canonical: "https://porte-sectionnelle-paris.fr/plan-du-site/" },
+    "Plan du site depannage-porte-sectionnelle-paris.fr. Retrouvez toutes nos pages : services, zones d'intervention, blog et informations legales.",
+  alternates: { canonical: "https://depannage-porte-sectionnelle-paris.fr/plan-du-site/" },
 };
 
 const services = [
@@ -110,7 +110,7 @@ export default function PlanDuSitePage() {
               marginBottom: "56px",
                           }}
           >
-            Retrouvez l'ensemble des pages du site porte-sectionnelle-paris.fr
+            Retrouvez l'ensemble des pages du site depannage-porte-sectionnelle-paris.fr
           </p>
 
           <div
@@ -129,7 +129,7 @@ export default function PlanDuSitePage() {
                     style={{
                       width: "8px",
                       height: "8px",
-                      backgroundColor: "#FF6333",
+                      backgroundColor: "#E63946",
                       borderRadius: "50%",
                       display: "inline-block",
                     }}
@@ -159,7 +159,7 @@ export default function PlanDuSitePage() {
                     style={{
                       width: "8px",
                       height: "8px",
-                      backgroundColor: "#FF6333",
+                      backgroundColor: "#E63946",
                       borderRadius: "50%",
                       display: "inline-block",
                     }}
@@ -191,7 +191,7 @@ export default function PlanDuSitePage() {
                     style={{
                       width: "8px",
                       height: "8px",
-                      backgroundColor: "#FF6333",
+                      backgroundColor: "#E63946",
                       borderRadius: "50%",
                       display: "inline-block",
                     }}
@@ -221,7 +221,7 @@ export default function PlanDuSitePage() {
                     style={{
                       width: "8px",
                       height: "8px",
-                      backgroundColor: "#FF6333",
+                      backgroundColor: "#E63946",
                       borderRadius: "50%",
                       display: "inline-block",
                     }}

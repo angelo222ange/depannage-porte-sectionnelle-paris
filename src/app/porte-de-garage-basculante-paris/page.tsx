@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   description:
     "Porte de garage basculante a Paris. Installation, reparation et motorisation de portes debordantes et non debordantes. Devis gratuit au 09 72 12 41 41.",
   alternates: {
-    canonical: "https://porte-sectionnelle-paris.fr/porte-de-garage-basculante-paris/",
+    canonical: "https://depannage-porte-sectionnelle-paris.fr/porte-de-garage-basculante-paris/",
   },
   openGraph: {
     title: "Porte de Garage Basculante Paris | Installation & Reparation",
     description: "Porte de garage basculante a Paris. Installation, reparation et motorisation de portes basculantes debordantes et non debordantes. Devis gratuit.",
-    url: "https://porte-sectionnelle-paris.fr/porte-de-garage-basculante-paris/",
+    url: "https://depannage-porte-sectionnelle-paris.fr/porte-de-garage-basculante-paris/",
     images: ["/images/portes/porte-garage-basculante.webp"],
   },
 };
@@ -120,7 +120,7 @@ export default function PorteDeGarageBasculanteParis() {
                   display: "inline-flex",
                   alignItems: "center",
                   gap: "12px",
-                  backgroundColor: "#FF6333",
+                  backgroundColor: "#E63946",
                   padding: "14px 32px",
                   borderRadius: "50px",
                   fontSize: "16px",
@@ -164,7 +164,7 @@ export default function PorteDeGarageBasculanteParis() {
             color: "#3B3B3B",
                       }}
         >
-          <a href="/" style={{ color: "#FF6333" }}>Accueil</a>
+          <a href="/" style={{ color: "#E63946" }}>Accueil</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span>Porte de garage basculante Paris</span>
         </nav>
@@ -208,7 +208,7 @@ export default function PorteDeGarageBasculanteParis() {
               style={{
                 fontSize: "14px",
                 fontWeight: 600,
-                color: "#FF6333",
+                color: "#E63946",
                 textTransform: "uppercase" as const,
                 letterSpacing: "1.5px",
                                 display: "block",
@@ -276,7 +276,7 @@ export default function PorteDeGarageBasculanteParis() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -318,7 +318,7 @@ export default function PorteDeGarageBasculanteParis() {
                 <img
                   src={item.image}
                   alt={`${item.title} a Paris - porte de garage basculante`}
-                  title={`${item.title} - Porte Sectionnelle Paris`}
+                  title={`${item.title} - Depannage Porte Sectionnelle Paris`}
                   width={400}
                   height={200}
                   loading="lazy"
@@ -369,7 +369,7 @@ export default function PorteDeGarageBasculanteParis() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -444,14 +444,14 @@ export default function PorteDeGarageBasculanteParis() {
                     width: "48px",
                     height: "48px",
                     borderRadius: "12px",
-                    backgroundColor: "#FFF1EC",
+                    backgroundColor: "#FFEEF0",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                     marginBottom: "20px",
                   }}
                 >
-                  <span style={{ fontSize: "20px", fontWeight: 700, color: "#FF6333" }}>{item.num}</span>
+                  <span style={{ fontSize: "20px", fontWeight: 700, color: "#E63946" }}>{item.num}</span>
                 </div>
                 <h3
                   style={{
@@ -491,7 +491,7 @@ export default function PorteDeGarageBasculanteParis() {
             <img
               src="/images/portes/entretien-porte-sectionnelle.webp"
               alt="Entretien porte de garage basculante a Paris - maintenance preventive"
-              title="Entretien de porte basculante Paris - Porte Sectionnelle Paris"
+              title="Entretien de porte basculante Paris - Depannage Porte Sectionnelle Paris"
               width={640}
               height={480}
               loading="lazy"
@@ -535,7 +535,7 @@ export default function PorteDeGarageBasculanteParis() {
                 lineHeight: "26px",
                               }}
             >
-              A <strong>Paris</strong>, les conditions environnementales specifiques influent directement sur la longevite de votre porte basculante. L&apos;humidite liee a la proximite de la Seine, les ecarts de temperature et les particules fines accelerent la corrosion des pieces metalliques. Nos techniciens, forts de plus de 25 ans d&apos;experience dans les arrondissements parisiens, adaptent chaque intervention aux contraintes locales. Contactez-nous au <a href={siteConfig.telephoneHref} style={{ color: "#FF6333", fontWeight: 600 }}>{siteConfig.telephone}</a> pour un contrat d&apos;entretien adapte.
+              A <strong>Paris</strong>, les conditions environnementales specifiques influent directement sur la longevite de votre porte basculante. L&apos;humidite liee a la proximite de la Seine, les ecarts de temperature et les particules fines accelerent la corrosion des pieces metalliques. Nos techniciens, forts de plus de 25 ans d&apos;experience dans les arrondissements parisiens, adaptent chaque intervention aux contraintes locales. Contactez-nous au <a href={siteConfig.telephoneHref} style={{ color: "#E63946", fontWeight: 600 }}>{siteConfig.telephone}</a> pour un contrat d&apos;entretien adapte.
             </p>
           </div>
         </div>
@@ -592,7 +592,7 @@ export default function PorteDeGarageBasculanteParis() {
                 <img
                   src={link.image}
                   alt={`${link.label} a Paris`}
-                  title={`${link.label} - Porte Sectionnelle Paris`}
+                  title={`${link.label} - Depannage Porte Sectionnelle Paris`}
                   width={400}
                   height={180}
                   loading="lazy"
@@ -613,7 +613,7 @@ export default function PorteDeGarageBasculanteParis() {
       {/* Zones d'intervention */}
       <section style={{ padding: "80px 30px", backgroundColor: "#F6F7F9" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px" }}>Zones d&apos;intervention</span>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px" }}>Zones d&apos;intervention</span>
           <h2 style={{ fontSize: "36px", fontWeight: 600, color: "#000000", lineHeight: "42px", marginBottom: "32px" }}>
             <strong>Porte de garage basculante</strong> dans toute la region parisienne
           </h2>
@@ -632,7 +632,7 @@ export default function PorteDeGarageBasculanteParis() {
             ].map((zone, i) => (
               <a key={i} href={zone.href} style={{ display: "flex", alignItems: "center", justifyContent: "space-between", backgroundColor: "#FFFFFF", borderRadius: "12px", padding: "14px 18px", textDecoration: "none", border: "1px solid #E5E7EB" }}>
                 <span style={{ fontSize: "14px", fontWeight: 500, color: "#1A1A1A", }}>{zone.label}</span>
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
               </a>
             ))}
           </div>
@@ -642,13 +642,13 @@ export default function PorteDeGarageBasculanteParis() {
       {/* Avis clients */}
       <section style={{ padding: "80px 30px", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px", textAlign: "center" }}>Temoignages</span>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px", textAlign: "center" }}>Temoignages</span>
           <h2 style={{ fontSize: "36px", fontWeight: 600, color: "#000000", lineHeight: "42px", marginBottom: "40px", textAlign: "center" }}>
             Avis clients — <strong>Porte de garage basculante</strong> a <strong>Paris</strong>
           </h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "24px" }}>
             {[
-              { name: "Michel V.", location: "Paris 6e", color: "#FF6333", text: "Remplacement de notre vieille porte basculante par un modele neuf avec portillon pieton. Le technicien a adapte le mecanisme a contrepoids pour un fonctionnement fluide. Tres content du resultat, la porte s'ouvre d'un doigt." },
+              { name: "Michel V.", location: "Paris 6e", color: "#E63946", text: "Remplacement de notre vieille porte basculante par un modele neuf avec portillon pieton. Le technicien a adapte le mecanisme a contrepoids pour un fonctionnement fluide. Tres content du resultat, la porte s'ouvre d'un doigt." },
               { name: "Agnes R.", location: "Paris 10e", color: "#2563EB", text: "Installation d'une porte basculante motorisee dans notre garage du 10e. Le rapport qualite-prix est imbattable comparee a une sectionnelle. Le panneau en acier double paroi isole bien, on a gagne deux degres dans le garage cet hiver." },
               { name: "Daniel M.", location: "Levallois-Perret", color: "#10B981", text: "Porte basculante Hormann posee en une journee. Le mecanisme a ressorts de torsion est costaud et silencieux. Le technicien a meme installe un portillon integre pour acceder au garage sans ouvrir tout le panneau. Pratique au quotidien." },
               { name: "Christine L.", location: "Paris 19e", color: "#8B5CF6", text: "Notre ancienne porte basculante avait des ressorts fatigues. Remplacement complet des ressorts et mise en securite du mecanisme anti-chute. La porte fonctionne de nouveau parfaitement, sans forcer. Intervention rapide et propre." },
@@ -691,7 +691,7 @@ export default function PorteDeGarageBasculanteParis() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -878,14 +878,14 @@ export default function PorteDeGarageBasculanteParis() {
                 lineHeight: "26px",
                               }}
             >
-              Contactez-nous au <a href={siteConfig.telephoneHref} style={{ color: "#FF6333", fontWeight: 600 }}>{siteConfig.telephone}</a> pour un diagnostic gratuit et un devis detaille sous 24 heures.
+              Contactez-nous au <a href={siteConfig.telephoneHref} style={{ color: "#E63946", fontWeight: 600 }}>{siteConfig.telephone}</a> pour un diagnostic gratuit et un devis detaille sous 24 heures.
             </p>
           </div>
           <div style={{ flex: "1 1 45%", minWidth: "300px" }}>
             <img
               src="/images/portes/porte-garage-maison.webp"
               alt="Porte de garage basculante pour maison parisienne - choix et conseil"
-              title="Choisir sa porte basculante a Paris - Porte Sectionnelle Paris"
+              title="Choisir sa porte basculante a Paris - Depannage Porte Sectionnelle Paris"
               width={640}
               height={480}
               loading="lazy"
@@ -906,7 +906,7 @@ export default function PorteDeGarageBasculanteParis() {
         "@type": "Product",
         name: "Porte de garage basculante",
         description: "Porte de garage basculante a Paris. Installation, reparation et motorisation de portes basculantes debordantes et non debordantes.",
-        brand: { "@type": "Organization", name: "Porte Sectionnelle Paris" },
+        brand: { "@type": "Organization", name: "Depannage Porte Sectionnelle Paris" },
         offers: { "@type": "Offer", priceCurrency: "EUR", availability: "https://schema.org/InStock" },
       }) }} />
 
@@ -914,8 +914,8 @@ export default function PorteDeGarageBasculanteParis() {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Accueil", item: "https://porte-sectionnelle-paris.fr/" },
-          { "@type": "ListItem", position: 2, name: "Porte de garage basculante", item: "https://porte-sectionnelle-paris.fr/porte-de-garage-basculante-paris/" },
+          { "@type": "ListItem", position: 1, name: "Accueil", item: "https://depannage-porte-sectionnelle-paris.fr/" },
+          { "@type": "ListItem", position: 2, name: "Porte de garage basculante", item: "https://depannage-porte-sectionnelle-paris.fr/porte-de-garage-basculante-paris/" },
         ],
       }) }} />
 

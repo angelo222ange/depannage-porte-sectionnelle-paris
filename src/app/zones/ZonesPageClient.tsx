@@ -66,7 +66,7 @@ export default function ZonesPageClient() {
             <span
               style={{
                 display: "inline-block",
-                backgroundColor: "#FF6333",
+                backgroundColor: "#E63946",
                 color: "#FFFFFF",
                 padding: "6px 16px",
                 borderRadius: "50px",
@@ -213,7 +213,7 @@ export default function ZonesPageClient() {
                           width: "40px",
                           height: "40px",
                           borderRadius: "10px",
-                          backgroundColor: "#FFF1EC",
+                          backgroundColor: "#FFEEF0",
                           display: "flex",
                           alignItems: "center",
                           justifyContent: "center",
@@ -222,12 +222,12 @@ export default function ZonesPageClient() {
                         <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
                           <path
                             d="M10 10.833C11.3807 10.833 12.5 9.714 12.5 8.333C12.5 6.953 11.3807 5.833 10 5.833C8.6193 5.833 7.5 6.953 7.5 8.333C7.5 9.714 8.6193 10.833 10 10.833Z"
-                            stroke="#FF6333"
+                            stroke="#E63946"
                             strokeWidth="1.5"
                           />
                           <path
                             d="M10 18.333C10 18.333 16.667 13.333 16.667 8.333C16.667 4.651 13.682 1.667 10 1.667C6.318 1.667 3.333 4.651 3.333 8.333C3.333 13.333 10 18.333 10 18.333Z"
-                            stroke="#FF6333"
+                            stroke="#E63946"
                             strokeWidth="1.5"
                           />
                         </svg>
@@ -243,7 +243,7 @@ export default function ZonesPageClient() {
                       </span>
                     </div>
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </a>
                 ))}
@@ -301,13 +301,13 @@ export default function ZonesPageClient() {
               lineHeight: 1.7,
             }}
           >
-            Notre zone de couverture s&apos;etend sur 6 departements : Paris (75), les Hauts-de-Seine (92), la Seine-Saint-Denis (93), le Val-de-Marne (94), le Val-d&apos;Oise (95) et les Yvelines (78). Pour connaitre les services disponibles dans votre secteur et obtenir un devis personnalise, appelez-nous au <strong style={{ color: "#FF6333" }}>09 72 12 41 41</strong> ou selectionnez votre ville dans la liste ci-dessus.
+            Notre zone de couverture s&apos;etend sur 6 departements : Paris (75), les Hauts-de-Seine (92), la Seine-Saint-Denis (93), le Val-de-Marne (94), le Val-d&apos;Oise (95) et les Yvelines (78). Pour connaitre les services disponibles dans votre secteur et obtenir un devis personnalise, appelez-nous au <strong style={{ color: "#E63946" }}>09 72 12 41 41</strong> ou selectionnez votre ville dans la liste ci-dessus.
           </p>
         </div>
       </section>
 
       {/* CTA phone banner */}
-      <section style={{ padding: "60px 30px", backgroundColor: "#FF6333" }}>
+      <section style={{ padding: "60px 30px", backgroundColor: "#E63946" }}>
         <div
           style={{
             maxWidth: "900px",
@@ -355,7 +355,7 @@ export default function ZonesPageClient() {
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
               <path
                 d="M17.5 14.19V16.44C17.5 16.98 17.08 17.43 16.54 17.475C16.12 17.505 15.775 17.52 15.5 17.52C8.045 17.52 2 11.475 2 4.02C2 3.745 2.015 3.4 2.045 2.98C2.09 2.44 2.54 2.02 3.08 2.02H5.33C5.595 2.02 5.82 2.215 5.855 2.48C5.885 2.715 5.915 2.905 5.945 3.055C6.18 4.27 6.61 5.415 7.21 6.46L6.025 7.25C6.025 7.25 6.62 8.85 8.64 10.87C10.66 12.89 12.27 13.495 12.27 13.495L13.055 12.305C14.105 12.905 15.25 13.34 16.465 13.575C15.615 13.605 15.805 13.635 16.04 13.665C16.305 13.7 16.5 13.925 16.5 14.19Z"
-                stroke="#FF6333"
+                stroke="#E63946"
                 strokeWidth="1.5"
               />
             </svg>

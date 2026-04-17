@@ -3,10 +3,10 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Contact | Porte Sectionnelle Paris - Devis Gratuit",
+  title: "Contact | Depannage Porte Sectionnelle Paris - Devis Gratuit",
   description:
     "Contactez-nous pour un devis gratuit. Installation, depannage et reparation de portes sectionnelles a Paris. Reponse sous 30 min au 09 72 12 41 41.",
-  alternates: { canonical: "https://porte-sectionnelle-paris.fr/contact/" },
+  alternates: { canonical: "https://depannage-porte-sectionnelle-paris.fr/contact/" },
 };
 
 export default function ContactPage() {
@@ -16,7 +16,7 @@ export default function ContactPage() {
         <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
           <path
             d="M22.167 19.833v2.334a1.556 1.556 0 01-1.694 1.556 15.39 15.39 0 01-6.71-2.384 15.167 15.167 0 01-4.666-4.667 15.39 15.39 0 01-2.384-6.734 1.556 1.556 0 011.545-1.694h2.334a1.556 1.556 0 011.556 1.337c.098.742.28 1.47.543 2.17a1.556 1.556 0 01-.35 1.641l-.988.988a12.444 12.444 0 004.667 4.667l.988-.988a1.556 1.556 0 011.64-.35c.7.263 1.43.445 2.171.543a1.556 1.556 0 011.348 1.58z"
-            stroke="#FF6333"
+            stroke="#E63946"
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -32,14 +32,14 @@ export default function ContactPage() {
         <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
           <path
             d="M4.667 4.667h18.666c1.284 0 2.334 1.05 2.334 2.333v14c0 1.283-1.05 2.333-2.334 2.333H4.667c-1.284 0-2.334-1.05-2.334-2.333V7c0-1.283 1.05-2.333 2.334-2.333z"
-            stroke="#FF6333"
+            stroke="#E63946"
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
           />
           <path
             d="M25.667 7L14 15.167 2.333 7"
-            stroke="#FF6333"
+            stroke="#E63946"
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -47,7 +47,7 @@ export default function ContactPage() {
         </svg>
       ),
       title: "Email",
-      value: "contact@porte-sectionnelle-paris.fr",
+      value: "contact@depannage-porte-sectionnelle-paris.fr",
       subtitle: "Reponse sous 2h",
     },
     {
@@ -55,7 +55,7 @@ export default function ContactPage() {
         <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
           <path
             d="M24.5 11.667c0 7.777-10.5 14-10.5 14s-10.5-6.223-10.5-14a10.5 10.5 0 0121 0z"
-            stroke="#FF6333"
+            stroke="#E63946"
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -64,14 +64,14 @@ export default function ContactPage() {
             cx="14"
             cy="11.667"
             r="3.5"
-            stroke="#FF6333"
+            stroke="#E63946"
             strokeWidth="2"
           />
         </svg>
       ),
-      title: "Zone d'intervention",
-      value: "Paris et Ile-de-France",
-      subtitle: "Tous arrondissements",
+      title: "Adresse",
+      value: "32 Rue Lhomond, 75005 Paris",
+      subtitle: "Intervention Paris + Ile-de-France",
     },
     {
       icon: (
@@ -80,12 +80,12 @@ export default function ContactPage() {
             cx="14"
             cy="14"
             r="10.5"
-            stroke="#FF6333"
+            stroke="#E63946"
             strokeWidth="2"
           />
           <path
             d="M14 7v7l4.667 2.333"
-            stroke="#FF6333"
+            stroke="#E63946"
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -148,7 +148,7 @@ export default function ContactPage() {
               <span
                 style={{
                   display: "inline-block",
-                  backgroundColor: "#FF6333",
+                  backgroundColor: "#E63946",
                   color: "#FFFFFF",
                   fontSize: "13px",
                   fontWeight: 600,
@@ -311,7 +311,7 @@ export default function ContactPage() {
                 action="https://lioai.app.n8n.cloud/webhook/drm-contact"
                 method="POST"
               >
-                <input type="hidden" name="site" value="porte-sectionnelle-paris.fr" />
+                <input type="hidden" name="site" value="depannage-porte-sectionnelle-paris.fr" />
                 <div
                   style={{
                     display: "grid",
@@ -512,7 +512,7 @@ export default function ContactPage() {
                   style={{
                     width: "100%",
                     padding: "16px",
-                    backgroundColor: "#FF6333",
+                    backgroundColor: "#E63946",
                     color: "#FFFFFF",
                     fontSize: "16px",
                     fontWeight: 600,
@@ -564,7 +564,7 @@ export default function ContactPage() {
                     display: "inline-flex",
                     alignItems: "center",
                     gap: "10px",
-                    backgroundColor: "#FF6333",
+                    backgroundColor: "#E63946",
                     color: "#FFFFFF",
                     padding: "14px 28px",
                     borderRadius: "12px",
@@ -632,7 +632,7 @@ export default function ContactPage() {
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                       <path
                         d="M16.667 5L7.5 14.167 3.333 10"
-                        stroke="#FF6333"
+                        stroke="#E63946"
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -678,7 +678,7 @@ export default function ContactPage() {
               style={{
                 display: "inline-block",
                 backgroundColor: "rgba(255,99,51,0.1)",
-                color: "#FF6333",
+                color: "#E63946",
                 fontSize: "14px",
                 fontWeight: 600,
                 padding: "6px 16px",
@@ -706,7 +706,7 @@ export default function ContactPage() {
             }}
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.95410694685!2d2.2769955!3d48.8588443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1712000000000!5m2!1sfr!2sfr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.6!2d2.3486!3d48.8442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s32%20Rue%20Lhomond%2C%2075005%20Paris!5e0!3m2!1sfr!2sfr!4v1712000000000!5m2!1sfr!2sfr"
               width="100%"
               height="450"
               style={{ border: 0, display: "block" }}
@@ -731,7 +731,7 @@ export default function ContactPage() {
               style={{
                 display: "inline-block",
                 backgroundColor: "rgba(255,99,51,0.1)",
-                color: "#FF6333",
+                color: "#E63946",
                 fontSize: "14px",
                 fontWeight: 600,
                 padding: "6px 16px",
@@ -845,16 +845,23 @@ export default function ContactPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Porte Sectionnelle Paris",
+            "name": "Depannage Porte Sectionnelle Paris",
             "telephone": "09 72 12 41 41",
-            "email": "contact@porte-sectionnelle-paris.fr",
-            "url": "https://porte-sectionnelle-paris.fr/contact/",
+            "email": "contact@depannage-porte-sectionnelle-paris.fr",
+            "url": "https://depannage-porte-sectionnelle-paris.fr/contact/",
             "areaServed": { "@type": "City", "name": "Paris" },
             "address": {
               "@type": "PostalAddress",
+              "streetAddress": "32 Rue Lhomond",
               "addressLocality": "Paris",
               "addressRegion": "Ile-de-France",
+              "postalCode": "75005",
               "addressCountry": "FR"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 48.8442,
+              "longitude": 2.3486
             }
           })
         }}

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Porte de garage a Paris : sectionnelle, enroulable, basculante, laterale. Installation, reparation et motorisation. Devis gratuit au 09 72 12 41 41.",
   alternates: {
-    canonical: "https://porte-sectionnelle-paris.fr/porte-de-garage-paris",
+    canonical: "https://depannage-porte-sectionnelle-paris.fr/porte-de-garage-paris",
   },
 };
 
@@ -113,7 +113,7 @@ export default function PorteDeGarageParis() {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "12px",
-                backgroundColor: "#FF6333",
+                backgroundColor: "#E63946",
                 padding: "14px 32px",
                 borderRadius: "50px",
                 fontSize: "16px",
@@ -141,7 +141,7 @@ export default function PorteDeGarageParis() {
             color: "#3B3B3B",
                       }}
         >
-          <a href="/" style={{ color: "#FF6333" }}>Accueil</a>
+          <a href="/" style={{ color: "#E63946" }}>Accueil</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span>Porte de garage Paris</span>
         </nav>
@@ -185,7 +185,7 @@ export default function PorteDeGarageParis() {
               style={{
                 fontSize: "14px",
                 fontWeight: 600,
-                color: "#FF6333",
+                color: "#E63946",
                 textTransform: "uppercase" as const,
                 letterSpacing: "1.5px",
                                 display: "block",
@@ -253,7 +253,7 @@ export default function PorteDeGarageParis() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -343,7 +343,7 @@ export default function PorteDeGarageParis() {
             <p style={{ fontSize: "16px", fontWeight: 400, color: "#3B3B3B", lineHeight: "26px", marginBottom: "24px" }}>
               Une <strong>porte de garage</strong> bien isolee (panneaux de 40 mm minimum) reduit les deperditions thermiques. Pensez egalement a la securite : serrure multipoints, detection d&apos;obstacles et systeme anti-effraction sont essentiels a <strong>Paris</strong>.
             </p>
-            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#FF6333", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "15px", fontWeight: 600, textDecoration: "none" }}>
+            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#E63946", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "15px", fontWeight: 600, textDecoration: "none" }}>
               Devis gratuit : {siteConfig.telephone}
             </a>
           </div>
@@ -356,7 +356,7 @@ export default function PorteDeGarageParis() {
       {/* Avantages */}
       <section style={{ padding: "120px 30px", backgroundColor: "#F6F7F9" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>
             Pourquoi nous choisir
           </span>
           <h2 style={{ fontSize: "42px", fontWeight: 600, color: "#000000", lineHeight: "48px", marginBottom: "60px", textAlign: "center" }}>
@@ -372,8 +372,8 @@ export default function PorteDeGarageParis() {
               { num: "06", title: "Garantie et SAV réactif", desc: "Toutes nos portes de garage sont garanties pièces et main-d'oeuvre. En cas de dysfonctionnement, notre service après-vente intervient sous 24 heures dans tout Paris et l'Ile-de-France avec les pièces détachées nécessaires à bord de nos véhicules." },
             ].map((item, i) => (
               <div key={i} style={{ backgroundColor: "#FFFFFF", borderRadius: "16px", padding: "32px", border: "1px solid #E5E7EB" }}>
-                <div style={{ width: "48px", height: "48px", borderRadius: "12px", backgroundColor: "#FFF1EC", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "20px" }}>
-                  <span style={{ fontSize: "20px", fontWeight: 700, color: "#FF6333" }}>{item.num}</span>
+                <div style={{ width: "48px", height: "48px", borderRadius: "12px", backgroundColor: "#FFEEF0", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "20px" }}>
+                  <span style={{ fontSize: "20px", fontWeight: 700, color: "#E63946" }}>{item.num}</span>
                 </div>
                 <h3 style={{ fontSize: "20px", fontWeight: 600, color: "#000000", marginBottom: "12px" }}>{item.title}</h3>
                 <p style={{ fontSize: "15px", fontWeight: 400, color: "#3B3B3B", lineHeight: "24px", }}>{item.desc}</p>
@@ -399,7 +399,7 @@ export default function PorteDeGarageParis() {
             <p style={{ fontSize: "16px", fontWeight: 400, color: "#3B3B3B", lineHeight: "26px", marginBottom: "16px" }}>
               La <strong>motorisation de porte de garage</strong> intègre des dispositifs de sécurité obligatoires : détection d&apos;obstacles par cellules photoélectriques, système anti-écrasement par barre palpeuse et déverrouillage manuel de secours en cas de coupure de courant. Pour les copropriétés parisiennes, nous proposons des systèmes connectés avec gestion multi-utilisateurs, historique des ouvertures et contrôle à distance via application smartphone. Tous nos moteurs sont garantis et bénéficient d&apos;un service après-vente réactif dans tout Paris et l&apos;Ile-de-France.
             </p>
-            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#FF6333", fontSize: "15px", fontWeight: 600, textDecoration: "none", marginTop: "20px" }}>
+            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#E63946", fontSize: "15px", fontWeight: 600, textDecoration: "none", marginTop: "20px" }}>
               Devis motorisation : {siteConfig.telephone}
             </a>
           </div>
@@ -409,7 +409,7 @@ export default function PorteDeGarageParis() {
       {/* Maillage — Nos autres solutions */}
       <section style={{ padding: "120px 30px", backgroundColor: "#F6F7F9" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>
             Nos autres solutions
           </span>
           <h2 style={{ fontSize: "42px", fontWeight: 600, color: "#000000", lineHeight: "48px", marginBottom: "60px", textAlign: "center" }}>
@@ -438,7 +438,7 @@ export default function PorteDeGarageParis() {
       {/* FAQ */}
       <section style={{ padding: "120px 30px", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>
             Questions fréquentes
           </span>
           <h2 style={{ fontSize: "42px", fontWeight: 600, color: "#000000", lineHeight: "48px", marginBottom: "60px", textAlign: "center" }}>

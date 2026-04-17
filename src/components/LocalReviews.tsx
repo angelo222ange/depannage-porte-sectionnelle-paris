@@ -94,7 +94,7 @@ export default function LocalReviews({ zone, service }: Props) {
   return (
     <section style={{ padding: "80px 30px", backgroundColor: "#FFFFFF" }}>
       <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-        <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px" }}>
+        <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px" }}>
           Avis clients
         </span>
         <h2 style={{ fontSize: "36px", fontWeight: 600, color: "#000000", lineHeight: "44px", marginBottom: "12px" }}>
@@ -103,7 +103,7 @@ export default function LocalReviews({ zone, service }: Props) {
         <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "40px" }}>
           <div style={{ display: "flex", gap: "2px" }}>
             {[...Array(5)].map((_, i) => (
-              <svg key={i} width="18" height="18" viewBox="0 0 20 20" fill="#FF6333"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z" /></svg>
+              <svg key={i} width="18" height="18" viewBox="0 0 20 20" fill="#E63946"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z" /></svg>
             ))}
           </div>
           <span style={{ fontSize: "15px", fontWeight: 600, color: "#000" }}>4.9/5</span>
@@ -115,7 +115,7 @@ export default function LocalReviews({ zone, service }: Props) {
               {/* Stars */}
               <div style={{ display: "flex", gap: "2px", marginBottom: "16px" }}>
                 {[...Array(review.rating)].map((_, j) => (
-                  <svg key={j} width="14" height="14" viewBox="0 0 20 20" fill="#FF6333"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z" /></svg>
+                  <svg key={j} width="14" height="14" viewBox="0 0 20 20" fill="#E63946"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z" /></svg>
                 ))}
               </div>
               {/* Text */}

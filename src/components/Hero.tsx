@@ -102,7 +102,7 @@ export default function Hero() {
           </div>
           <div style={{ display: "flex", gap: "2px", marginBottom: "8px" }}>
             {[...Array(5)].map((_, i) => (
-              <svg key={i} width="16" height="16" viewBox="0 0 20 20" fill="#FF6333">
+              <svg key={i} width="16" height="16" viewBox="0 0 20 20" fill="#E63946">
                 <path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z" />
               </svg>
             ))}
@@ -151,30 +151,30 @@ export default function Hero() {
           <div data-hero-text style={{ flex: "1 1 55%", display: "flex", flexDirection: "column" }}>
             <h1
               style={{
-                fontSize: "82px",
+                fontSize: "clamp(38px, 5.5vw, 82px)",
                 fontWeight: 600,
                 color: "#FFFFFF",
-                lineHeight: "86px",
+                lineHeight: "1.05",
                 marginBottom: "24px",
               }}
             >
-              Porte Sectionnelle
+              D&eacute;pannage Porte
               <br />
-              Paris &amp;
+              Sectionnelle Paris
               <br />
-              Ile-de-France
+              24h/24 &amp; 7j/7
             </h1>
             <p
               style={{
                 fontSize: "18px",
                 fontWeight: 400,
-                color: "rgba(255,255,255,0.8)",
-                maxWidth: "480px",
+                color: "rgba(255,255,255,0.85)",
+                maxWidth: "520px",
                 lineHeight: "28px",
                 marginBottom: "40px",
               }}
             >
-              Installation, d&eacute;pannage et r&eacute;paration de portes sectionnelles depuis plus de 25 ans. Intervention en 30 minutes, devis gratuit.
+              <strong>Intervention en 30 minutes</strong> dans tout Paris et l&rsquo;Ile-de-France. Ressort cass&eacute;, moteur en panne, porte bloqu&eacute;e ou d&eacute;raill&eacute;e&nbsp;: nos techniciens certifi&eacute;s r&eacute;parent toutes marques, 24h/24 et 7j/7.
             </p>
 
 
@@ -209,7 +209,7 @@ export default function Hero() {
                   style={{
                     width: "28px",
                     height: "28px",
-                    backgroundColor: "#FF6333",
+                    backgroundColor: "#E63946",
                     borderRadius: "50%",
                     display: "flex",
                     alignItems: "center",

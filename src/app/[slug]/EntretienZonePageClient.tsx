@@ -48,7 +48,7 @@ function FAQAccordion({ faq }: { faq: { question: string; answer: string }[] }) 
             backgroundColor: "#FFFFFF",
             borderRadius: "16px",
             overflow: "hidden",
-            border: openIndex === i ? "1px solid #FF6333" : "1px solid #E5E7EB",
+            border: openIndex === i ? "1px solid #E63946" : "1px solid #E5E7EB",
             transition: "border 0.3s ease",
           }}
         >
@@ -84,7 +84,7 @@ function FAQAccordion({ faq }: { faq: { question: string; answer: string }[] }) 
             >
               <path
                 d="M5 7.5L10 12.5L15 7.5"
-                stroke="#FF6333"
+                stroke="#E63946"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -170,7 +170,7 @@ export default function EntretienZonePageClient({ slug }: { slug: string }) {
             <span
               style={{
                 display: "inline-block",
-                backgroundColor: "#FF6333",
+                backgroundColor: "#E63946",
                 color: "#FFFFFF",
                 padding: "6px 16px",
                 borderRadius: "50px",
@@ -221,7 +221,7 @@ export default function EntretienZonePageClient({ slug }: { slug: string }) {
                   display: "inline-flex",
                   alignItems: "center",
                   gap: "12px",
-                  backgroundColor: "#FF6333",
+                  backgroundColor: "#E63946",
                   padding: "14px 32px",
                   borderRadius: "50px",
                   fontSize: "16px",
@@ -252,7 +252,7 @@ export default function EntretienZonePageClient({ slug }: { slug: string }) {
                   style={{
                     width: "28px",
                     height: "28px",
-                    backgroundColor: "#FF6333",
+                    backgroundColor: "#E63946",
                     borderRadius: "50%",
                     display: "flex",
                     alignItems: "center",
@@ -273,9 +273,9 @@ export default function EntretienZonePageClient({ slug }: { slug: string }) {
       {/* Breadcrumb */}
       <div style={{ maxWidth: "1312px", margin: "0 auto", padding: "20px 30px" }}>
         <nav style={{ fontSize: "14px", color: "#3B3B3B" }}>
-          <a href="/" style={{ color: "#FF6333", textDecoration: "none" }}>Accueil</a>
+          <a href="/" style={{ color: "#E63946", textDecoration: "none" }}>Accueil</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
-          <a href="/entretien-porte-sectionnelle-paris/" style={{ color: "#FF6333", textDecoration: "none" }}>Entretien Paris</a>
+          <a href="/entretien-porte-sectionnelle-paris/" style={{ color: "#E63946", textDecoration: "none" }}>Entretien Paris</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span><strong>Entretien {zone.name} ({zone.postalCode})</strong></span>
         </nav>
@@ -306,7 +306,7 @@ export default function EntretienZonePageClient({ slug }: { slug: string }) {
               style={{
                 fontSize: "14px",
                 fontWeight: 600,
-                color: "#FF6333",
+                color: "#E63946",
                 textTransform: "uppercase" as const,
                 letterSpacing: "1.5px",
                 display: "block",
@@ -333,7 +333,7 @@ export default function EntretienZonePageClient({ slug }: { slug: string }) {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "10px",
-                backgroundColor: "#FF6333",
+                backgroundColor: "#E63946",
                 color: "#FFFFFF",
                 padding: "14px 28px",
                 borderRadius: "50px",
@@ -356,7 +356,7 @@ export default function EntretienZonePageClient({ slug }: { slug: string }) {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
               display: "block",
@@ -394,14 +394,14 @@ export default function EntretienZonePageClient({ slug }: { slug: string }) {
                     width: "48px",
                     height: "48px",
                     borderRadius: "12px",
-                    backgroundColor: "#FFF1EC",
+                    backgroundColor: "#FFEEF0",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                     marginBottom: "20px",
                   }}
                 >
-                  <span style={{ fontSize: "20px", fontWeight: 700, color: "#FF6333" }}>
+                  <span style={{ fontSize: "20px", fontWeight: 700, color: "#E63946" }}>
                     {String(i + 1).padStart(2, "0")}
                   </span>
                 </div>
@@ -453,7 +453,7 @@ export default function EntretienZonePageClient({ slug }: { slug: string }) {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "8px",
-                backgroundColor: "#FF6333",
+                backgroundColor: "#E63946",
                 color: "#FFFFFF",
                 padding: "12px 24px",
                 borderRadius: "50px",
@@ -525,7 +525,7 @@ export default function EntretienZonePageClient({ slug }: { slug: string }) {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "12px",
-                backgroundColor: "#FF6333",
+                backgroundColor: "#E63946",
                 padding: "14px 32px",
                 borderRadius: "50px",
                 fontSize: "16px",
@@ -554,7 +554,7 @@ export default function EntretienZonePageClient({ slug }: { slug: string }) {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
               display: "block",
@@ -587,7 +587,7 @@ export default function EntretienZonePageClient({ slug }: { slug: string }) {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
               display: "block",
@@ -632,7 +632,7 @@ export default function EntretienZonePageClient({ slug }: { slug: string }) {
                   </span>
                 </div>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style={{ flexShrink: 0 }}>
-                  <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </a>
             ))}
@@ -660,7 +660,7 @@ export default function EntretienZonePageClient({ slug }: { slug: string }) {
             }}
           >
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path d="M13 8H3M3 8L7 4M3 8L7 12" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M13 8H3M3 8L7 4M3 8L7 12" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             Entretien porte sectionnelle Paris
           </a>
@@ -682,7 +682,7 @@ export default function EntretienZonePageClient({ slug }: { slug: string }) {
           >
             Porte sectionnelle {zone.name}
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </a>
         </div>

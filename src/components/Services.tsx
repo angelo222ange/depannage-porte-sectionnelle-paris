@@ -81,7 +81,7 @@ export default function Services() {
               style={{
                 fontSize: "14px",
                 fontWeight: 600,
-                color: "#FF6333",
+                color: "#E63946",
                 textTransform: "uppercase" as const,
                 letterSpacing: "1.5px",
                                 display: "block",
@@ -174,7 +174,7 @@ export default function Services() {
                   style={{
                     fontSize: "15px",
                     fontWeight: 600,
-                    color: "#FF6333",
+                    color: "#E63946",
                                         display: "flex",
                     alignItems: "center",
                     gap: "6px",
@@ -184,7 +184,7 @@ export default function Services() {
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                     <path
                       d="M3 8H13M13 8L9 4M13 8L9 12"
-                      stroke="#FF6333"
+                      stroke="#E63946"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"

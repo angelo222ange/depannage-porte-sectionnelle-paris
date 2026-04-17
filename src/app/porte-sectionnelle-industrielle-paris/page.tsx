@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   description:
     "Porte sectionnelle industrielle a Paris. Installation, depannage et maintenance pour entrepots, usines et locaux commerciaux. Devis au 09 72 12 41 41.",
   alternates: {
-    canonical: "https://porte-sectionnelle-paris.fr/porte-sectionnelle-industrielle-paris/",
+    canonical: "https://depannage-porte-sectionnelle-paris.fr/porte-sectionnelle-industrielle-paris/",
   },
   openGraph: {
     title: "Porte Sectionnelle Industrielle Paris | Pro",
     description: "Porte sectionnelle industrielle a Paris. Installation, depannage et maintenance pour entrepots, usines et locaux commerciaux. Devis gratuit.",
-    url: "https://porte-sectionnelle-paris.fr/porte-sectionnelle-industrielle-paris/",
+    url: "https://depannage-porte-sectionnelle-paris.fr/porte-sectionnelle-industrielle-paris/",
     images: ["/images/portes/porte-sectionnelle-industrielle.webp"],
   },
 };
@@ -119,7 +119,7 @@ export default function PorteSectionnelleIndustrielleParis() {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "12px",
-                backgroundColor: "#FF6333",
+                backgroundColor: "#E63946",
                 padding: "14px 32px",
                 borderRadius: "50px",
                 fontSize: "16px",
@@ -147,7 +147,7 @@ export default function PorteSectionnelleIndustrielleParis() {
             color: "#3B3B3B",
                       }}
         >
-          <a href="/" style={{ color: "#FF6333" }}>Accueil</a>
+          <a href="/" style={{ color: "#E63946" }}>Accueil</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span>Porte sectionnelle industrielle Paris</span>
         </nav>
@@ -192,7 +192,7 @@ export default function PorteSectionnelleIndustrielleParis() {
               style={{
                 fontSize: "14px",
                 fontWeight: 600,
-                color: "#FF6333",
+                color: "#E63946",
                 textTransform: "uppercase" as const,
                 letterSpacing: "1.5px",
                                 display: "block",
@@ -260,7 +260,7 @@ export default function PorteSectionnelleIndustrielleParis() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -378,7 +378,7 @@ export default function PorteSectionnelleIndustrielleParis() {
             >
               Au-delà de l&apos;isolation, la <strong>porte sectionnelle industrielle</strong> apporte une sécurité renforcée contre les intrusions grâce à ses systèmes de <strong>verrouillage multipoints</strong> et sa construction robuste. Les modèles avec hublots en polycarbonate permettent de conserver un apport de lumière naturelle sans compromettre la résistance. Pour les sites soumis aux réglementations <strong>ICPE</strong> ou <strong>Seveso</strong>, nos <strong>portes coupe-feu certifiées</strong> assurent le compartimentage réglementaire.
             </p>
-            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#FF6333", fontSize: "15px", fontWeight: 600, textDecoration: "none", marginTop: "20px" }}>
+            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#E63946", fontSize: "15px", fontWeight: 600, textDecoration: "none", marginTop: "20px" }}>
               Devis gratuit : {siteConfig.telephone}
             </a>
           </div>
@@ -391,7 +391,7 @@ export default function PorteSectionnelleIndustrielleParis() {
       {/* Avantages */}
       <section style={{ padding: "120px 30px", backgroundColor: "#F6F7F9" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>
             Pourquoi nous choisir
           </span>
           <h2 style={{ fontSize: "42px", fontWeight: 600, color: "#000000", lineHeight: "48px", marginBottom: "60px", textAlign: "center" }}>
@@ -407,8 +407,8 @@ export default function PorteSectionnelleIndustrielleParis() {
               { num: "06", title: "Maintenance préventive", desc: "Contrats de maintenance adaptés à votre cadence d'utilisation : trimestriel, semestriel ou annuel. Nos techniciens vérifient ressorts, câbles, joints, motorisation et systèmes de sécurité pour prévenir toute panne." },
             ].map((item, i) => (
               <div key={i} style={{ backgroundColor: "#FFFFFF", borderRadius: "16px", padding: "32px", border: "1px solid #E5E7EB" }}>
-                <div style={{ width: "48px", height: "48px", borderRadius: "12px", backgroundColor: "#FFF1EC", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "20px" }}>
-                  <span style={{ fontSize: "20px", fontWeight: 700, color: "#FF6333" }}>{item.num}</span>
+                <div style={{ width: "48px", height: "48px", borderRadius: "12px", backgroundColor: "#FFEEF0", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "20px" }}>
+                  <span style={{ fontSize: "20px", fontWeight: 700, color: "#E63946" }}>{item.num}</span>
                 </div>
                 <h3 style={{ fontSize: "20px", fontWeight: 600, color: "#000000", marginBottom: "12px" }}>{item.title}</h3>
                 <p style={{ fontSize: "15px", fontWeight: 400, color: "#3B3B3B", lineHeight: "24px", }}>{item.desc}</p>
@@ -434,7 +434,7 @@ export default function PorteSectionnelleIndustrielleParis() {
             <p style={{ fontSize: "16px", fontWeight: 400, color: "#3B3B3B", lineHeight: "26px", marginBottom: "16px" }}>
               Au-delà du dépannage, nous recommandons un <strong>contrat de maintenance préventive</strong> adapté à l&apos;intensité d&apos;utilisation de vos <strong>portes industrielles</strong>. Les visites programmées permettent de détecter l&apos;usure des composants avant qu&apos;elle ne provoque une panne : tension des ressorts, état des joints d&apos;étanchéité, lubrification des rails, vérification des dispositifs de sécurité et mise à jour des systèmes de commande. Un investissement préventif qui évite des arrêts coûteux et prolonge la durée de vie de vos équipements.
             </p>
-            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#FF6333", fontSize: "15px", fontWeight: 600, textDecoration: "none", marginTop: "20px" }}>
+            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#E63946", fontSize: "15px", fontWeight: 600, textDecoration: "none", marginTop: "20px" }}>
               Dépannage urgent : {siteConfig.telephone}
             </a>
           </div>
@@ -444,7 +444,7 @@ export default function PorteSectionnelleIndustrielleParis() {
       {/* Maillage — Nos autres solutions */}
       <section style={{ padding: "120px 30px", backgroundColor: "#F6F7F9" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>
             Nos autres solutions
           </span>
           <h2 style={{ fontSize: "42px", fontWeight: 600, color: "#000000", lineHeight: "48px", marginBottom: "60px", textAlign: "center" }}>
@@ -464,7 +464,7 @@ export default function PorteSectionnelleIndustrielleParis() {
                 <div style={{ padding: "20px 24px", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
                   <h3 style={{ fontSize: "16px", fontWeight: 600, color: "#000000", }}>{item.title}</h3>
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" style={{ flexShrink: 0, marginLeft: "8px" }}>
-                    <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </div>
               </a>
@@ -476,7 +476,7 @@ export default function PorteSectionnelleIndustrielleParis() {
       {/* Zones d'intervention */}
       <section style={{ padding: "80px 30px", backgroundColor: "#F6F7F9" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px" }}>Zones d&apos;intervention</span>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px" }}>Zones d&apos;intervention</span>
           <h2 style={{ fontSize: "36px", fontWeight: 600, color: "#000000", lineHeight: "42px", marginBottom: "32px" }}>
             <strong>Porte sectionnelle industrielle</strong> dans toute la region parisienne
           </h2>
@@ -495,7 +495,7 @@ export default function PorteSectionnelleIndustrielleParis() {
             ].map((zone, i) => (
               <a key={i} href={zone.href} style={{ display: "flex", alignItems: "center", justifyContent: "space-between", backgroundColor: "#FFFFFF", borderRadius: "12px", padding: "14px 18px", textDecoration: "none", border: "1px solid #E5E7EB" }}>
                 <span style={{ fontSize: "14px", fontWeight: 500, color: "#1A1A1A", }}>{zone.label}</span>
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
               </a>
             ))}
           </div>
@@ -505,13 +505,13 @@ export default function PorteSectionnelleIndustrielleParis() {
       {/* Avis clients */}
       <section style={{ padding: "80px 30px", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px", textAlign: "center" }}>Temoignages</span>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px", textAlign: "center" }}>Temoignages</span>
           <h2 style={{ fontSize: "36px", fontWeight: 600, color: "#000000", lineHeight: "42px", marginBottom: "40px", textAlign: "center" }}>
             Avis clients — <strong>Porte sectionnelle industrielle</strong> a <strong>Paris</strong>
           </h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "24px" }}>
             {[
-              { name: "Jacques T.", location: "Saint-Denis", color: "#FF6333", text: "Installation de deux portes sectionnelles industrielles pour notre entrepot logistique a Saint-Denis. Panneaux de 80mm, isolation remarquable. La temperature interieure ne varie plus malgre les ouvertures frequentes pour les camions." },
+              { name: "Jacques T.", location: "Saint-Denis", color: "#E63946", text: "Installation de deux portes sectionnelles industrielles pour notre entrepot logistique a Saint-Denis. Panneaux de 80mm, isolation remarquable. La temperature interieure ne varie plus malgre les ouvertures frequentes pour les camions." },
               { name: "Veronique S.", location: "Nanterre", color: "#2563EB", text: "Remplacement de nos anciennes portes a enroulement par des sectionnelles industrielles Crawford. Le gain d'isolation est enorme, nos couts de chauffage ont baisse de 25%. Le service technique a ete tres professionnel du debut a la fin." },
               { name: "Frederic O.", location: "Montreuil", color: "#10B981", text: "Porte sectionnelle industrielle de 6 metres de large avec motorisation haute vitesse pour notre atelier. Le cycle d'ouverture est rapide, les chariots elevateurs passent sans attendre. Maintenance trimestrielle incluse dans le contrat." },
               { name: "Martine Q.", location: "Ivry-sur-Seine", color: "#8B5CF6", text: "Porte coupe-feu EI60 installee pour la mise en conformite de notre site classe ICPE. Toute la documentation reglementaire a ete fournie, certificat CE et attestation de conformite. Raccordement au SSI effectue par l'equipe, sans sous-traitance." },
@@ -545,7 +545,7 @@ export default function PorteSectionnelleIndustrielleParis() {
       {/* FAQ */}
       <section style={{ padding: "120px 30px", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>
             Questions fréquentes
           </span>
           <h2 style={{ fontSize: "42px", fontWeight: 600, color: "#000000", lineHeight: "48px", marginBottom: "60px", textAlign: "center" }}>
@@ -628,7 +628,7 @@ export default function PorteSectionnelleIndustrielleParis() {
         "@type": "Product",
         name: "Porte sectionnelle industrielle",
         description: "Porte sectionnelle industrielle a Paris. Installation, depannage et maintenance pour entrepots, usines et locaux commerciaux.",
-        brand: { "@type": "Organization", name: "Porte Sectionnelle Paris" },
+        brand: { "@type": "Organization", name: "Depannage Porte Sectionnelle Paris" },
         offers: { "@type": "Offer", priceCurrency: "EUR", availability: "https://schema.org/InStock" },
       }) }} />
 
@@ -636,8 +636,8 @@ export default function PorteSectionnelleIndustrielleParis() {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Accueil", item: "https://porte-sectionnelle-paris.fr/" },
-          { "@type": "ListItem", position: 2, name: "Porte sectionnelle industrielle", item: "https://porte-sectionnelle-paris.fr/porte-sectionnelle-industrielle-paris/" },
+          { "@type": "ListItem", position: 1, name: "Accueil", item: "https://depannage-porte-sectionnelle-paris.fr/" },
+          { "@type": "ListItem", position: 2, name: "Porte sectionnelle industrielle", item: "https://depannage-porte-sectionnelle-paris.fr/porte-sectionnelle-industrielle-paris/" },
         ],
       }) }} />
 

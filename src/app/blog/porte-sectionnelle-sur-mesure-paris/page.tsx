@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   title: "Porte Sectionnelle Sur Mesure Paris | Guide Expert",
   description:
     "Porte sectionnelle sur mesure a Paris : dimensions atypiques, linteau bas, couleurs RAL, hublots, facades classees. Fabrication personnalisee et installation.",
-  alternates: { canonical: "https://porte-sectionnelle-paris.fr/blog/porte-sectionnelle-sur-mesure-paris/" },
+  alternates: { canonical: "https://depannage-porte-sectionnelle-paris.fr/blog/porte-sectionnelle-sur-mesure-paris/" },
   openGraph: {
     title: "Porte Sectionnelle Sur Mesure Paris | Guide Expert",
     description: "Porte sectionnelle sur mesure Paris : dimensions atypiques, couleurs RAL, hublots, facades classees.",
-    url: "https://porte-sectionnelle-paris.fr/blog/porte-sectionnelle-sur-mesure-paris/",
+    url: "https://depannage-porte-sectionnelle-paris.fr/blog/porte-sectionnelle-sur-mesure-paris/",
     images: ["/images/portes/porte-sectionnelle-sur-mesure.webp"],
   },
 };
@@ -26,9 +26,9 @@ export default function Article() {
       {/* Breadcrumb */}
       <div style={{ maxWidth: "1312px", margin: "0 auto", padding: "180px 30px 0" }}>
         <nav style={{ fontSize: "14px", color: "#3B3B3B" }}>
-          <a href="/" style={{ color: "#FF6333" }}>Accueil</a>
+          <a href="/" style={{ color: "#E63946" }}>Accueil</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
-          <a href="/blog/" style={{ color: "#FF6333" }}>Blog</a>
+          <a href="/blog/" style={{ color: "#E63946" }}>Blog</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span>Porte sectionnelle sur mesure Paris</span>
         </nav>
@@ -37,7 +37,7 @@ export default function Article() {
       {/* Article hero */}
       <section style={{ padding: "40px 30px 0", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ display: "inline-block", backgroundColor: "#FFF1EC", color: "#FF6333", padding: "6px 14px", borderRadius: "50px", fontSize: "13px", fontWeight: 600, marginBottom: "20px" }}>
+          <span style={{ display: "inline-block", backgroundColor: "#FFEEF0", color: "#E63946", padding: "6px 14px", borderRadius: "50px", fontSize: "13px", fontWeight: 600, marginBottom: "20px" }}>
             Sur Mesure
           </span>
           <h1 style={{ fontSize: "48px", fontWeight: 600, color: "#000000", lineHeight: "56px", marginBottom: "16px" }}>
@@ -93,11 +93,11 @@ export default function Article() {
           </p>
 
           {/* CTA mid-article */}
-          <div style={{ backgroundColor: "#FFF1EC", borderRadius: "16px", padding: "32px", margin: "40px 0", textAlign: "center" as const }}>
+          <div style={{ backgroundColor: "#FFEEF0", borderRadius: "16px", padding: "32px", margin: "40px 0", textAlign: "center" as const }}>
             <p style={{ fontSize: "18px", fontWeight: 600, color: "#000000", marginBottom: "12px" }}>
               Besoin d&apos;une porte sur mesure ? Visite technique gratuite
             </p>
-            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#FF6333", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>
+            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#E63946", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>
               Appelez le {siteConfig.telephone}
             </a>
           </div>
@@ -119,7 +119,7 @@ export default function Article() {
             Une porte sectionnelle sur mesure necessite un <strong>delai de fabrication de 3 a 6 semaines</strong> selon la complexite de la commande. Les modeles avec finitions speciales, vitrages ou coloris hors stock standard allongent le delai vers le haut de cette fourchette. L&apos;installation elle-meme prend une journee complete pour un technicien experimente.
           </p>
           <p style={{ marginBottom: "20px" }}>
-            Chez <strong>Porte Sectionnelle Paris</strong>, nous gerons l&apos;integralite du processus : prise de cotes precise, conseil sur les options, commande en usine, livraison et <a href="/installation-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>installation professionnelle</a>. Notre experience de plus de 25 ans sur les garages parisiens nous permet d&apos;anticiper les difficultes et de vous proposer les solutions techniques les plus adaptees. Pour un <a href="/depannage-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>depannage</a> ou une <a href="/reparation-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>reparation</a>, nous intervenons egalement sur toutes les marques et tous les types de portes sur mesure.
+            Chez <strong>Depannage Porte Sectionnelle Paris</strong>, nous gerons l&apos;integralite du processus : prise de cotes precise, conseil sur les options, commande en usine, livraison et <a href="/installation-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>installation professionnelle</a>. Notre experience de plus de 25 ans sur les garages parisiens nous permet d&apos;anticiper les difficultes et de vous proposer les solutions techniques les plus adaptees. Pour un <a href="/depannage-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>depannage</a> ou une <a href="/reparation-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>reparation</a>, nous intervenons egalement sur toutes les marques et tous les types de portes sur mesure.
           </p>
 
       </BlogArticleLayout>
@@ -129,9 +129,9 @@ export default function Article() {
         "@context": "https://schema.org",
         "@type": "Article",
         headline: "Porte Sectionnelle Sur Mesure a Paris : Guide Expert",
-        author: { "@type": "Organization", name: "Porte Sectionnelle Paris" },
+        author: { "@type": "Organization", name: "Depannage Porte Sectionnelle Paris" },
         datePublished: "2026-03-30",
-        image: "https://porte-sectionnelle-paris.fr/images/portes/porte-sectionnelle-sur-mesure.webp",
+        image: "https://depannage-porte-sectionnelle-paris.fr/images/portes/porte-sectionnelle-sur-mesure.webp",
       }) }} />
 
       <CTAForm />

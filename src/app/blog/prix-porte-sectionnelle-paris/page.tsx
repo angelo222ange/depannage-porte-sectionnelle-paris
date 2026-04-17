@@ -6,14 +6,14 @@ import BlogArticleLayout from "@/components/BlogArticleLayout";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
-  title: "Prix Porte Sectionnelle Paris | Guide Tarifs 2026",
+  title: "Prix Depannage Porte Sectionnelle Paris | Guide Tarifs 2026",
   description:
     "Decouvrez les prix d'une porte sectionnelle a Paris en 2026 : tarifs par type, facteurs de cout, TVA 10%, aides et devis gratuit. Guide complet.",
-  alternates: { canonical: "https://porte-sectionnelle-paris.fr/blog/prix-porte-sectionnelle-paris/" },
+  alternates: { canonical: "https://depannage-porte-sectionnelle-paris.fr/blog/prix-porte-sectionnelle-paris/" },
   openGraph: {
-    title: "Prix Porte Sectionnelle Paris | Guide Tarifs 2026",
+    title: "Prix Depannage Porte Sectionnelle Paris | Guide Tarifs 2026",
     description: "Decouvrez les prix d'une porte sectionnelle a Paris en 2026 : tarifs par type, facteurs de cout, TVA 10%.",
-    url: "https://porte-sectionnelle-paris.fr/blog/prix-porte-sectionnelle-paris/",
+    url: "https://depannage-porte-sectionnelle-paris.fr/blog/prix-porte-sectionnelle-paris/",
     images: ["/images/portes/porte-garage-sectionnelle.webp"],
   },
 };
@@ -26,9 +26,9 @@ export default function Article() {
       {/* Breadcrumb */}
       <div style={{ maxWidth: "1312px", margin: "0 auto", padding: "180px 30px 0" }}>
         <nav style={{ fontSize: "14px", color: "#3B3B3B" }}>
-          <a href="/" style={{ color: "#FF6333" }}>Accueil</a>
+          <a href="/" style={{ color: "#E63946" }}>Accueil</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
-          <a href="/blog/" style={{ color: "#FF6333" }}>Blog</a>
+          <a href="/blog/" style={{ color: "#E63946" }}>Blog</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span>Prix porte sectionnelle Paris</span>
         </nav>
@@ -37,7 +37,7 @@ export default function Article() {
       {/* Article hero */}
       <section style={{ padding: "40px 30px 0", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ display: "inline-block", backgroundColor: "#FFF1EC", color: "#FF6333", padding: "6px 14px", borderRadius: "50px", fontSize: "13px", fontWeight: 600, marginBottom: "20px" }}>
+          <span style={{ display: "inline-block", backgroundColor: "#FFEEF0", color: "#E63946", padding: "6px 14px", borderRadius: "50px", fontSize: "13px", fontWeight: 600, marginBottom: "20px" }}>
             Guide Tarifs
           </span>
           <h1 style={{ fontSize: "48px", fontWeight: 600, color: "#000000", lineHeight: "56px", marginBottom: "16px" }}>
@@ -101,11 +101,11 @@ export default function Article() {
           </p>
 
           {/* CTA mid-article */}
-          <div style={{ backgroundColor: "#FFF1EC", borderRadius: "16px", padding: "32px", margin: "40px 0", textAlign: "center" as const }}>
+          <div style={{ backgroundColor: "#FFEEF0", borderRadius: "16px", padding: "32px", margin: "40px 0", textAlign: "center" as const }}>
             <p style={{ fontSize: "18px", fontWeight: 600, color: "#000000", marginBottom: "12px" }}>
               Demandez votre devis gratuit et personnalise
             </p>
-            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#FF6333", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>
+            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#E63946", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>
               Appelez le {siteConfig.telephone}
             </a>
           </div>
@@ -137,14 +137,14 @@ export default function Article() {
             Pour optimiser votre budget sans compromettre la qualite, privilegiez un installateur local qui maitrise les contraintes parisiennes. Un professionnel implante a Paris reduit les frais de deplacement et connait les specificites des garages de la capitale : passages etroits, sous-sols humides, contraintes architecturales des immeubles haussmanniens.
           </p>
           <p style={{ marginBottom: "20px" }}>
-            Comparez plusieurs devis detailles mais mefiez-vous des prix anormalement bas. Un tarif tres inferieur au marche cache souvent des panneaux de faible epaisseur, une motorisation generique sans garantie ou une installation baclee sans reglage fin des ressorts. Le cout initial plus eleve d&apos;une <a href="/installation-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>installation professionnelle</a> se rentabilise rapidement grace a une duree de vie prolongee et des frais de <a href="/reparation-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>reparation</a> reduits.
+            Comparez plusieurs devis detailles mais mefiez-vous des prix anormalement bas. Un tarif tres inferieur au marche cache souvent des panneaux de faible epaisseur, une motorisation generique sans garantie ou une installation baclee sans reglage fin des ressorts. Le cout initial plus eleve d&apos;une <a href="/installation-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>installation professionnelle</a> se rentabilise rapidement grace a une duree de vie prolongee et des frais de <a href="/reparation-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>reparation</a> reduits.
           </p>
 
           <h2 style={{ fontSize: "28px", fontWeight: 600, color: "#000000", lineHeight: "36px", marginTop: "48px", marginBottom: "20px" }}>
             Faites confiance a nos experts pour votre devis
           </h2>
           <p style={{ marginBottom: "20px" }}>
-            Chez <strong>Porte Sectionnelle Paris</strong>, nous etablissons des devis transparents et detailles, sans surprise. La visite technique est gratuite et sans engagement. Nos techniciens evaluent votre configuration, vous presentent les options adaptees a votre budget et vous remettent un devis chiffre au centime pres. Nous intervenons dans tous les arrondissements de Paris et en Ile-de-France pour l&apos;<a href="/installation-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>installation</a>, le <a href="/depannage-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>depannage</a> et l&apos;<a href="/entretien-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>entretien</a> de votre porte sectionnelle.
+            Chez <strong>Depannage Porte Sectionnelle Paris</strong>, nous etablissons des devis transparents et detailles, sans surprise. La visite technique est gratuite et sans engagement. Nos techniciens evaluent votre configuration, vous presentent les options adaptees a votre budget et vous remettent un devis chiffre au centime pres. Nous intervenons dans tous les arrondissements de Paris et en Ile-de-France pour l&apos;<a href="/installation-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>installation</a>, le <a href="/depannage-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>depannage</a> et l&apos;<a href="/entretien-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>entretien</a> de votre porte sectionnelle.
           </p>
 
       </BlogArticleLayout>
@@ -153,10 +153,10 @@ export default function Article() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        headline: "Prix Porte Sectionnelle Paris : Guide Tarifs 2026",
-        author: { "@type": "Organization", name: "Porte Sectionnelle Paris" },
+        headline: "Prix Depannage Porte Sectionnelle Paris : Guide Tarifs 2026",
+        author: { "@type": "Organization", name: "Depannage Porte Sectionnelle Paris" },
         datePublished: "2026-04-02",
-        image: "https://porte-sectionnelle-paris.fr/images/portes/porte-garage-sectionnelle.webp",
+        image: "https://depannage-porte-sectionnelle-paris.fr/images/portes/porte-garage-sectionnelle.webp",
       }) }} />
 
       <CTAForm />

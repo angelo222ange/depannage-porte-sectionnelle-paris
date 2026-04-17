@@ -78,7 +78,7 @@ function FAQAccordion({ faq }: { faq: { question: string; answer: string }[] }) 
             backgroundColor: "#FFFFFF",
             borderRadius: "16px",
             overflow: "hidden",
-            border: openIndex === i ? "1px solid #FF6333" : "1px solid #E5E7EB",
+            border: openIndex === i ? "1px solid #E63946" : "1px solid #E5E7EB",
             transition: "border 0.3s ease",
           }}
         >
@@ -114,7 +114,7 @@ function FAQAccordion({ faq }: { faq: { question: string; answer: string }[] }) 
             >
               <path
                 d="M5 7.5L10 12.5L15 7.5"
-                stroke="#FF6333"
+                stroke="#E63946"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -197,7 +197,7 @@ export default function ZonePageClient({ slug }: { slug: string }) {
             <span
               style={{
                 display: "inline-block",
-                backgroundColor: "#FF6333",
+                backgroundColor: "#E63946",
                 color: "#FFFFFF",
                 padding: "6px 16px",
                 borderRadius: "50px",
@@ -254,7 +254,7 @@ export default function ZonePageClient({ slug }: { slug: string }) {
                   style={{
                     width: "28px",
                     height: "28px",
-                    backgroundColor: "#FF6333",
+                    backgroundColor: "#E63946",
                     borderRadius: "50%",
                     display: "flex",
                     alignItems: "center",
@@ -343,7 +343,7 @@ export default function ZonePageClient({ slug }: { slug: string }) {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "10px",
-                backgroundColor: "#FF6333",
+                backgroundColor: "#E63946",
                 color: "#FFFFFF",
                 padding: "14px 28px",
                 borderRadius: "50px",
@@ -365,7 +365,7 @@ export default function ZonePageClient({ slug }: { slug: string }) {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -452,9 +452,9 @@ export default function ZonePageClient({ slug }: { slug: string }) {
                     >
                       {service.shortTitle} de <strong>porte sectionnelle</strong> {preposition} <strong>{zone.name}</strong> par nos techniciens qualifies.
                     </p>
-                    <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", display: "inline-flex", alignItems: "center", gap: "6px" }}>
+                    <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", display: "inline-flex", alignItems: "center", gap: "6px" }}>
                       En savoir plus
-                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
                     </span>
                   </div>
                 </a>
@@ -488,7 +488,7 @@ export default function ZonePageClient({ slug }: { slug: string }) {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "8px",
-                backgroundColor: "#FF6333",
+                backgroundColor: "#E63946",
                 color: "#FFFFFF",
                 padding: "12px 24px",
                 borderRadius: "50px",
@@ -527,7 +527,7 @@ export default function ZonePageClient({ slug }: { slug: string }) {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -569,14 +569,14 @@ export default function ZonePageClient({ slug }: { slug: string }) {
                     width: "48px",
                     height: "48px",
                     borderRadius: "50%",
-                    backgroundColor: "#FFF1EC",
+                    backgroundColor: "#FFEEF0",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                     marginBottom: "20px",
                     fontSize: "20px",
                     fontWeight: 700,
-                    color: "#FF6333",
+                    color: "#E63946",
                                       }}
                 >
                   {String(i + 1).padStart(2, "0")}
@@ -648,7 +648,7 @@ export default function ZonePageClient({ slug }: { slug: string }) {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "8px",
-                color: "#FF6333",
+                color: "#E63946",
                 fontSize: "15px",
                 fontWeight: 600,
                                 textDecoration: "none",
@@ -656,7 +656,7 @@ export default function ZonePageClient({ slug }: { slug: string }) {
             >
               Demander un devis
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </a>
           </div>
@@ -687,7 +687,7 @@ export default function ZonePageClient({ slug }: { slug: string }) {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "8px",
-                color: "#FF6333",
+                color: "#E63946",
                 fontSize: "16px",
                 fontWeight: 600,
                                 textDecoration: "none",
@@ -728,7 +728,7 @@ export default function ZonePageClient({ slug }: { slug: string }) {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -759,7 +759,7 @@ export default function ZonePageClient({ slug }: { slug: string }) {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -822,7 +822,7 @@ export default function ZonePageClient({ slug }: { slug: string }) {
                   </span>
                 </div>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </a>
             ))}
@@ -834,7 +834,7 @@ export default function ZonePageClient({ slug }: { slug: string }) {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "8px",
-                backgroundColor: "#FF6333",
+                backgroundColor: "#E63946",
                 color: "#FFFFFF",
                 padding: "14px 32px",
                 borderRadius: "50px",
@@ -867,7 +867,7 @@ export default function ZonePageClient({ slug }: { slug: string }) {
             "@type": "LocalBusiness",
             name: `Porte Sectionnelle ${zone.name}`,
             telephone: siteConfig.telephone,
-            url: `https://porte-sectionnelle-paris.fr/${slug}/`,
+            url: `https://depannage-porte-sectionnelle-paris.fr/${slug}/`,
             address: {
               "@type": "PostalAddress",
               addressLocality: zone.name,
@@ -888,8 +888,8 @@ export default function ZonePageClient({ slug }: { slug: string }) {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Accueil", item: "https://porte-sectionnelle-paris.fr/" },
-              { "@type": "ListItem", position: 2, name: zone.name, item: `https://porte-sectionnelle-paris.fr/${slug}/` },
+              { "@type": "ListItem", position: 1, name: "Accueil", item: "https://depannage-porte-sectionnelle-paris.fr/" },
+              { "@type": "ListItem", position: 2, name: zone.name, item: `https://depannage-porte-sectionnelle-paris.fr/${slug}/` },
             ],
           }),
         }}

@@ -19,7 +19,7 @@ export default function CallbackModal({ isOpen, onClose }: CallbackModalProps) {
 
     const form = e.currentTarget;
     const data = {
-      site: "porte-sectionnelle-paris.fr",
+      site: "depannage-porte-sectionnelle-paris.fr",
       type: "rappel",
       nom: (form.elements.namedItem("nom") as HTMLInputElement).value,
       telephone: (form.elements.namedItem("telephone") as HTMLInputElement).value,
@@ -141,7 +141,7 @@ export default function CallbackModal({ isOpen, onClose }: CallbackModalProps) {
         ) : (
           <>
             {/* Top accent bar */}
-            <div style={{ height: "4px", background: "linear-gradient(90deg, #FF6333, #FF8F6B)" }} />
+            <div style={{ height: "4px", background: "linear-gradient(90deg, #E63946, #FF8F6B)" }} />
 
             <div style={{ padding: "36px 36px 32px" }}>
               {/* Badge */}
@@ -295,7 +295,7 @@ export default function CallbackModal({ isOpen, onClose }: CallbackModalProps) {
                   style={{
                     width: "100%",
                     padding: "16px 24px",
-                    backgroundColor: "#FF6333",
+                    backgroundColor: "#E63946",
                     color: "#FFFFFF",
                     border: "none",
                     borderRadius: "14px",

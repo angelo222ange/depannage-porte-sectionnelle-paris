@@ -81,7 +81,7 @@ export default function BlogArticleLayout({ children }: { children: React.ReactN
               backgroundColor: "#F6F7F9",
               borderRadius: "16px",
               padding: "24px",
-              borderLeft: "3px solid #FF6333",
+              borderLeft: "3px solid #E63946",
             }}
           >
             <h3
@@ -108,12 +108,12 @@ export default function BlogArticleLayout({ children }: { children: React.ReactN
                   style={{
                     fontSize: "14px",
                     fontWeight: activeId === item.id ? 600 : 400,
-                    color: activeId === item.id ? "#FF6333" : "#3B3B3B",
+                    color: activeId === item.id ? "#E63946" : "#3B3B3B",
                                         textDecoration: "none",
                     lineHeight: "20px",
                     padding: "4px 0",
                     transition: "color 0.2s",
-                    borderLeft: activeId === item.id ? "2px solid #FF6333" : "2px solid transparent",
+                    borderLeft: activeId === item.id ? "2px solid #E63946" : "2px solid transparent",
                     paddingLeft: "12px",
                   }}
                 >

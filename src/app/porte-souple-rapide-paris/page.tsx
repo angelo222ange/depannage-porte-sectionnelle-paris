@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   description:
     "Porte souple rapide a Paris. Installation, maintenance et depannage pour entrepots, usines et plateformes logistiques. Devis gratuit au 09 72 12 41 41.",
   alternates: {
-    canonical: "https://porte-sectionnelle-paris.fr/porte-souple-rapide-paris/",
+    canonical: "https://depannage-porte-sectionnelle-paris.fr/porte-souple-rapide-paris/",
   },
   openGraph: {
     title: "Porte Souple Rapide Paris | Installation Industrielle",
     description: "Porte souple rapide a Paris. Installation, maintenance et depannage pour entrepots, usines et plateformes logistiques. Devis gratuit.",
-    url: "https://porte-sectionnelle-paris.fr/porte-souple-rapide-paris/",
+    url: "https://depannage-porte-sectionnelle-paris.fr/porte-souple-rapide-paris/",
     images: ["/images/portes/porte-garage-souple-industrielle.webp"],
   },
 };
@@ -119,7 +119,7 @@ export default function PorteSoupleRapideParis() {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "12px",
-                backgroundColor: "#FF6333",
+                backgroundColor: "#E63946",
                 padding: "14px 32px",
                 borderRadius: "50px",
                 fontSize: "16px",
@@ -147,7 +147,7 @@ export default function PorteSoupleRapideParis() {
             color: "#3B3B3B",
                       }}
         >
-          <a href="/" style={{ color: "#FF6333" }}>Accueil</a>
+          <a href="/" style={{ color: "#E63946" }}>Accueil</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span>Porte souple rapide Paris</span>
         </nav>
@@ -192,7 +192,7 @@ export default function PorteSoupleRapideParis() {
               style={{
                 fontSize: "14px",
                 fontWeight: 600,
-                color: "#FF6333",
+                color: "#E63946",
                 textTransform: "uppercase" as const,
                 letterSpacing: "1.5px",
                                 display: "block",
@@ -260,7 +260,7 @@ export default function PorteSoupleRapideParis() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -349,7 +349,7 @@ export default function PorteSoupleRapideParis() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -424,14 +424,14 @@ export default function PorteSoupleRapideParis() {
                     width: "48px",
                     height: "48px",
                     borderRadius: "12px",
-                    backgroundColor: "#FFF1EC",
+                    backgroundColor: "#FFEEF0",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                     marginBottom: "20px",
                   }}
                 >
-                  <span style={{ fontSize: "20px", fontWeight: 700, color: "#FF6333" }}>{item.num}</span>
+                  <span style={{ fontSize: "20px", fontWeight: 700, color: "#E63946" }}>{item.num}</span>
                 </div>
                 <h3
                   style={{
@@ -500,7 +500,7 @@ export default function PorteSoupleRapideParis() {
             >
               La <strong>porte souple a empilement</strong>, en revanche, s&apos;impose dans les configurations ou la hauteur disponible au-dessus de l&apos;ouverture est insuffisante pour loger un mecanisme d&apos;enroulement. Les panneaux souples se replient et s&apos;empilent dans un caisson lateral ou superieur compact. On retrouve cette technologie dans les halls industriels de la Plaine Saint-Denis equipes de ponts roulants. La robustesse du systeme et sa capacite a couvrir des ouvertures jusqu&apos;a 10 metres de large en font la reference pour les sites a forte contrainte dimensionnelle.
             </p>
-            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#FF6333", fontSize: "15px", fontWeight: 600, textDecoration: "none", marginTop: "20px" }}>
+            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#E63946", fontSize: "15px", fontWeight: 600, textDecoration: "none", marginTop: "20px" }}>
               Devis gratuit : {siteConfig.telephone}
             </a>
           </div>
@@ -571,7 +571,7 @@ export default function PorteSoupleRapideParis() {
       {/* Zones d'intervention */}
       <section style={{ padding: "80px 30px", backgroundColor: "#F6F7F9" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px" }}>Zones d&apos;intervention</span>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px" }}>Zones d&apos;intervention</span>
           <h2 style={{ fontSize: "36px", fontWeight: 600, color: "#000000", lineHeight: "42px", marginBottom: "32px" }}>
             <strong>Porte souple rapide</strong> dans toute la region parisienne
           </h2>
@@ -590,7 +590,7 @@ export default function PorteSoupleRapideParis() {
             ].map((zone, i) => (
               <a key={i} href={zone.href} style={{ display: "flex", alignItems: "center", justifyContent: "space-between", backgroundColor: "#FFFFFF", borderRadius: "12px", padding: "14px 18px", textDecoration: "none", border: "1px solid #E5E7EB" }}>
                 <span style={{ fontSize: "14px", fontWeight: 500, color: "#1A1A1A", }}>{zone.label}</span>
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
               </a>
             ))}
           </div>
@@ -600,13 +600,13 @@ export default function PorteSoupleRapideParis() {
       {/* Avis clients */}
       <section style={{ padding: "80px 30px", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px", textAlign: "center" }}>Temoignages</span>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px", textAlign: "center" }}>Temoignages</span>
           <h2 style={{ fontSize: "36px", fontWeight: 600, color: "#000000", lineHeight: "42px", marginBottom: "40px", textAlign: "center" }}>
             Avis clients — <strong>Porte souple rapide</strong> a <strong>Paris</strong>
           </h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "24px" }}>
             {[
-              { name: "Xavier N.", location: "Saint-Denis", color: "#FF6333", text: "Deux portes souples rapides installees sur notre plateforme logistique a la Plaine Saint-Denis. Vitesse d'ouverture impressionnante, les caristes ne ralentissent meme plus. Le systeme auto-reparable apres collision nous evite des arrets de production." },
+              { name: "Xavier N.", location: "Saint-Denis", color: "#E63946", text: "Deux portes souples rapides installees sur notre plateforme logistique a la Plaine Saint-Denis. Vitesse d'ouverture impressionnante, les caristes ne ralentissent meme plus. Le systeme auto-reparable apres collision nous evite des arrets de production." },
               { name: "Laurence B.", location: "Nanterre", color: "#2563EB", text: "Porte souple agro-alimentaire pour notre laboratoire de conditionnement. La toile PVC se nettoie facilement, les joints lateraux sont parfaitement etanches. L'hygiene de notre zone de production est preservee. Installation conforme a nos exigences sanitaires." },
               { name: "Christophe V.", location: "Montreuil", color: "#10B981", text: "Remplacement de notre ancienne porte sectionnelle par une porte souple rapide. Le gain de temps sur chaque passage est considerable. Avec 150 cycles par jour, le retour sur investissement est rapide grace aux economies d'energie realisees." },
               { name: "Anne-Marie P.", location: "Argenteuil", color: "#8B5CF6", text: "Installation d'une porte souple a empilement dans notre hall equipe de ponts roulants. La solution parfaite puisqu'il n'y avait pas de place au plafond pour un systeme a enroulement. Ouverture rapide et encombrement minimal, exactement ce qu'il nous fallait." },
@@ -649,7 +649,7 @@ export default function PorteSoupleRapideParis() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -767,7 +767,7 @@ export default function PorteSoupleRapideParis() {
             >
               La sécurité constitue l&apos;autre atout majeur des <strong>portes souples rapides</strong>. Equipées de <strong>barrières infrarouges</strong>, de cellules photoélectriques et de bords souples sensibles à la pression, elles détectent toute présence dans la zone de manoeuvre et stoppent instantanément leur course. Le <strong>système auto-réparable</strong> permet à la toile de se repositionner automatiquement dans ses guides après un choc avec un chariot élévateur. Toutes nos installations respectent la norme <strong>EN 13241-1</strong>.
             </p>
-            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#FF6333", fontSize: "15px", fontWeight: 600, textDecoration: "none", marginTop: "20px" }}>
+            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#E63946", fontSize: "15px", fontWeight: 600, textDecoration: "none", marginTop: "20px" }}>
               Devis gratuit : {siteConfig.telephone}
             </a>
           </div>
@@ -779,7 +779,7 @@ export default function PorteSoupleRapideParis() {
         "@type": "Product",
         name: "Porte souple rapide industrielle",
         description: "Porte souple rapide a Paris. Installation, maintenance et depannage pour entrepots, usines et plateformes logistiques.",
-        brand: { "@type": "Organization", name: "Porte Sectionnelle Paris" },
+        brand: { "@type": "Organization", name: "Depannage Porte Sectionnelle Paris" },
         offers: { "@type": "Offer", priceCurrency: "EUR", availability: "https://schema.org/InStock" },
       }) }} />
 
@@ -787,8 +787,8 @@ export default function PorteSoupleRapideParis() {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Accueil", item: "https://porte-sectionnelle-paris.fr/" },
-          { "@type": "ListItem", position: 2, name: "Porte souple rapide", item: "https://porte-sectionnelle-paris.fr/porte-souple-rapide-paris/" },
+          { "@type": "ListItem", position: 1, name: "Accueil", item: "https://depannage-porte-sectionnelle-paris.fr/" },
+          { "@type": "ListItem", position: 2, name: "Porte souple rapide", item: "https://depannage-porte-sectionnelle-paris.fr/porte-souple-rapide-paris/" },
         ],
       }) }} />
 

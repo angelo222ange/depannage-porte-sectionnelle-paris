@@ -1,7 +1,7 @@
 export const dynamic = "force-static";
 
 export async function GET() {
-  const content = `# Porte Sectionnelle Paris
+  const content = `# Depannage Porte Sectionnelle Paris
 > Specialiste de la porte sectionnelle a Paris et Ile-de-France
 
 ## Services
@@ -20,8 +20,8 @@ export async function GET() {
 
 ## Contact
 - Telephone: 09 72 12 41 41
-- Email: contact@porte-sectionnelle-paris.fr
-- Site: https://porte-sectionnelle-paris.fr
+- Email: contact@depannage-porte-sectionnelle-paris.fr
+- Site: https://depannage-porte-sectionnelle-paris.fr
 `;
   return new Response(content, { headers: { 'Content-Type': 'text/plain' } });
 }

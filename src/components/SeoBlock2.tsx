@@ -24,7 +24,7 @@ export default function SeoBlock2() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -83,7 +83,7 @@ export default function SeoBlock2() {
               alignItems: "center",
               gap: "8px",
               marginTop: "24px",
-              backgroundColor: "#FF6333",
+              backgroundColor: "#E63946",
               padding: "12px 28px",
               borderRadius: "50px",
               fontSize: "15px",

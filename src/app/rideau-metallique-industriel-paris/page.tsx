@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   description:
     "Rideau metallique industriel a Paris. Installation, depannage et reparation pour entrepots, commerces et parkings. Devis gratuit au 09 72 12 41 41.",
   alternates: {
-    canonical: "https://porte-sectionnelle-paris.fr/rideau-metallique-industriel-paris/",
+    canonical: "https://depannage-porte-sectionnelle-paris.fr/rideau-metallique-industriel-paris/",
   },
   openGraph: {
     title: "Rideau Metallique Industriel Paris | Depannage",
     description: "Rideau metallique industriel a Paris. Installation, depannage et reparation pour entrepots, commerces et parkings. Devis gratuit.",
-    url: "https://porte-sectionnelle-paris.fr/rideau-metallique-industriel-paris/",
+    url: "https://depannage-porte-sectionnelle-paris.fr/rideau-metallique-industriel-paris/",
     images: ["/images/portes/rideau-metallique-industriel.webp"],
   },
 };
@@ -119,7 +119,7 @@ export default function RideauMetalliqueIndustrielParis() {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "12px",
-                backgroundColor: "#FF6333",
+                backgroundColor: "#E63946",
                 padding: "14px 32px",
                 borderRadius: "50px",
                 fontSize: "16px",
@@ -147,7 +147,7 @@ export default function RideauMetalliqueIndustrielParis() {
             color: "#3B3B3B",
                       }}
         >
-          <a href="/" style={{ color: "#FF6333" }}>Accueil</a>
+          <a href="/" style={{ color: "#E63946" }}>Accueil</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span>Rideau métallique industriel Paris</span>
         </nav>
@@ -191,7 +191,7 @@ export default function RideauMetalliqueIndustrielParis() {
               style={{
                 fontSize: "14px",
                 fontWeight: 600,
-                color: "#FF6333",
+                color: "#E63946",
                 textTransform: "uppercase" as const,
                 letterSpacing: "1.5px",
                                 display: "block",
@@ -251,7 +251,7 @@ export default function RideauMetalliqueIndustrielParis() {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "8px",
-                backgroundColor: "#FF6333",
+                backgroundColor: "#E63946",
                 color: "#FFFFFF",
                 padding: "14px 28px",
                 borderRadius: "50px",
@@ -282,7 +282,7 @@ export default function RideauMetalliqueIndustrielParis() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -371,7 +371,7 @@ export default function RideauMetalliqueIndustrielParis() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -446,14 +446,14 @@ export default function RideauMetalliqueIndustrielParis() {
                     width: "48px",
                     height: "48px",
                     borderRadius: "12px",
-                    backgroundColor: "#FFF1EC",
+                    backgroundColor: "#FFEEF0",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                     marginBottom: "20px",
                   }}
                 >
-                  <span style={{ fontSize: "20px", fontWeight: 700, color: "#FF6333" }}>{item.num}</span>
+                  <span style={{ fontSize: "20px", fontWeight: 700, color: "#E63946" }}>{item.num}</span>
                 </div>
                 <h3
                   style={{
@@ -522,7 +522,7 @@ export default function RideauMetalliqueIndustrielParis() {
             >
               Les <strong>lames micro-perforees</strong> constituent la solution privilegiee dans les arrondissements commercants de Paris, notamment le Marais, Saint-Germain-des-Pres, les Grands Boulevards et le quartier de l&apos;Opera. Leurs perforations calibrees laissent filtrer la lumiere et le regard tout en conservant une resistance mecanique suffisante pour decourager les intrusions. Ce type de rideau prolonge l&apos;effet marketing de votre devanture 24 heures sur 24.
             </p>
-            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#FF6333", fontSize: "15px", fontWeight: 600, textDecoration: "none", marginTop: "20px" }}>
+            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#E63946", fontSize: "15px", fontWeight: 600, textDecoration: "none", marginTop: "20px" }}>
               Devis gratuit : {siteConfig.telephone}
             </a>
           </div>
@@ -593,7 +593,7 @@ export default function RideauMetalliqueIndustrielParis() {
       {/* Zones d'intervention */}
       <section style={{ padding: "80px 30px", backgroundColor: "#F6F7F9" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px" }}>Zones d&apos;intervention</span>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px" }}>Zones d&apos;intervention</span>
           <h2 style={{ fontSize: "36px", fontWeight: 600, color: "#000000", lineHeight: "42px", marginBottom: "32px" }}>
             <strong>Rideau metallique industriel</strong> dans toute la region parisienne
           </h2>
@@ -612,7 +612,7 @@ export default function RideauMetalliqueIndustrielParis() {
             ].map((zone, i) => (
               <a key={i} href={zone.href} style={{ display: "flex", alignItems: "center", justifyContent: "space-between", backgroundColor: "#FFFFFF", borderRadius: "12px", padding: "14px 18px", textDecoration: "none", border: "1px solid #E5E7EB" }}>
                 <span style={{ fontSize: "14px", fontWeight: 500, color: "#1A1A1A", }}>{zone.label}</span>
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
               </a>
             ))}
           </div>
@@ -622,13 +622,13 @@ export default function RideauMetalliqueIndustrielParis() {
       {/* Avis clients */}
       <section style={{ padding: "80px 30px", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px", textAlign: "center" }}>Temoignages</span>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px", textAlign: "center" }}>Temoignages</span>
           <h2 style={{ fontSize: "36px", fontWeight: 600, color: "#000000", lineHeight: "42px", marginBottom: "40px", textAlign: "center" }}>
             Avis clients — <strong>Rideau metallique industriel</strong> a <strong>Paris</strong>
           </h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "24px" }}>
             {[
-              { name: "Bernard Z.", location: "Paris 3e", color: "#FF6333", text: "Rideau metallique en lames micro-perforees installe pour notre boutique du Marais. La vitrine reste visible meme rideau baisse, l'effet commercial est preserv la nuit. Les passants voient nos produits 24h/24, c'est un vrai atout marketing." },
+              { name: "Bernard Z.", location: "Paris 3e", color: "#E63946", text: "Rideau metallique en lames micro-perforees installe pour notre boutique du Marais. La vitrine reste visible meme rideau baisse, l'effet commercial est preserv la nuit. Les passants voient nos produits 24h/24, c'est un vrai atout marketing." },
               { name: "Jocelyne F.", location: "Paris 9e", color: "#2563EB", text: "Remplacement de notre vieux rideau metallique de commerce pres des Grands Boulevards. Le nouveau modele motorise s'ouvre en 15 secondes, fini les efforts du matin. Les lames en acier galvanise 77mm sont robustes et bien finies." },
               { name: "Fabien R.", location: "Boulogne-Billancourt", color: "#10B981", text: "Installation d'un rideau metallique industriel pour notre atelier. Lames pleines en acier pour une securite maximale. Le moteur central avec frein electromagnetique bloque le rideau en position, aucun risque de descente intempestive." },
               { name: "Marie-Helene C.", location: "Paris 20e", color: "#8B5CF6", text: "Pose d'un rideau metallique a lames pleines pour notre entrepot de stockage. Le tablier est solide, l'axe d'enroulement ne vibre pas. Le technicien a regle la fin de course avec precision. On sent les 25 ans d'experience de l'equipe." },
@@ -671,7 +671,7 @@ export default function RideauMetalliqueIndustrielParis() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -808,7 +808,7 @@ export default function RideauMetalliqueIndustrielParis() {
             >
               Notre atelier fabrique chaque rideau aux dimensions exactes de votre baie, qu&apos;il s&apos;agisse d&apos;une devanture de boutique de 3 mètres ou d&apos;un portail d&apos;entrepôt de 12 mètres de large. L&apos;installation comprend la pose des <strong>coulisses en acier galvanisé</strong>, le réglage de la tension des ressorts de compensation, le raccordement électrique du <strong>moteur</strong> et la mise en service avec programmation de la télécommande. En cas de panne, notre équipe intervient dans tous les arrondissements de <strong>Paris</strong> avec un stock de pièces embarqué.
             </p>
-            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#FF6333", fontSize: "15px", fontWeight: 600, textDecoration: "none", marginTop: "20px" }}>
+            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#E63946", fontSize: "15px", fontWeight: 600, textDecoration: "none", marginTop: "20px" }}>
               Devis gratuit : {siteConfig.telephone}
             </a>
           </div>
@@ -820,7 +820,7 @@ export default function RideauMetalliqueIndustrielParis() {
         "@type": "Product",
         name: "Rideau metallique industriel",
         description: "Rideau metallique industriel a Paris. Installation, depannage et reparation pour entrepots, commerces et parkings. Lames acier galvanise, motorisation sur mesure.",
-        brand: { "@type": "Organization", name: "Porte Sectionnelle Paris" },
+        brand: { "@type": "Organization", name: "Depannage Porte Sectionnelle Paris" },
         offers: { "@type": "Offer", priceCurrency: "EUR", availability: "https://schema.org/InStock" },
       }) }} />
 
@@ -828,8 +828,8 @@ export default function RideauMetalliqueIndustrielParis() {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Accueil", item: "https://porte-sectionnelle-paris.fr/" },
-          { "@type": "ListItem", position: 2, name: "Rideau metallique industriel", item: "https://porte-sectionnelle-paris.fr/rideau-metallique-industriel-paris/" },
+          { "@type": "ListItem", position: 1, name: "Accueil", item: "https://depannage-porte-sectionnelle-paris.fr/" },
+          { "@type": "ListItem", position: 2, name: "Rideau metallique industriel", item: "https://depannage-porte-sectionnelle-paris.fr/rideau-metallique-industriel-paris/" },
         ],
       }) }} />
 

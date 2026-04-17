@@ -35,7 +35,7 @@ export default function BlogPreview() {
               style={{
                 fontSize: "14px",
                 fontWeight: 600,
-                color: "#FF6333",
+                color: "#E63946",
                 textTransform: "uppercase" as const,
                 letterSpacing: "1.5px",
                                 display: "block",
@@ -73,7 +73,7 @@ export default function BlogPreview() {
           >
             Voir tous les articles
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-              <path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </a>
         </div>
@@ -108,8 +108,8 @@ export default function BlogPreview() {
                     style={{
                       fontSize: "12px",
                       fontWeight: 600,
-                      color: "#FF6333",
-                      backgroundColor: "#FFF1EC",
+                      color: "#E63946",
+                      backgroundColor: "#FFEEF0",
                       padding: "4px 10px",
                       borderRadius: "50px",
                                           }}
@@ -152,7 +152,7 @@ export default function BlogPreview() {
                   style={{
                     fontSize: "14px",
                     fontWeight: 600,
-                    color: "#FF6333",
+                    color: "#E63946",
                                         display: "inline-flex",
                     alignItems: "center",
                     gap: "6px",
@@ -160,7 +160,7 @@ export default function BlogPreview() {
                 >
                   Lire l&apos;article
                   <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </span>
               </div>

@@ -68,7 +68,7 @@ export default function ProductTypes() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase",
               letterSpacing: "1.5px",
                             display: "block",
@@ -118,8 +118,8 @@ export default function ProductTypes() {
               style={{
                 padding: "12px 28px",
                 borderRadius: "50px",
-                border: active === cat.id ? "2px solid #FF6333" : "2px solid #E0E0E0",
-                backgroundColor: active === cat.id ? "#FF6333" : "#FFFFFF",
+                border: active === cat.id ? "2px solid #E63946" : "2px solid #E0E0E0",
+                backgroundColor: active === cat.id ? "#E63946" : "#FFFFFF",
                 color: active === cat.id ? "#FFFFFF" : "#1A1A1A",
                 fontSize: "15px",
                 fontWeight: 600,
@@ -206,7 +206,7 @@ export default function ProductTypes() {
                   style={{
                     fontSize: "14px",
                     fontWeight: 600,
-                    color: "#FF6333",
+                    color: "#E63946",
                                         display: "inline-flex",
                     alignItems: "center",
                     gap: "6px",
@@ -214,7 +214,7 @@ export default function ProductTypes() {
                 >
                   Voir plus
                   <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </span>
               </div>

@@ -25,7 +25,7 @@ export default function MobileCallButton() {
           display: "none",
           alignItems: "center",
           gap: "8px",
-          backgroundColor: "#FF6333",
+          backgroundColor: "#E63946",
           color: "#FFFFFF",
           fontFamily: "var(--font-figtree), sans-serif",
           fontSize: "16px",

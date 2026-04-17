@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   description:
     "Motorisation porte sectionnelle a Paris. Moteur Somfy, Hormann, Marantec. Automatisation, telecommande, domotique. Devis gratuit au 09 72 12 41 41.",
   alternates: {
-    canonical: "https://porte-sectionnelle-paris.fr/motorisation-porte-sectionnelle-paris/",
+    canonical: "https://depannage-porte-sectionnelle-paris.fr/motorisation-porte-sectionnelle-paris/",
   },
   openGraph: {
     title: "Motorisation Porte Sectionnelle Paris | Somfy Hormann",
     description: "Motorisation porte sectionnelle a Paris. Moteur Somfy, Hormann, Marantec. Automatisation, telecommande, domotique. Devis gratuit au 09 72 12 41 41.",
-    url: "https://porte-sectionnelle-paris.fr/motorisation-porte-sectionnelle-paris/",
+    url: "https://depannage-porte-sectionnelle-paris.fr/motorisation-porte-sectionnelle-paris/",
     images: ["/images/portes/moteur-porte-sectionnelle.webp"],
   },
 };
@@ -146,7 +146,7 @@ export default function MotorisationPorteSectionnelleParis() {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "12px",
-                backgroundColor: "#FF6333",
+                backgroundColor: "#E63946",
                 padding: "14px 32px",
                 borderRadius: "50px",
                 fontSize: "16px",
@@ -174,7 +174,7 @@ export default function MotorisationPorteSectionnelleParis() {
             color: "#3B3B3B",
                       }}
         >
-          <a href="/" style={{ color: "#FF6333" }}>Accueil</a>
+          <a href="/" style={{ color: "#E63946" }}>Accueil</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span><strong>Motorisation porte sectionnelle Paris</strong></span>
         </nav>
@@ -219,7 +219,7 @@ export default function MotorisationPorteSectionnelleParis() {
               style={{
                 fontSize: "14px",
                 fontWeight: 600,
-                color: "#FF6333",
+                color: "#E63946",
                 textTransform: "uppercase" as const,
                 letterSpacing: "1.5px",
                                 display: "block",
@@ -287,7 +287,7 @@ export default function MotorisationPorteSectionnelleParis() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -415,7 +415,7 @@ export default function MotorisationPorteSectionnelleParis() {
       {/* Avantages */}
       <section style={{ padding: "120px 30px", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>Pourquoi nous choisir</span>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>Pourquoi nous choisir</span>
           <h2 style={{ fontSize: "42px", fontWeight: 600, color: "#000000", lineHeight: "48px", marginBottom: "60px", textAlign: "center" }}>
             Les avantages de notre <strong>motorisation de porte sectionnelle</strong> a <strong>Paris</strong>
           </h2>
@@ -429,8 +429,8 @@ export default function MotorisationPorteSectionnelleParis() {
               { num: "06", title: "Conseil objectif adapte a votre usage", desc: "Nous ne surdimensionnons pas les installations pour gonfler la facture. Notre approche consiste a evaluer precisement vos besoins — poids du tablier, frequence d'utilisation, budget — et a vous proposer le moteur qui offre le meilleur rapport performance-prix pour votre situation specifique." },
             ].map((item, i) => (
               <div key={i} style={{ backgroundColor: "#F6F7F9", borderRadius: "16px", padding: "32px", border: "1px solid #E5E7EB" }}>
-                <div style={{ width: "48px", height: "48px", borderRadius: "12px", backgroundColor: "#FFF1EC", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "20px" }}>
-                  <span style={{ fontSize: "20px", fontWeight: 700, color: "#FF6333" }}>{item.num}</span>
+                <div style={{ width: "48px", height: "48px", borderRadius: "12px", backgroundColor: "#FFEEF0", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "20px" }}>
+                  <span style={{ fontSize: "20px", fontWeight: 700, color: "#E63946" }}>{item.num}</span>
                 </div>
                 <h3 style={{ fontSize: "20px", fontWeight: 600, color: "#000000", marginBottom: "12px" }}>{item.title}</h3>
                 <p style={{ fontSize: "15px", fontWeight: 400, color: "#3B3B3B", lineHeight: "24px", }}>{item.desc}</p>
@@ -465,7 +465,7 @@ export default function MotorisationPorteSectionnelleParis() {
             <p style={{ fontSize: "16px", fontWeight: 400, color: "#3B3B3B", lineHeight: "26px", marginBottom: "24px" }}>
               La <strong>motorisation</strong> ameliore egalement la securite de votre bien immobilier. Un moteur equipe d&apos;un systeme de verrouillage automatique rend votre porte inviolable une fois fermee, contrairement a une porte manuelle qui peut etre soulevee par un intrus. C&apos;est un argument de poids pour les garages parisiens situes en rez-de-chaussee ou en sous-sol. Contactez-nous au <strong>{siteConfig.telephone}</strong> pour decouvrir nos solutions de <strong>motorisation</strong>.
             </p>
-            <a href="#contact" style={{ display: "inline-flex", alignItems: "center", gap: "12px", backgroundColor: "#FF6333", padding: "14px 32px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, color: "#FFFFFF", }}>
+            <a href="#contact" style={{ display: "inline-flex", alignItems: "center", gap: "12px", backgroundColor: "#E63946", padding: "14px 32px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, color: "#FFFFFF", }}>
               Decouvrir nos motorisations
             </a>
           </div>
@@ -486,7 +486,7 @@ export default function MotorisationPorteSectionnelleParis() {
             ].map((link, i) => (
               <a key={i} href={link.href} style={{ display: "block", borderRadius: "16px", overflow: "hidden", backgroundColor: "#F6F7F9", border: "1px solid #E5E7EB", textDecoration: "none" }}>
                 <img src={link.image} alt={link.label + " porte sectionnelle Paris"} title={link.label} width={400} height={180} loading="lazy" decoding="async" style={{ width: "100%", height: "180px", objectFit: "cover" }} />
-                <div style={{ padding: "20px 24px", display: "flex", alignItems: "center", justifyContent: "space-between" }}><span style={{ fontSize: "16px", fontWeight: 600, color: "#000000", }}>{link.label}</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" style={{ flexShrink: 0 }}><path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg></div>
+                <div style={{ padding: "20px 24px", display: "flex", alignItems: "center", justifyContent: "space-between" }}><span style={{ fontSize: "16px", fontWeight: 600, color: "#000000", }}>{link.label}</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" style={{ flexShrink: 0 }}><path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg></div>
               </a>
             ))}
           </div>
@@ -496,7 +496,7 @@ export default function MotorisationPorteSectionnelleParis() {
       {/* Zones d'intervention */}
       <section style={{ padding: "80px 30px", backgroundColor: "#F6F7F9" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px" }}>Zones d&apos;intervention</span>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px" }}>Zones d&apos;intervention</span>
           <h2 style={{ fontSize: "36px", fontWeight: 600, color: "#000000", lineHeight: "42px", marginBottom: "32px" }}>
             <strong>Motorisation porte sectionnelle</strong> dans toute la region parisienne
           </h2>
@@ -515,7 +515,7 @@ export default function MotorisationPorteSectionnelleParis() {
             ].map((zone, i) => (
               <a key={i} href={zone.href} style={{ display: "flex", alignItems: "center", justifyContent: "space-between", backgroundColor: "#FFFFFF", borderRadius: "12px", padding: "14px 18px", textDecoration: "none", border: "1px solid #E5E7EB" }}>
                 <span style={{ fontSize: "14px", fontWeight: 500, color: "#1A1A1A", }}>{zone.label}</span>
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
               </a>
             ))}
           </div>
@@ -525,13 +525,13 @@ export default function MotorisationPorteSectionnelleParis() {
       {/* Avis clients */}
       <section style={{ padding: "80px 30px", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px", textAlign: "center" }}>Temoignages</span>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px", textAlign: "center" }}>Temoignages</span>
           <h2 style={{ fontSize: "36px", fontWeight: 600, color: "#000000", lineHeight: "42px", marginBottom: "40px", textAlign: "center" }}>
             Avis clients — <strong>Motorisation porte sectionnelle</strong> a <strong>Paris</strong>
           </h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "24px" }}>
             {[
-              { name: "Gerard F.", location: "Paris 7e", color: "#FF6333", text: "Motorisation Somfy installee sur notre porte sectionnelle manuelle. Le confort est incomparable, plus besoin de soulever 60 kg a chaque passage. La telecommande fonctionne depuis la voiture, un vrai plus les jours de pluie." },
+              { name: "Gerard F.", location: "Paris 7e", color: "#E63946", text: "Motorisation Somfy installee sur notre porte sectionnelle manuelle. Le confort est incomparable, plus besoin de soulever 60 kg a chaque passage. La telecommande fonctionne depuis la voiture, un vrai plus les jours de pluie." },
               { name: "Valerie P.", location: "Paris 13e", color: "#2563EB", text: "Remplacement de notre vieux moteur par un Hormann ProMatic connecte. Pilotage depuis le smartphone, integration parfaite avec notre box Somfy TaHoma. Le technicien a tout configure et explique en detail. Excellent travail." },
               { name: "Nicolas E.", location: "Boulogne-Billancourt", color: "#10B981", text: "Installation d'un moteur avec batterie de secours pour notre garage en sous-sol. Indispensable en cas de coupure de courant puisqu'on n'a pas d'acces pieton alternatif. Pose soignee, fonctionnement silencieux, tres satisfait." },
               { name: "Muriel T.", location: "Paris 4e", color: "#8B5CF6", text: "Motorisation de la porte de notre atelier dans le Marais. Le technicien a choisi un moteur a courroie adapte au poids de notre tablier. Ouverture et fermeture ultra silencieuses, les voisins apprecient autant que nous." },
@@ -565,7 +565,7 @@ export default function MotorisationPorteSectionnelleParis() {
       {/* FAQ */}
       <section style={{ padding: "120px 30px", backgroundColor: "#F6F7F9" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>Questions frequentes</span>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>Questions frequentes</span>
           <h2 style={{ fontSize: "42px", fontWeight: 600, color: "#000000", lineHeight: "48px", marginBottom: "60px", textAlign: "center" }}>
             Tout savoir sur la <strong>motorisation de porte sectionnelle</strong> a <strong>Paris</strong>
           </h2>
@@ -586,7 +586,7 @@ export default function MotorisationPorteSectionnelleParis() {
         "@context": "https://schema.org",
         "@type": "Service",
         name: "Motorisation de porte sectionnelle a Paris",
-        provider: { "@type": "LocalBusiness", name: "Porte Sectionnelle Paris", telephone: "09 72 12 41 41" },
+        provider: { "@type": "LocalBusiness", name: "Depannage Porte Sectionnelle Paris", telephone: "09 72 12 41 41" },
         areaServed: { "@type": "City", name: "Paris" },
         description: "Motorisation de porte sectionnelle a Paris. Installation moteur Somfy, Hormann, Marantec. Devis gratuit 09 72 12 41 41.",
       }) }} />
@@ -595,8 +595,8 @@ export default function MotorisationPorteSectionnelleParis() {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Accueil", item: "https://porte-sectionnelle-paris.fr/" },
-          { "@type": "ListItem", position: 2, name: "Motorisation", item: "https://porte-sectionnelle-paris.fr/motorisation-porte-sectionnelle-paris/" },
+          { "@type": "ListItem", position: 1, name: "Accueil", item: "https://depannage-porte-sectionnelle-paris.fr/" },
+          { "@type": "ListItem", position: 2, name: "Motorisation", item: "https://depannage-porte-sectionnelle-paris.fr/motorisation-porte-sectionnelle-paris/" },
         ],
       }) }} />
 

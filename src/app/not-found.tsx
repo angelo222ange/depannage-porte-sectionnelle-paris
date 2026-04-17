@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
-  title: "Page introuvable | Porte Sectionnelle Paris",
+  title: "Page introuvable | Depannage Porte Sectionnelle Paris",
   description: "La page recherchee n'existe pas. Retrouvez nos services de porte sectionnelle a Paris : installation, depannage 24h/24. Appelez le 09 72 12 41 41.",
 };
 
@@ -29,7 +29,7 @@ export default function NotFound() {
             style={{
               fontSize: "120px",
               fontWeight: 700,
-              color: "#FF6333",
+              color: "#E63946",
                             lineHeight: "1",
               display: "block",
               marginBottom: "16px",
@@ -59,7 +59,7 @@ export default function NotFound() {
           >
             La page que vous recherchez n&apos;existe pas ou a ete deplacee.
             Retrouvez nos services ci-dessous ou contactez-nous au{" "}
-            <a href={siteConfig.telephoneHref} style={{ color: "#FF6333", fontWeight: 600 }}>
+            <a href={siteConfig.telephoneHref} style={{ color: "#E63946", fontWeight: 600 }}>
               {siteConfig.telephone}
             </a>.
           </p>
@@ -79,7 +79,7 @@ export default function NotFound() {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "8px",
-                backgroundColor: "#FF6333",
+                backgroundColor: "#E63946",
                 color: "#FFFFFF",
                 padding: "14px 28px",
                 borderRadius: "50px",
@@ -163,7 +163,7 @@ export default function NotFound() {
                 >
                   {link.label}
                   <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                    <path d="M2.5 6H9.5M9.5 6L6.5 3M9.5 6L6.5 9" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M2.5 6H9.5M9.5 6L6.5 3M9.5 6L6.5 9" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </a>
               ))}

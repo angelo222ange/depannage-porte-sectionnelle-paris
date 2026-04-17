@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   description:
     "Depannage porte sectionnelle Paris, urgence 24h/24 7j/7. Technicien sur place en 30 min. Panne moteur, ressort casse, porte bloquee. Tel : 09 72 12 41 41.",
   alternates: {
-    canonical: "https://porte-sectionnelle-paris.fr/depannage-porte-sectionnelle-paris/",
+    canonical: "https://depannage-porte-sectionnelle-paris.fr/depannage-porte-sectionnelle-paris/",
   },
   openGraph: {
     title: "Depannage Porte Sectionnelle Paris | Urgence 24h/24",
     description: "Depannage porte sectionnelle Paris en urgence 24h/24, 7j/7. Technicien sur place en 30 minutes. Appelez le 09 72 12 41 41.",
-    url: "https://porte-sectionnelle-paris.fr/depannage-porte-sectionnelle-paris/",
+    url: "https://depannage-porte-sectionnelle-paris.fr/depannage-porte-sectionnelle-paris/",
     images: ["/images/portes/depannage-porte-sectionnelle.webp"],
   },
 };
@@ -146,7 +146,7 @@ export default function DepannagePorteSectionnelleParis() {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "12px",
-                backgroundColor: "#FF6333",
+                backgroundColor: "#E63946",
                 padding: "14px 32px",
                 borderRadius: "50px",
                 fontSize: "16px",
@@ -174,7 +174,7 @@ export default function DepannagePorteSectionnelleParis() {
             color: "#3B3B3B",
                       }}
         >
-          <a href="/" style={{ color: "#FF6333" }}>Accueil</a>
+          <a href="/" style={{ color: "#E63946" }}>Accueil</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span><strong>Depannage porte sectionnelle Paris</strong></span>
         </nav>
@@ -218,7 +218,7 @@ export default function DepannagePorteSectionnelleParis() {
               style={{
                 fontSize: "14px",
                 fontWeight: 600,
-                color: "#FF6333",
+                color: "#E63946",
                 textTransform: "uppercase" as const,
                 letterSpacing: "1.5px",
                                 display: "block",
@@ -286,7 +286,7 @@ export default function DepannagePorteSectionnelleParis() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -414,7 +414,7 @@ export default function DepannagePorteSectionnelleParis() {
       {/* Avantages */}
       <section style={{ padding: "120px 30px", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>Pourquoi nous choisir</span>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>Pourquoi nous choisir</span>
           <h2 style={{ fontSize: "42px", fontWeight: 600, color: "#000000", lineHeight: "48px", marginBottom: "60px", textAlign: "center" }}>
             Les avantages de notre <strong>depannage de porte sectionnelle</strong> a <strong>Paris</strong>
           </h2>
@@ -428,8 +428,8 @@ export default function DepannagePorteSectionnelleParis() {
               { num: "06", title: "Plus de 25 ans d'experience toutes marques", desc: "Nos depanneurs maitrisent l'ensemble des marques presentes sur le marche : Hormann, Novoferm, Crawford, Came, FAAC, Somfy, Marantec. Cette expertise multi-marque acquise en 25 ans de terrain nous permet de diagnostiquer et resoudre les pannes les plus complexes." },
             ].map((item, i) => (
               <div key={i} style={{ backgroundColor: "#F6F7F9", borderRadius: "16px", padding: "32px", border: "1px solid #E5E7EB" }}>
-                <div style={{ width: "48px", height: "48px", borderRadius: "12px", backgroundColor: "#FFF1EC", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "20px" }}>
-                  <span style={{ fontSize: "20px", fontWeight: 700, color: "#FF6333" }}>{item.num}</span>
+                <div style={{ width: "48px", height: "48px", borderRadius: "12px", backgroundColor: "#FFEEF0", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "20px" }}>
+                  <span style={{ fontSize: "20px", fontWeight: 700, color: "#E63946" }}>{item.num}</span>
                 </div>
                 <h3 style={{ fontSize: "20px", fontWeight: 600, color: "#000000", marginBottom: "12px" }}>{item.title}</h3>
                 <p style={{ fontSize: "15px", fontWeight: 400, color: "#3B3B3B", lineHeight: "24px", }}>{item.desc}</p>
@@ -464,7 +464,7 @@ export default function DepannagePorteSectionnelleParis() {
             <p style={{ fontSize: "16px", fontWeight: 400, color: "#3B3B3B", lineHeight: "26px", marginBottom: "24px" }}>
               Les cables en acier qui se dereglent ou cassent, les galets aplatis provoquant un fonctionnement bruyant et les panneaux endommages suite a un choc de vehicule completent le tableau des pannes courantes. Quel que soit le probleme rencontre, notre equipe dispose de l&apos;expertise et du materiel pour intervenir efficacement. Appelez le <strong>{siteConfig.telephone}</strong> pour un <strong>depannage</strong> immediat.
             </p>
-            <a href="#contact" style={{ display: "inline-flex", alignItems: "center", gap: "12px", backgroundColor: "#FF6333", padding: "14px 32px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, color: "#FFFFFF", }}>
+            <a href="#contact" style={{ display: "inline-flex", alignItems: "center", gap: "12px", backgroundColor: "#E63946", padding: "14px 32px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, color: "#FFFFFF", }}>
               Appeler un technicien maintenant
             </a>
           </div>
@@ -485,7 +485,7 @@ export default function DepannagePorteSectionnelleParis() {
             ].map((link, i) => (
               <a key={i} href={link.href} style={{ display: "block", borderRadius: "16px", overflow: "hidden", backgroundColor: "#F6F7F9", border: "1px solid #E5E7EB", textDecoration: "none" }}>
                 <img src={link.image} alt={link.label + " porte sectionnelle Paris"} title={link.label} width={400} height={180} loading="lazy" decoding="async" style={{ width: "100%", height: "180px", objectFit: "cover" }} />
-                <div style={{ padding: "20px 24px", display: "flex", alignItems: "center", justifyContent: "space-between" }}><span style={{ fontSize: "16px", fontWeight: 600, color: "#000000", }}>{link.label}</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" style={{ flexShrink: 0 }}><path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg></div>
+                <div style={{ padding: "20px 24px", display: "flex", alignItems: "center", justifyContent: "space-between" }}><span style={{ fontSize: "16px", fontWeight: 600, color: "#000000", }}>{link.label}</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" style={{ flexShrink: 0 }}><path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg></div>
               </a>
             ))}
           </div>
@@ -495,7 +495,7 @@ export default function DepannagePorteSectionnelleParis() {
       {/* Zones d'intervention */}
       <section style={{ padding: "80px 30px", backgroundColor: "#F6F7F9" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px" }}>Zones d&apos;intervention</span>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px" }}>Zones d&apos;intervention</span>
           <h2 style={{ fontSize: "36px", fontWeight: 600, color: "#000000", lineHeight: "42px", marginBottom: "32px" }}>
             <strong>Depannage porte sectionnelle</strong> dans toute la region parisienne
           </h2>
@@ -514,7 +514,7 @@ export default function DepannagePorteSectionnelleParis() {
             ].map((zone, i) => (
               <a key={i} href={zone.href} style={{ display: "flex", alignItems: "center", justifyContent: "space-between", backgroundColor: "#FFFFFF", borderRadius: "12px", padding: "14px 18px", textDecoration: "none", border: "1px solid #E5E7EB" }}>
                 <span style={{ fontSize: "14px", fontWeight: 500, color: "#1A1A1A", }}>{zone.label}</span>
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
               </a>
             ))}
           </div>
@@ -524,13 +524,13 @@ export default function DepannagePorteSectionnelleParis() {
       {/* Avis clients */}
       <section style={{ padding: "80px 30px", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px", textAlign: "center" }}>Temoignages</span>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px", textAlign: "center" }}>Temoignages</span>
           <h2 style={{ fontSize: "36px", fontWeight: 600, color: "#000000", lineHeight: "42px", marginBottom: "40px", textAlign: "center" }}>
             Avis clients — <strong>Depannage porte sectionnelle</strong> a <strong>Paris</strong>
           </h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "24px" }}>
             {[
-              { name: "Sophie R.", location: "Paris 11e", color: "#FF6333", text: "Porte sectionnelle bloquee un dimanche soir. Appel au 09 72 12 41 41, technicien sur place en 25 minutes boulevard Voltaire. Ressort casse remplace dans l'heure. Service exceptionnel." },
+              { name: "Sophie R.", location: "Paris 11e", color: "#E63946", text: "Porte sectionnelle bloquee un dimanche soir. Appel au 09 72 12 41 41, technicien sur place en 25 minutes boulevard Voltaire. Ressort casse remplace dans l'heure. Service exceptionnel." },
               { name: "Thierry B.", location: "Paris 17e", color: "#2563EB", text: "Le moteur de notre porte sectionnelle s'est mis a faire un bruit terrible a 22h. Le depanneur est arrive rapidement rue de Tocqueville, a diagnostique un condensateur grille et l'a remplace sur place. Professionnel et efficace." },
               { name: "Amandine L.", location: "Montreuil", color: "#10B981", text: "Cable deraille sur notre porte de garage sectionnelle. Intervention rapide, le technicien avait la piece dans son vehicule. Depannage termine en 40 minutes, porte comme neuve. Tarif conforme au devis annonce par telephone." },
               { name: "Jean-Pierre H.", location: "Paris 5e", color: "#8B5CF6", text: "Panne de motorisation Hormann un matin de semaine. Le depanneur a identifie une carte electronique defaillante et l'a changee dans la foullee. Garage de nouveau operationnel avant midi. Tres reactif." },
@@ -564,7 +564,7 @@ export default function DepannagePorteSectionnelleParis() {
       {/* FAQ */}
       <section style={{ padding: "120px 30px", backgroundColor: "#F6F7F9" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>Questions frequentes</span>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "16px", textAlign: "center" }}>Questions frequentes</span>
           <h2 style={{ fontSize: "42px", fontWeight: 600, color: "#000000", lineHeight: "48px", marginBottom: "60px", textAlign: "center" }}>
             Tout savoir sur le <strong>depannage de porte sectionnelle</strong> a <strong>Paris</strong>
           </h2>
@@ -585,7 +585,7 @@ export default function DepannagePorteSectionnelleParis() {
         "@context": "https://schema.org",
         "@type": "Service",
         name: "Depannage de porte sectionnelle a Paris",
-        provider: { "@type": "LocalBusiness", name: "Porte Sectionnelle Paris", telephone: "09 72 12 41 41" },
+        provider: { "@type": "LocalBusiness", name: "Depannage Porte Sectionnelle Paris", telephone: "09 72 12 41 41" },
         areaServed: { "@type": "City", name: "Paris" },
         description: "Depannage porte sectionnelle Paris en urgence 24h/24, 7j/7. Technicien sur place en 30 minutes. Appelez le 09 72 12 41 41.",
       }) }} />
@@ -594,15 +594,15 @@ export default function DepannagePorteSectionnelleParis() {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Accueil", item: "https://porte-sectionnelle-paris.fr/" },
-          { "@type": "ListItem", position: 2, name: "Depannage", item: "https://porte-sectionnelle-paris.fr/depannage-porte-sectionnelle-paris/" },
+          { "@type": "ListItem", position: 1, name: "Accueil", item: "https://depannage-porte-sectionnelle-paris.fr/" },
+          { "@type": "ListItem", position: 2, name: "Depannage", item: "https://depannage-porte-sectionnelle-paris.fr/depannage-porte-sectionnelle-paris/" },
         ],
       }) }} />
 
       {/* Zones d'intervention depannage — subcity pages */}
       <section style={{ padding: "80px 30px", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ fontSize: "14px", fontWeight: 600, color: "#FF6333", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px" }}>Depannage par zone</span>
+          <span style={{ fontSize: "14px", fontWeight: 600, color: "#E63946", textTransform: "uppercase" as const, letterSpacing: "1.5px", display: "block", marginBottom: "12px" }}>Depannage par zone</span>
           <h2 style={{ fontSize: "36px", fontWeight: 600, color: "#000000", lineHeight: "42px", marginBottom: "32px" }}>
             <strong>Depannage porte sectionnelle</strong> — nos zones d&apos;intervention
           </h2>
@@ -631,7 +631,7 @@ export default function DepannagePorteSectionnelleParis() {
                   </span>
                 </div>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style={{ flexShrink: 0 }}>
-                  <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </a>
             ))}

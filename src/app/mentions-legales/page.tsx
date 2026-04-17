@@ -3,10 +3,10 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Mentions Legales | Porte Sectionnelle Paris",
+  title: "Mentions Legales | Depannage Porte Sectionnelle Paris",
   description:
-    "Mentions legales du site porte-sectionnelle-paris.fr. Informations sur l'editeur, l'hebergement et les conditions d'utilisation.",
-  alternates: { canonical: "https://porte-sectionnelle-paris.fr/mentions-legales/" },
+    "Mentions legales du site depannage-porte-sectionnelle-paris.fr. Informations sur l'editeur, l'hebergement et les conditions d'utilisation.",
+  alternates: { canonical: "https://depannage-porte-sectionnelle-paris.fr/mentions-legales/" },
 };
 
 export default function MentionsLegalesPage() {
@@ -14,17 +14,17 @@ export default function MentionsLegalesPage() {
     {
       title: "Editeur du site",
       content: [
-        "Raison sociale : Porte Sectionnelle Paris",
+        "Raison sociale : Depannage Porte Sectionnelle Paris",
         "Activite : Installation, depannage et reparation de portes sectionnelles",
         "Telephone : 09 72 12 41 41",
-        "Email : contact@porte-sectionnelle-paris.fr",
-        "Site web : https://porte-sectionnelle-paris.fr",
+        "Email : contact@depannage-porte-sectionnelle-paris.fr",
+        "Site web : https://depannage-porte-sectionnelle-paris.fr",
       ],
     },
     {
       title: "Hebergement",
       content: [
-        "Le site porte-sectionnelle-paris.fr est heberge par :",
+        "Le site depannage-porte-sectionnelle-paris.fr est heberge par :",
         "OVH SAS",
         "2 rue Kellermann, 59100 Roubaix, France",
         "Telephone : 1007",
@@ -43,21 +43,21 @@ export default function MentionsLegalesPage() {
       title: "Limitation de responsabilite",
       content: [
         "Les informations contenues sur ce site sont aussi precises que possible et le site est periodiquement remis a jour, mais peut toutefois contenir des inexactitudes, des omissions ou des lacunes.",
-        "Porte Sectionnelle Paris ne pourra etre tenu responsable des dommages directs et indirects causes au materiel de l'utilisateur, lors de l'acces au site porte-sectionnelle-paris.fr.",
-        "Porte Sectionnelle Paris decline toute responsabilite quant a l'utilisation qui pourrait etre faite des informations et contenus presents sur porte-sectionnelle-paris.fr.",
+        "Depannage Porte Sectionnelle Paris ne pourra etre tenu responsable des dommages directs et indirects causes au materiel de l'utilisateur, lors de l'acces au site depannage-porte-sectionnelle-paris.fr.",
+        "Depannage Porte Sectionnelle Paris decline toute responsabilite quant a l'utilisation qui pourrait etre faite des informations et contenus presents sur depannage-porte-sectionnelle-paris.fr.",
       ],
     },
     {
       title: "Liens hypertextes",
       content: [
-        "Le site porte-sectionnelle-paris.fr peut contenir des liens hypertextes vers d'autres sites internet. Les liens vers ces autres ressources vous font quitter le site porte-sectionnelle-paris.fr.",
+        "Le site depannage-porte-sectionnelle-paris.fr peut contenir des liens hypertextes vers d'autres sites internet. Les liens vers ces autres ressources vous font quitter le site depannage-porte-sectionnelle-paris.fr.",
         "Il est possible de creer un lien vers la page de presentation de ce site sans autorisation expresse de l'editeur. Aucune autorisation ou demande d'information prealable ne peut etre exigee par l'editeur a l'egard d'un site qui souhaite etablir un lien vers le site de l'editeur.",
       ],
     },
     {
       title: "Droit applicable",
       content: [
-        "Tout litige en relation avec l'utilisation du site porte-sectionnelle-paris.fr est soumis au droit francais.",
+        "Tout litige en relation avec l'utilisation du site depannage-porte-sectionnelle-paris.fr est soumis au droit francais.",
         "L'utilisateur reconnait la competence exclusive des tribunaux competents de Paris.",
       ],
     },

@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   title: "Somfy vs Hormann : Quel Moteur Choisir en 2026",
   description:
     "Comparatif Somfy vs Hormann pour motorisation porte sectionnelle : fonctionnalites, prix, domotique, fiabilite. Guide expert pour choisir le bon moteur.",
-  alternates: { canonical: "https://porte-sectionnelle-paris.fr/blog/motorisation-somfy-hormann-comparatif/" },
+  alternates: { canonical: "https://depannage-porte-sectionnelle-paris.fr/blog/motorisation-somfy-hormann-comparatif/" },
   openGraph: {
     title: "Somfy vs Hormann : Quel Moteur Choisir en 2026",
     description: "Comparatif motorisation porte sectionnelle Somfy vs Hormann : fonctionnalites, prix, domotique.",
-    url: "https://porte-sectionnelle-paris.fr/blog/motorisation-somfy-hormann-comparatif/",
+    url: "https://depannage-porte-sectionnelle-paris.fr/blog/motorisation-somfy-hormann-comparatif/",
     images: ["/images/portes/moteur-porte-sectionnelle.webp"],
   },
 };
@@ -26,9 +26,9 @@ export default function Article() {
       {/* Breadcrumb */}
       <div style={{ maxWidth: "1312px", margin: "0 auto", padding: "180px 30px 0" }}>
         <nav style={{ fontSize: "14px", color: "#3B3B3B" }}>
-          <a href="/" style={{ color: "#FF6333" }}>Accueil</a>
+          <a href="/" style={{ color: "#E63946" }}>Accueil</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
-          <a href="/blog/" style={{ color: "#FF6333" }}>Blog</a>
+          <a href="/blog/" style={{ color: "#E63946" }}>Blog</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span>Somfy vs Hormann : comparatif moteurs</span>
         </nav>
@@ -37,7 +37,7 @@ export default function Article() {
       {/* Article hero */}
       <section style={{ padding: "40px 30px 0", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ display: "inline-block", backgroundColor: "#FFF1EC", color: "#FF6333", padding: "6px 14px", borderRadius: "50px", fontSize: "13px", fontWeight: 600, marginBottom: "20px" }}>
+          <span style={{ display: "inline-block", backgroundColor: "#FFEEF0", color: "#E63946", padding: "6px 14px", borderRadius: "50px", fontSize: "13px", fontWeight: 600, marginBottom: "20px" }}>
             Comparatif
           </span>
           <h1 style={{ fontSize: "48px", fontWeight: 600, color: "#000000", lineHeight: "56px", marginBottom: "16px" }}>
@@ -86,11 +86,11 @@ export default function Article() {
           <img src="/images/portes/porte-sectionnelle-automatique.webp" alt="Porte sectionnelle automatique motorisee - installation Paris" title="Motorisation porte sectionnelle - automatisme professionnel" width={800} height={350} loading="lazy" decoding="async" style={{ width: "100%", height: "350px", objectFit: "cover", borderRadius: "12px", margin: "32px 0" }} />
 
           {/* CTA mid-article */}
-          <div style={{ backgroundColor: "#FFF1EC", borderRadius: "16px", padding: "32px", margin: "40px 0", textAlign: "center" as const }}>
+          <div style={{ backgroundColor: "#FFEEF0", borderRadius: "16px", padding: "32px", margin: "40px 0", textAlign: "center" as const }}>
             <p style={{ fontSize: "18px", fontWeight: 600, color: "#000000", marginBottom: "12px" }}>
               Besoin de conseils pour votre motorisation ?
             </p>
-            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#FF6333", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>
+            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#E63946", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>
               Appelez le {siteConfig.telephone}
             </a>
           </div>
@@ -125,7 +125,7 @@ export default function Article() {
             Choisissez <strong>Somfy</strong> si la domotique est une priorite et que vous possedez deja des equipements Somfy (volets, alarme). L&apos;ecosysteme TaHoma centralise tout et simplifie la gestion au quotidien. Choisissez <strong>Hormann</strong> si vous recherchez la robustesse mecanique maximale, une vitesse d&apos;ouverture rapide et que vous installez une porte Hormann (compatibilite optimale garantie).
           </p>
           <p style={{ marginBottom: "20px" }}>
-            Chez <strong>Porte Sectionnelle Paris</strong>, nous installons et entretenons les deux marques avec la meme expertise. Nos techniciens vous conseillent le moteur le mieux adapte a votre configuration lors de la visite technique gratuite. Pour une <a href="/motorisation-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>motorisation</a>, une <a href="/installation-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>installation</a> ou un <a href="/depannage-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>depannage de motorisation</a>, contactez-nous.
+            Chez <strong>Depannage Porte Sectionnelle Paris</strong>, nous installons et entretenons les deux marques avec la meme expertise. Nos techniciens vous conseillent le moteur le mieux adapte a votre configuration lors de la visite technique gratuite. Pour une <a href="/motorisation-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>motorisation</a>, une <a href="/installation-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>installation</a> ou un <a href="/depannage-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>depannage de motorisation</a>, contactez-nous.
           </p>
 
       </BlogArticleLayout>
@@ -135,9 +135,9 @@ export default function Article() {
         "@context": "https://schema.org",
         "@type": "Article",
         headline: "Somfy vs Hormann : Quel Moteur de Porte Choisir ?",
-        author: { "@type": "Organization", name: "Porte Sectionnelle Paris" },
+        author: { "@type": "Organization", name: "Depannage Porte Sectionnelle Paris" },
         datePublished: "2026-04-08",
-        image: "https://porte-sectionnelle-paris.fr/images/portes/moteur-porte-sectionnelle.webp",
+        image: "https://depannage-porte-sectionnelle-paris.fr/images/portes/moteur-porte-sectionnelle.webp",
       }) }} />
 
       <CTAForm />

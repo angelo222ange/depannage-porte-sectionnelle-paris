@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   title: "Isolation Porte Sectionnelle : Tout Savoir en 2026",
   description:
     "Guide complet sur l'isolation thermique des portes sectionnelles : coefficient U, panneaux sandwich, economies d'energie, comparatif materiaux. Expert Paris.",
-  alternates: { canonical: "https://porte-sectionnelle-paris.fr/blog/isolation-thermique-porte-sectionnelle/" },
+  alternates: { canonical: "https://depannage-porte-sectionnelle-paris.fr/blog/isolation-thermique-porte-sectionnelle/" },
   openGraph: {
     title: "Isolation Porte Sectionnelle : Tout Savoir en 2026",
     description: "Guide complet isolation thermique porte sectionnelle : coefficient U, panneaux sandwich, economies.",
-    url: "https://porte-sectionnelle-paris.fr/blog/isolation-thermique-porte-sectionnelle/",
+    url: "https://depannage-porte-sectionnelle-paris.fr/blog/isolation-thermique-porte-sectionnelle/",
     images: ["/images/portes/porte-sectionnelle-isolation-thermique.webp"],
   },
 };
@@ -26,9 +26,9 @@ export default function Article() {
       {/* Breadcrumb */}
       <div style={{ maxWidth: "1312px", margin: "0 auto", padding: "180px 30px 0" }}>
         <nav style={{ fontSize: "14px", color: "#3B3B3B" }}>
-          <a href="/" style={{ color: "#FF6333" }}>Accueil</a>
+          <a href="/" style={{ color: "#E63946" }}>Accueil</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
-          <a href="/blog/" style={{ color: "#FF6333" }}>Blog</a>
+          <a href="/blog/" style={{ color: "#E63946" }}>Blog</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span>Isolation thermique porte sectionnelle</span>
         </nav>
@@ -37,7 +37,7 @@ export default function Article() {
       {/* Article hero */}
       <section style={{ padding: "40px 30px 0", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ display: "inline-block", backgroundColor: "#FFF1EC", color: "#FF6333", padding: "6px 14px", borderRadius: "50px", fontSize: "13px", fontWeight: 600, marginBottom: "20px" }}>
+          <span style={{ display: "inline-block", backgroundColor: "#FFEEF0", color: "#E63946", padding: "6px 14px", borderRadius: "50px", fontSize: "13px", fontWeight: 600, marginBottom: "20px" }}>
             Isolation
           </span>
           <h1 style={{ fontSize: "48px", fontWeight: 600, color: "#000000", lineHeight: "56px", marginBottom: "16px" }}>
@@ -86,15 +86,15 @@ export default function Article() {
             Meme avec des panneaux parfaitement isoles, une porte sectionnelle perd une partie significative de sa performance thermique par les <strong>joints peripheriques</strong>. Le joint de sol en caoutchouc EPDM epouse les irregularites du sol et bloque les infiltrations d&apos;air froid. Les joints lateraux entre les panneaux et les montants empechent les courants d&apos;air sur toute la hauteur de la porte.
           </p>
           <p style={{ marginBottom: "20px" }}>
-            Les joints entre panneaux meritent une attention particuliere. Les systemes a double levre offrent une etancheite superieure aux simples joints plats. Avec le temps, ces joints se deforment et perdent leur souplesse. Un remplacement tous les 5 a 7 ans maintient la performance d&apos;isolation a son niveau optimal. Nos techniciens verifient systematiquement l&apos;etat des joints lors de chaque <a href="/entretien-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>visite d&apos;entretien</a>.
+            Les joints entre panneaux meritent une attention particuliere. Les systemes a double levre offrent une etancheite superieure aux simples joints plats. Avec le temps, ces joints se deforment et perdent leur souplesse. Un remplacement tous les 5 a 7 ans maintient la performance d&apos;isolation a son niveau optimal. Nos techniciens verifient systematiquement l&apos;etat des joints lors de chaque <a href="/entretien-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>visite d&apos;entretien</a>.
           </p>
 
           {/* CTA mid-article */}
-          <div style={{ backgroundColor: "#FFF1EC", borderRadius: "16px", padding: "32px", margin: "40px 0", textAlign: "center" as const }}>
+          <div style={{ backgroundColor: "#FFEEF0", borderRadius: "16px", padding: "32px", margin: "40px 0", textAlign: "center" as const }}>
             <p style={{ fontSize: "18px", fontWeight: 600, color: "#000000", marginBottom: "12px" }}>
               Ameliorez l&apos;isolation de votre garage a Paris
             </p>
-            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#FF6333", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>
+            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#E63946", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>
               Appelez le {siteConfig.telephone}
             </a>
           </div>
@@ -126,7 +126,7 @@ export default function Article() {
             Les panneaux sandwich offrent egalement une <strong>isolation acoustique significative</strong>. Un panneau de 42 mm attenue le bruit de 25 a 28 dB, ce qui divise par quatre l&apos;intensite sonore percue. Dans les rues bruyantes de Paris, cette attenuation fait une difference tangible au quotidien, surtout si le garage donne directement sur une avenue passante ou un boulevard peripherique.
           </p>
           <p style={{ marginBottom: "20px" }}>
-            Pour maximiser l&apos;isolation thermique et phonique de votre garage, faites confiance a nos specialistes. Nous vous recommandons la solution adaptee a votre configuration et votre budget lors d&apos;une <a href="/installation-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>visite technique gratuite</a>. Nos interventions couvrent tout Paris et l&apos;Ile-de-France, du <a href="/depannage-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>depannage</a> a l&apos;<a href="/installation-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>installation complete</a>.
+            Pour maximiser l&apos;isolation thermique et phonique de votre garage, faites confiance a nos specialistes. Nous vous recommandons la solution adaptee a votre configuration et votre budget lors d&apos;une <a href="/installation-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>visite technique gratuite</a>. Nos interventions couvrent tout Paris et l&apos;Ile-de-France, du <a href="/depannage-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>depannage</a> a l&apos;<a href="/installation-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>installation complete</a>.
           </p>
 
       </BlogArticleLayout>
@@ -136,9 +136,9 @@ export default function Article() {
         "@context": "https://schema.org",
         "@type": "Article",
         headline: "Isolation Thermique Porte Sectionnelle : Tout Savoir",
-        author: { "@type": "Organization", name: "Porte Sectionnelle Paris" },
+        author: { "@type": "Organization", name: "Depannage Porte Sectionnelle Paris" },
         datePublished: "2026-04-04",
-        image: "https://porte-sectionnelle-paris.fr/images/portes/porte-sectionnelle-isolation-thermique.webp",
+        image: "https://depannage-porte-sectionnelle-paris.fr/images/portes/porte-sectionnelle-isolation-thermique.webp",
       }) }} />
 
       <CTAForm />

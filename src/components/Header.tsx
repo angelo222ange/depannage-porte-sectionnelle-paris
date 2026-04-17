@@ -140,8 +140,8 @@ export default function Header() {
           >
             <img
               src="/favicon.png"
-              alt="Porte Sectionnelle Paris - logo"
-              title="Porte Sectionnelle Paris"
+              alt="Depannage Porte Sectionnelle Paris - logo"
+              title="Depannage Porte Sectionnelle Paris"
               width={90}
               height={90}
               decoding="async"
@@ -257,7 +257,7 @@ export default function Header() {
                             padding: "8px 0",
                             transition: "color 0.2s",
                           }}
-                          onMouseEnter={(e) => (e.currentTarget.style.color = "#FF6333")}
+                          onMouseEnter={(e) => (e.currentTarget.style.color = "#E63946")}
                           onMouseLeave={(e) => (e.currentTarget.style.color = "#1A1A1A")}
                         >
                           {item.label}
@@ -313,7 +313,7 @@ export default function Header() {
                               style={{
                                 fontSize: "13px",
                                 fontWeight: 600,
-                                color: "#FF6333",
+                                color: "#E63946",
                               }}
                             >
                               En savoir plus
@@ -355,7 +355,7 @@ export default function Header() {
                               style={{
                                 fontSize: "13px",
                                 fontWeight: 600,
-                                color: "#FF6333",
+                                color: "#E63946",
                               }}
                             >
                               En savoir plus
@@ -503,7 +503,7 @@ export default function Header() {
                               borderRadius: "8px",
                               transition: "all 0.15s",
                             }}
-                            onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = "#FFF1EC"; e.currentTarget.style.color = "#FF6333"; }}
+                            onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = "#FFEEF0"; e.currentTarget.style.color = "#E63946"; }}
                             onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = "transparent"; e.currentTarget.style.color = "#1A1A1A"; }}
                           >
                             {zone.label}
@@ -518,7 +518,7 @@ export default function Header() {
                           gap: "6px",
                           fontSize: "13px",
                           fontWeight: 600,
-                          color: "#FF6333",
+                          color: "#E63946",
                           textDecoration: "none",
                           marginTop: "14px",
                           padding: "6px 10px",
@@ -526,7 +526,7 @@ export default function Header() {
                       >
                         Voir toutes les zones
                         <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                          <path d="M2.5 6H9.5M9.5 6L6.5 3M9.5 6L6.5 9" stroke="#FF6333" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                          <path d="M2.5 6H9.5M9.5 6L6.5 3M9.5 6L6.5 9" stroke="#E63946" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
                       </a>
                     </div>
@@ -598,7 +598,7 @@ export default function Header() {
                 style={{
                   width: "28px",
                   height: "28px",
-                  backgroundColor: "#FF6333",
+                  backgroundColor: "#E63946",
                   borderRadius: "50%",
                   display: "flex",
                   alignItems: "center",
@@ -652,7 +652,7 @@ export default function Header() {
             <a href="/" style={{ display: "flex", alignItems: "center", gap: "8px", textDecoration: "none" }}>
               <img
                 src="/favicon.png"
-                alt="Porte Sectionnelle Paris"
+                alt="Depannage Porte Sectionnelle Paris"
                 width={36}
                 height={36}
                 style={{ width: "36px", height: "36px", borderRadius: "6px", objectFit: "contain" }}
@@ -764,7 +764,7 @@ export default function Header() {
                       {zone.label}
                     </a>
                   ))}
-                  <a data-mobile-menu-link href="/zones/" onClick={() => setMobileMenuOpen(false)} style={{ color: "#FF6333", fontWeight: 600 }}>
+                  <a data-mobile-menu-link href="/zones/" onClick={() => setMobileMenuOpen(false)} style={{ color: "#E63946", fontWeight: 600 }}>
                     Voir toutes les zones
                   </a>
                 </div>
@@ -782,7 +782,7 @@ export default function Header() {
                   alignItems: "center",
                   justifyContent: "center",
                   gap: "10px",
-                  backgroundColor: "#FF6333",
+                  backgroundColor: "#E63946",
                   padding: "14px 24px",
                   borderRadius: "50px",
                   fontSize: "16px",

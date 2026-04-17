@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   title: "Securite Porte Sectionnelle : Normes 2026",
   description:
     "Normes de securite porte sectionnelle EN 13241, photocellules, anti-chute, marquage CE, mise aux normes 2026. Guide complet pour Paris et Ile-de-France.",
-  alternates: { canonical: "https://porte-sectionnelle-paris.fr/blog/securite-porte-sectionnelle-normes/" },
+  alternates: { canonical: "https://depannage-porte-sectionnelle-paris.fr/blog/securite-porte-sectionnelle-normes/" },
   openGraph: {
     title: "Securite Porte Sectionnelle : Normes 2026",
     description: "Normes securite porte sectionnelle EN 13241, photocellules, anti-chute, marquage CE.",
-    url: "https://porte-sectionnelle-paris.fr/blog/securite-porte-sectionnelle-normes/",
+    url: "https://depannage-porte-sectionnelle-paris.fr/blog/securite-porte-sectionnelle-normes/",
     images: ["/images/portes/porte-sectionnelle-securite-renforcee.webp"],
   },
 };
@@ -26,9 +26,9 @@ export default function Article() {
       {/* Breadcrumb */}
       <div style={{ maxWidth: "1312px", margin: "0 auto", padding: "180px 30px 0" }}>
         <nav style={{ fontSize: "14px", color: "#3B3B3B" }}>
-          <a href="/" style={{ color: "#FF6333" }}>Accueil</a>
+          <a href="/" style={{ color: "#E63946" }}>Accueil</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
-          <a href="/blog/" style={{ color: "#FF6333" }}>Blog</a>
+          <a href="/blog/" style={{ color: "#E63946" }}>Blog</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span>Securite porte sectionnelle normes</span>
         </nav>
@@ -37,7 +37,7 @@ export default function Article() {
       {/* Article hero */}
       <section style={{ padding: "40px 30px 0", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ display: "inline-block", backgroundColor: "#FFF1EC", color: "#FF6333", padding: "6px 14px", borderRadius: "50px", fontSize: "13px", fontWeight: 600, marginBottom: "20px" }}>
+          <span style={{ display: "inline-block", backgroundColor: "#FFEEF0", color: "#E63946", padding: "6px 14px", borderRadius: "50px", fontSize: "13px", fontWeight: 600, marginBottom: "20px" }}>
             Securite
           </span>
           <h1 style={{ fontSize: "48px", fontWeight: 600, color: "#000000", lineHeight: "56px", marginBottom: "16px" }}>
@@ -102,11 +102,11 @@ export default function Article() {
           </p>
 
           {/* CTA mid-article */}
-          <div style={{ backgroundColor: "#FFF1EC", borderRadius: "16px", padding: "32px", margin: "40px 0", textAlign: "center" as const }}>
+          <div style={{ backgroundColor: "#FFEEF0", borderRadius: "16px", padding: "32px", margin: "40px 0", textAlign: "center" as const }}>
             <p style={{ fontSize: "18px", fontWeight: 600, color: "#000000", marginBottom: "12px" }}>
               Votre porte est-elle aux normes ? Verification gratuite
             </p>
-            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#FF6333", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>
+            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#E63946", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>
               Appelez le {siteConfig.telephone}
             </a>
           </div>
@@ -128,14 +128,14 @@ export default function Article() {
             De nombreuses portes sectionnelles installees avant 2005 ne disposent pas de tous les <strong>dispositifs de securite</strong> desormais obligatoires. La mise aux normes consiste a ajouter les equipements manquants : photocellules, arete palpeuse, feu clignotant et systeme anti-chute. Le cout de cette mise a niveau se situe a partir de 350 euros selon les elements a installer.
           </p>
           <p style={{ marginBottom: "20px" }}>
-            Dans certains cas, la structure de la porte est trop ancienne pour recevoir les equipements modernes. Un remplacement complet s&apos;impose alors. Nos techniciens realisent un diagnostic gratuit pour evaluer si une mise aux normes est possible ou si un <a href="/installation-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>remplacement de la porte</a> est necessaire. Nous assurons egalement le <a href="/depannage-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>depannage</a> et la <a href="/reparation-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>reparation</a> de tous les systemes de securite sur les portes sectionnelles a Paris.
+            Dans certains cas, la structure de la porte est trop ancienne pour recevoir les equipements modernes. Un remplacement complet s&apos;impose alors. Nos techniciens realisent un diagnostic gratuit pour evaluer si une mise aux normes est possible ou si un <a href="/installation-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>remplacement de la porte</a> est necessaire. Nous assurons egalement le <a href="/depannage-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>depannage</a> et la <a href="/reparation-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>reparation</a> de tous les systemes de securite sur les portes sectionnelles a Paris.
           </p>
 
           <h2 style={{ fontSize: "28px", fontWeight: 600, color: "#000000", lineHeight: "36px", marginTop: "48px", marginBottom: "20px" }}>
             Responsabilite du proprietaire et de l&apos;installateur
           </h2>
           <p style={{ marginBottom: "20px" }}>
-            Le proprietaire de la porte (particulier, copropriete ou entreprise) est responsable du maintien en etat de conformite de son installation. L&apos;<a href="/entretien-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>entretien regulier</a> par un professionnel qualifie est indispensable pour garantir le bon fonctionnement des securites dans la duree. En cas d&apos;accident, l&apos;absence de carnet d&apos;entretien a jour peut constituer une circonstance aggravante et compromettre la prise en charge par l&apos;assurance.
+            Le proprietaire de la porte (particulier, copropriete ou entreprise) est responsable du maintien en etat de conformite de son installation. L&apos;<a href="/entretien-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>entretien regulier</a> par un professionnel qualifie est indispensable pour garantir le bon fonctionnement des securites dans la duree. En cas d&apos;accident, l&apos;absence de carnet d&apos;entretien a jour peut constituer une circonstance aggravante et compromettre la prise en charge par l&apos;assurance.
           </p>
 
       </BlogArticleLayout>
@@ -145,9 +145,9 @@ export default function Article() {
         "@context": "https://schema.org",
         "@type": "Article",
         headline: "Securite Porte Sectionnelle : Normes et Obligations 2026",
-        author: { "@type": "Organization", name: "Porte Sectionnelle Paris" },
+        author: { "@type": "Organization", name: "Depannage Porte Sectionnelle Paris" },
         datePublished: "2026-04-01",
-        image: "https://porte-sectionnelle-paris.fr/images/portes/porte-sectionnelle-securite-renforcee.webp",
+        image: "https://depannage-porte-sectionnelle-paris.fr/images/portes/porte-sectionnelle-securite-renforcee.webp",
       }) }} />
 
       <CTAForm />

@@ -3,10 +3,10 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Blog | Porte Sectionnelle Paris - Conseils",
+  title: "Blog | Depannage Porte Sectionnelle Paris - Conseils",
   description:
     "Articles et conseils sur les portes sectionnelles : installation, entretien, motorisation. Guides par nos experts a Paris. Appelez le 09 72 12 41 41.",
-  alternates: { canonical: "https://porte-sectionnelle-paris.fr/blog/" },
+  alternates: { canonical: "https://depannage-porte-sectionnelle-paris.fr/blog/" },
 };
 
 const articles = [
@@ -81,7 +81,7 @@ const articles = [
     readTime: "7 min",
   },
   {
-    title: "Prix Porte Sectionnelle Paris : Tarifs 2026",
+    title: "Prix Depannage Porte Sectionnelle Paris : Tarifs 2026",
     slug: "prix-porte-sectionnelle-paris",
     image: "/images/portes/porte-garage-sectionnelle.webp",
     excerpt:
@@ -165,7 +165,7 @@ export default function BlogPage() {
             style={{
               display: "inline-block",
               backgroundColor: "rgba(255,99,51,0.1)",
-              color: "#FF6333",
+              color: "#E63946",
               fontSize: "14px",
               fontWeight: 600,
               padding: "6px 16px",
@@ -318,7 +318,7 @@ export default function BlogPage() {
                       position: "absolute",
                       top: "16px",
                       left: "16px",
-                      backgroundColor: "#FF6333",
+                      backgroundColor: "#E63946",
                       color: "#FFFFFF",
                       fontSize: "12px",
                       fontWeight: 600,
@@ -388,14 +388,14 @@ export default function BlogPage() {
                       gap: "6px",
                       fontSize: "14px",
                       fontWeight: 600,
-                      color: "#FF6333",
+                      color: "#E63946",
                                           }}
                   >
                     Lire l'article
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <path
                         d="M3.333 8h9.334M8.667 4L12.667 8l-4 4"
-                        stroke="#FF6333"
+                        stroke="#E63946"
                         strokeWidth="1.5"
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -453,7 +453,7 @@ export default function BlogPage() {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "10px",
-                backgroundColor: "#FF6333",
+                backgroundColor: "#E63946",
                 color: "#FFFFFF",
                 padding: "16px 32px",
                 borderRadius: "12px",

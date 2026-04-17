@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   title: "Porte Sectionnelle Motorisee : 7 Avantages Cles",
   description:
     "Decouvrez les 7 avantages d'une porte sectionnelle motorisee : confort, securite, domotique, economies. Comparatif Somfy vs Hormann. Guide expert Paris.",
-  alternates: { canonical: "https://porte-sectionnelle-paris.fr/blog/porte-sectionnelle-motorisee-avantages/" },
+  alternates: { canonical: "https://depannage-porte-sectionnelle-paris.fr/blog/porte-sectionnelle-motorisee-avantages/" },
   openGraph: {
     title: "Porte Sectionnelle Motorisee : 7 Avantages Cles",
     description: "Les 7 avantages d'une porte sectionnelle motorisee : confort, securite, domotique.",
-    url: "https://porte-sectionnelle-paris.fr/blog/porte-sectionnelle-motorisee-avantages/",
+    url: "https://depannage-porte-sectionnelle-paris.fr/blog/porte-sectionnelle-motorisee-avantages/",
     images: ["/images/portes/porte-sectionnelle-motorisee.webp"],
   },
 };
@@ -26,9 +26,9 @@ export default function Article() {
       {/* Breadcrumb */}
       <div style={{ maxWidth: "1312px", margin: "0 auto", padding: "180px 30px 0" }}>
         <nav style={{ fontSize: "14px", color: "#3B3B3B" }}>
-          <a href="/" style={{ color: "#FF6333" }}>Accueil</a>
+          <a href="/" style={{ color: "#E63946" }}>Accueil</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
-          <a href="/blog/" style={{ color: "#FF6333" }}>Blog</a>
+          <a href="/blog/" style={{ color: "#E63946" }}>Blog</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span>Porte sectionnelle motorisee : 7 avantages</span>
         </nav>
@@ -37,7 +37,7 @@ export default function Article() {
       {/* Article hero */}
       <section style={{ padding: "40px 30px 0", backgroundColor: "#FFFFFF" }}>
         <div style={{ maxWidth: "1312px", margin: "0 auto" }}>
-          <span style={{ display: "inline-block", backgroundColor: "#FFF1EC", color: "#FF6333", padding: "6px 14px", borderRadius: "50px", fontSize: "13px", fontWeight: 600, marginBottom: "20px" }}>
+          <span style={{ display: "inline-block", backgroundColor: "#FFEEF0", color: "#E63946", padding: "6px 14px", borderRadius: "50px", fontSize: "13px", fontWeight: 600, marginBottom: "20px" }}>
             Motorisation
           </span>
           <h1 style={{ fontSize: "48px", fontWeight: 600, color: "#000000", lineHeight: "56px", marginBottom: "16px" }}>
@@ -100,11 +100,11 @@ export default function Article() {
           </p>
 
           {/* CTA mid-article */}
-          <div style={{ backgroundColor: "#FFF1EC", borderRadius: "16px", padding: "32px", margin: "40px 0", textAlign: "center" as const }}>
+          <div style={{ backgroundColor: "#FFEEF0", borderRadius: "16px", padding: "32px", margin: "40px 0", textAlign: "center" as const }}>
             <p style={{ fontSize: "18px", fontWeight: 600, color: "#000000", marginBottom: "12px" }}>
               Envie de motoriser votre porte sectionnelle ?
             </p>
-            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#FF6333", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>
+            <a href={siteConfig.telephoneHref} style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "#E63946", color: "#FFFFFF", padding: "14px 28px", borderRadius: "50px", fontSize: "16px", fontWeight: 600, textDecoration: "none" }}>
               Appelez le {siteConfig.telephone}
             </a>
           </div>
@@ -140,7 +140,7 @@ export default function Article() {
             <strong>Somfy</strong> excelle dans la connectivite et l&apos;integration domotique. Son ecosysteme TaHoma centralise la gestion de la porte avec les volets, l&apos;eclairage et l&apos;alarme. <strong>Hormann</strong> se distingue par la robustesse mecanique et le silence de fonctionnement de ses moteurs SupraMatic. Les deux marques offrent des garanties solides et un reseau de maintenance dense en Ile-de-France.
           </p>
           <p style={{ marginBottom: "20px" }}>
-            Nos techniciens chez <strong>Porte Sectionnelle Paris</strong> installent et entretiennent les deux marques. Nous vous conseillons la solution la plus adaptee a votre configuration et a vos usages. Pour une <a href="/motorisation-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>motorisation de porte sectionnelle</a>, un <a href="/depannage-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>depannage</a> ou un <a href="/entretien-porte-sectionnelle-paris/" style={{ color: "#FF6333", fontWeight: 600 }}>contrat d&apos;entretien</a>, contactez-nous pour un devis gratuit.
+            Nos techniciens chez <strong>Depannage Porte Sectionnelle Paris</strong> installent et entretiennent les deux marques. Nous vous conseillons la solution la plus adaptee a votre configuration et a vos usages. Pour une <a href="/motorisation-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>motorisation de porte sectionnelle</a>, un <a href="/depannage-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>depannage</a> ou un <a href="/entretien-porte-sectionnelle-paris/" style={{ color: "#E63946", fontWeight: 600 }}>contrat d&apos;entretien</a>, contactez-nous pour un devis gratuit.
           </p>
 
       </BlogArticleLayout>
@@ -150,9 +150,9 @@ export default function Article() {
         "@context": "https://schema.org",
         "@type": "Article",
         headline: "Porte Sectionnelle Motorisee : 7 Avantages Cles",
-        author: { "@type": "Organization", name: "Porte Sectionnelle Paris" },
+        author: { "@type": "Organization", name: "Depannage Porte Sectionnelle Paris" },
         datePublished: "2026-04-05",
-        image: "https://porte-sectionnelle-paris.fr/images/portes/porte-sectionnelle-motorisee.webp",
+        image: "https://depannage-porte-sectionnelle-paris.fr/images/portes/porte-sectionnelle-motorisee.webp",
       }) }} />
 
       <CTAForm />

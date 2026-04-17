@@ -43,7 +43,7 @@ export default function Process() {
             style={{
               fontSize: "14px",
               fontWeight: 600,
-              color: "#FF6333",
+              color: "#E63946",
               textTransform: "uppercase" as const,
               letterSpacing: "1.5px",
                             display: "block",
@@ -147,7 +147,7 @@ export default function Process() {
                 style={{
                   fontSize: "48px",
                   fontWeight: 700,
-                  color: "#FF6333",
+                  color: "#E63946",
                                     display: "block",
                   marginBottom: "20px",
                   lineHeight: "1",

@@ -17,13 +17,13 @@ import CTAForm from "@/components/CTAForm";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: 'Porte Sectionnelle Paris | Installation & Depannage 24h/24',
-  description: 'Specialiste porte sectionnelle a Paris. Installation, depannage, reparation et motorisation. Intervention 30 min, 24h/24. Devis gratuit au 09 72 12 41 41.',
-  alternates: { canonical: 'https://porte-sectionnelle-paris.fr/' },
+  title: 'Depannage Porte Sectionnelle Paris 24h/24 | Intervention 30 min',
+  description: 'Depannage porte sectionnelle a Paris 24h/24, 7j/7. Technicien sur place en 30 min. Ressort casse, panne moteur, deraillement. Tel : 09 72 12 41 41.',
+  alternates: { canonical: 'https://depannage-porte-sectionnelle-paris.fr/' },
   openGraph: {
-    title: 'Porte Sectionnelle Paris | Installation & Depannage 24h/24',
-    description: 'Specialiste porte sectionnelle a Paris. Installation, depannage, reparation et motorisation. Intervention en 30 min. Devis gratuit au 09 72 12 41 41.',
-    url: 'https://porte-sectionnelle-paris.fr/',
+    title: 'Depannage Porte Sectionnelle Paris 24h/24 | Intervention 30 min',
+    description: 'Depannage porte sectionnelle a Paris 24h/24. Ressort casse, moteur en panne, porte bloquee. Technicien sur place en 30 min. Tel : 09 72 12 41 41.',
+    url: 'https://depannage-porte-sectionnelle-paris.fr/',
     images: ['/images/portes/hero-porte-sectionnelle-fond.webp'],
   },
 };
@@ -55,17 +55,23 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            name: "Porte Sectionnelle Paris",
-            description: "Specialiste porte sectionnelle a Paris. Installation, depannage, reparation et motorisation. Intervention en 30 min, 24h/24, 7j/7.",
+            name: "Depannage Porte Sectionnelle Paris",
+            description: "Depannage porte sectionnelle a Paris 24h/24, 7j/7. Intervention d'urgence en 30 minutes. Ressorts, moteurs, panneaux, deraillement. 25+ ans d'experience.",
             telephone: "09 72 12 41 41",
-            email: "contact@porte-sectionnelle-paris.fr",
-            url: "https://porte-sectionnelle-paris.fr",
+            email: "contact@depannage-porte-sectionnelle-paris.fr",
+            url: "https://depannage-porte-sectionnelle-paris.fr",
             address: {
               "@type": "PostalAddress",
+              streetAddress: "32 Rue Lhomond",
               addressLocality: "Paris",
               addressRegion: "Ile-de-France",
-              postalCode: "75000",
+              postalCode: "75005",
               addressCountry: "FR",
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: 48.8442,
+              longitude: 2.3486,
             },
             areaServed: [
               { "@type": "City", name: "Paris" },
@@ -128,11 +134,11 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebSite",
-            name: "Porte Sectionnelle Paris",
-            url: "https://porte-sectionnelle-paris.fr",
+            name: "Depannage Porte Sectionnelle Paris",
+            url: "https://depannage-porte-sectionnelle-paris.fr",
             potentialAction: {
               "@type": "SearchAction",
-              target: "https://porte-sectionnelle-paris.fr/?s={search_term_string}",
+              target: "https://depannage-porte-sectionnelle-paris.fr/?s={search_term_string}",
               "query-input": "required name=search_term_string",
             },
           }),
@@ -147,7 +153,7 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Accueil", item: "https://porte-sectionnelle-paris.fr/" },
+              { "@type": "ListItem", position: 1, name: "Accueil", item: "https://depannage-porte-sectionnelle-paris.fr/" },
             ],
           }),
         }}
