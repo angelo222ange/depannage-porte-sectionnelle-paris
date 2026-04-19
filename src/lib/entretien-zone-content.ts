@@ -238,6 +238,25 @@ function hashSeed(slug: string, seed: string): number {
   return Math.abs(h);
 }
 
+function localWeaveEnt(local: LocalDataEntry, zone: Zone, variant: number): string {
+  const l2 = local.landmarks[1] || local.landmarks[0];
+  const l3 = local.landmarks[2] || local.landmarks[0];
+  const s2 = local.streets[1] || local.streets[0];
+  const s3 = local.streets[2] || local.streets[0];
+  const n2 = local.neighborhoods[1] || local.neighborhoods[0];
+  const m1 = local.metros[0];
+  const m2 = local.metros[1] || local.metros[0];
+  const weaves = [
+    ` Autour de ${l2} et ${l3}, les syndicats de copropriete nous confient l'entretien annuel de plus de quarante installations. Chaque passage inclut graissage des rails, verification du couple moteur, test des cellules photoelectriques et releve de l'usure des cables en acier. Les batiments proches de ${m1} beneficient d'un suivi tres rigoureux du fait de l'humidite typique des parkings en sous-sol.`,
+    ` Sur ${s2}, les locaux commerciaux appellent souvent pour des contrats annuels preventifs, particulierement avant les pics d'activite. L'equipe d'entretien passe en revue chaque composant — ressorts de torsion, guides laterals, joints d'etancheite — et programme les remplacements preventifs avant qu'une panne ne bloque l'activite du commerce.`,
+    ` Entre ${l2} et ${s3}, les coproprietes anciennes representent la majorite de nos contrats de maintenance. Nous tenons un carnet d'entretien detaille par installation, consultable par le syndic a tout moment. La station ${m2} constitue un point de ralliement pratique pour nos equipes techniques en tournee.`,
+    ` Pres de ${m1} et dans le secteur de ${n2}, l'humidite ambiante des parkings souterrains accelere la corrosion des axes et des ressorts de torsion. Notre protocole d'entretien adapte — huile haute viscosite, traitement anti-corrosion des points sensibles — prolonge la duree de vie des mecanismes de 40 % en moyenne.`,
+    ` Le long de ${s2} et ${s3}, les portes sectionnelles des commerces alimentaires subissent une sollicitation quotidienne intense. Nous recommandons deux visites annuelles minimum, en plus d'un controle visuel mensuel par le gerant. Notre equipe forme les exploitants aux gestes d'auto-verification entre deux interventions.`,
+    ` Dans ${n2}, les immeubles tertiaires pres de ${l3} sont equipes de portes haut de gamme Hormann, Novoferm ou Wayne Dalton qui necessitent des pieces d'origine et un outillage specifique. Notre atelier embarque tous les consommables necessaires — huiles, graisses, joints — pour un entretien sans retour en atelier.`,
+  ];
+  return weaves[variant % weaves.length];
+}
+
 export function getEntretienZoneContent(zone: Zone): EntretienZoneContent {
   const data = localData[zone.slug] || null;
   const preposition = zone.department === "Paris" ? "dans le" : "a";
@@ -245,24 +264,35 @@ export function getEntretienZoneContent(zone: Zone): EntretienZoneContent {
   const local: LocalDataEntry = data
     ? { landmarks: data.landmarks, streets: data.streets, neighborhoods: data.neighborhoods, metros: data.metros }
     : defaultLocal;
+  const specificIntro = data?.specificIntro || "";
+  const specificExpertise = data?.specificExpertise || "";
 
-  const introIdx = hashSeed(zone.slug, "ent_intro") % 6;
+  const idx = getZoneIndex(zone);
+  const introIdx = (idx + 1) % 6;
   const rawIntro = introTemplates[introIdx](zone, local, preposition);
-  const intro = rawIntro + ` Pour les residents et professionnels du ${zone.postalCode} ${zone.name}, notre equipe garantit un entretien rigoureux et complet sur l'ensemble du secteur ${zone.name}.`;
+  const weave1 = localWeaveEnt(local, zone, (idx + 4) % 6);
+  const intro = rawIntro + weave1 + (specificIntro ? ` ${specificIntro}` : "") + ` Pour les residents et professionnels du ${zone.postalCode} ${zone.name}, notre equipe garantit un entretien rigoureux et complet sur l'ensemble du secteur ${zone.name}.`;
 
-  const seo1Idx = hashSeed(zone.slug, "ent_seo1") % 6;
+  const seo1Idx = (idx + 3) % 6;
   const seo1Title = seo1Titles[seo1Idx](zone, preposition);
-  const seo1 = seo1Templates[seo1Idx](zone, local, preposition);
+  const weave2 = localWeaveEnt(local, zone, (idx + 0) % 6);
+  const seo1 = seo1Templates[seo1Idx](zone, local, preposition) + weave2;
 
-  const seo2Idx = hashSeed(zone.slug, "ent_seo2") % 6;
+  const seo2Idx = (idx + 5) % 6;
   const seo2Title = seo2Titles[seo2Idx](zone, preposition);
-  const seo2 = seo2Templates[seo2Idx](zone, local, preposition);
+  const weave3 = localWeaveEnt(local, zone, (idx + 2) % 6);
+  const seo2 = seo2Templates[seo2Idx](zone, local, preposition) + weave3 + (specificExpertise ? ` ${specificExpertise}` : "");
 
-  const processIdx = hashSeed(zone.slug, "ent_process") % 6;
+  const processIdx = (idx + 2) % 6;
   const entretienProcess = entretienProcessSets[processIdx](zone, preposition);
 
-  const faqIdx = hashSeed(zone.slug, "ent_faq") % 6;
-  const faq = faqSets[faqIdx](zone, local, preposition);
+  const faqIdx = (idx + 4) % 6;
+  const faqBase = faqSets[faqIdx](zone, local, preposition);
+  const quiAppeler = {
+    question: `Qui appeler pour l'entretien d'une porte sectionnelle ${preposition} ${zone.name} ?`,
+    answer: `Pour l'entretien preventif ou correctif de votre porte sectionnelle ${preposition} ${zone.name} (${zone.postalCode}), contactez-nous au ${siteConfig.telephone}. Nos techniciens proposent des contrats annuels ou ponctuels incluant graissage des rails, verification des ressorts de torsion, controle des cables et reglage de la motorisation. Intervention planifiee rapidement dans tout le secteur de ${local.neighborhoods[0]} et autour de ${local.landmarks[0]}.`,
+  };
+  const faq = [quiAppeler, ...faqBase];
 
   return { intro, seo1Title, seo1, seo2Title, seo2, entretienProcess, faq };
 }

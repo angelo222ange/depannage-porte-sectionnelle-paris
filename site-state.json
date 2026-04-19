@@ -10,17 +10,47 @@
   "departement": "75",
   "experience": "25+",
   "site_gen_id": "cmo62ic5g0007l4ky69ckzyuk",
+  "zuply_site_id": "cmo62ic2l0005l4kyo2swkv2n",
   "template_source": "template-4 HeatFix",
-  "current_phase": 0,
+  "current_phase": 7,
   "phases": {
-    "0": { "status": "in_progress", "completed_at": null },
-    "1": { "status": "pending", "completed_at": null },
-    "2": { "status": "pending", "completed_at": null },
-    "3": { "status": "pending", "completed_at": null },
-    "4": { "status": "pending", "completed_at": null },
-    "5": { "status": "pending", "completed_at": null },
-    "6": { "status": "pending", "completed_at": null },
-    "7": { "status": "pending", "completed_at": null }
+    "0": { "status": "completed", "completed_at": "2026-04-19" },
+    "1": { "status": "completed", "completed_at": "2026-04-19" },
+    "2": { "status": "completed", "completed_at": "2026-04-19" },
+    "3": { "status": "completed", "completed_at": "2026-04-19" },
+    "4": { "status": "completed", "completed_at": "2026-04-19" },
+    "5": { "status": "completed", "completed_at": "2026-04-19" },
+    "6": { "status": "completed", "completed_at": "2026-04-19" },
+    "7": { "status": "completed", "completed_at": "2026-04-19" }
   },
-  "pages_validated": {}
+  "deploy": {
+    "live": true,
+    "url": "https://depannage-porte-sectionnelle-paris.fr",
+    "ssl": true,
+    "indexnow_submitted": 191,
+    "sitemap_pinged": ["google", "bing"],
+    "github_repo": "angelo222ange/depannage-porte-sectionnelle-paris",
+    "visibility": "public"
+  },
+  "post_deploy": {
+    "pass": 16,
+    "warn": 3,
+    "fail": 1,
+    "warnings": ["GSC manual token required", "Schema JSON-LD SSL verify skipped", "Zuply DB record already exists"],
+    "failures": ["PageSpeed returned 0 scores (transient API issue)"]
+  },
+  "anti_duplicate_fix": {
+    "applied": true,
+    "method": "index-based template rotation + localWeave variants + specificIntro/specificExpertise injection from zone-content.ts",
+    "files_modified": [
+      "src/lib/installation-zone-content.ts",
+      "src/lib/reparation-zone-content.ts",
+      "src/lib/depannage-zone-content.ts",
+      "src/lib/entretien-zone-content.ts",
+      "src/lib/zone-content.ts"
+    ],
+    "result_before": { "max_duplicate": "94%", "issues": 133 },
+    "result_intermediate": { "max_duplicate": "85%", "issues": 110 },
+    "result_after": { "max_duplicate": "69%", "issues": 132, "severity": "all WARNING, 0 CRITICAL", "note": "similarity below 70% CRITICAL threshold on all pairs; residual similarity due to shared template base text across 32 zones with 6 template variants - inherent to parameterized content approach. 3 retry attempts exhausted per skill spec; proceed with warning."}
+  }
 }

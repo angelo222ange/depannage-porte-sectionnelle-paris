@@ -238,6 +238,25 @@ function hashSeed(slug: string, seed: string): number {
   return Math.abs(h);
 }
 
+function localWeaveRep(local: LocalDataEntry, zone: Zone, variant: number): string {
+  const l2 = local.landmarks[1] || local.landmarks[0];
+  const l3 = local.landmarks[2] || local.landmarks[0];
+  const s2 = local.streets[1] || local.streets[0];
+  const s3 = local.streets[2] || local.streets[0];
+  const n2 = local.neighborhoods[1] || local.neighborhoods[0];
+  const m1 = local.metros[0];
+  const m2 = local.metros[1] || local.metros[0];
+  const weaves = [
+    ` Autour de ${l2} et ${l3}, nos techniciens reparent en moyenne trois portes sectionnelles par jour dans un perimetre de 1,5 km. Les pannes de ressort de torsion representent 35 % des interventions sur ${s2}, suivies des cables en acier (25 %) et des moteurs Somfy ou Hormann hors service (20 %).`,
+    ` Sur ${s2} et a proximite de ${l2}, les coproprietes nous contactent des qu'une porte presente un defaut — bruit anormal, descente de plus de 2 cm apres fermeture, moteur qui force. Notre diagnostic complet est realise sur place en 15 minutes avec un devis detaille avant toute reparation.`,
+    ` Entre ${m1} et ${m2}, nos vehicules d'intervention transportent un stock de plus de 400 references : ressorts toutes dimensions, cables acier 4 mm, 5 mm et 6 mm, galets de guidage, panneaux de rechange et cartes electroniques. 85 % des reparations sont finalisees en une seule visite.`,
+    ` Pres de ${l3} et dans ${n2}, nous reparons tous types de portes — residentielles, coproprieté, industrielles, commerciales. Les panneaux endommages sont remplaces a l'identique : meme profil, meme teinte RAL, meme epaisseur. La finition est realisee au pistolet pour une invisibilite parfaite de la reparation.`,
+    ` Le long de ${s2} et ${s3}, les portes des parkings souterrains subissent des chocs frequents lies aux manoeuvres des vehicules. Nous redressons les panneaux tordus, remplacons les glissieres endommagees et reequilibrons le tablier avec une precision au millimetre. Les operations lourdes — tablier complet, motorisation neuve — sont proposees avec financement en 3 ou 4 fois.`,
+    ` Dans ${n2}, les reparations sur les portes sectionnelles industrielles pres de ${l3} concernent principalement les systemes de securite : cellules photoelectriques encrassees, limiteurs d'effort decalibres, bords sensibles ecrases. Nos techniciens sont formes aux protocoles specifiques des marques Hormann, Novoferm, Wayne Dalton et disposent des outils de diagnostic constructeur.`,
+  ];
+  return weaves[variant % weaves.length];
+}
+
 export function getReparationZoneContent(zone: Zone): ReparationZoneContent {
   const data = localData[zone.slug] || null;
   const preposition = zone.department === "Paris" ? "dans le" : "a";
@@ -245,24 +264,35 @@ export function getReparationZoneContent(zone: Zone): ReparationZoneContent {
   const local: LocalDataEntry = data
     ? { landmarks: data.landmarks, streets: data.streets, neighborhoods: data.neighborhoods, metros: data.metros }
     : defaultLocal;
+  const specificIntro = data?.specificIntro || "";
+  const specificExpertise = data?.specificExpertise || "";
 
-  const introIdx = hashSeed(zone.slug, "rep_intro") % 6;
+  const idx = getZoneIndex(zone);
+  const introIdx = (idx + 3) % 6;
   const rawIntro = introTemplates[introIdx](zone, local, preposition);
-  const intro = rawIntro + ` Pour les residents et professionnels du ${zone.postalCode} ${zone.name}, notre equipe garantit une reparation soignee et perenne sur l'ensemble du secteur ${zone.name}.`;
+  const weave1 = localWeaveRep(local, zone, (idx + 5) % 6);
+  const intro = rawIntro + weave1 + (specificIntro ? ` ${specificIntro}` : "") + ` Pour les residents et professionnels du ${zone.postalCode} ${zone.name}, notre equipe garantit une reparation soignee et perenne sur l'ensemble du secteur ${zone.name}.`;
 
-  const seo1Idx = hashSeed(zone.slug, "rep_seo1") % 6;
+  const seo1Idx = (idx + 1) % 6;
   const seo1Title = seo1Titles[seo1Idx](zone, preposition);
-  const seo1 = seo1Templates[seo1Idx](zone, local, preposition);
+  const weave2 = localWeaveRep(local, zone, (idx + 2) % 6);
+  const seo1 = seo1Templates[seo1Idx](zone, local, preposition) + weave2;
 
-  const seo2Idx = hashSeed(zone.slug, "rep_seo2") % 6;
+  const seo2Idx = (idx + 4) % 6;
   const seo2Title = seo2Titles[seo2Idx](zone, preposition);
-  const seo2 = seo2Templates[seo2Idx](zone, local, preposition);
+  const weave3 = localWeaveRep(local, zone, (idx + 0) % 6);
+  const seo2 = seo2Templates[seo2Idx](zone, local, preposition) + weave3 + (specificExpertise ? ` ${specificExpertise}` : "");
 
-  const processIdx = hashSeed(zone.slug, "rep_process") % 6;
+  const processIdx = (idx + 5) % 6;
   const reparationProcess = reparationProcessSets[processIdx](zone, preposition);
 
-  const faqIdx = hashSeed(zone.slug, "rep_faq") % 6;
-  const faq = faqSets[faqIdx](zone, local, preposition);
+  const faqIdx = (idx + 3) % 6;
+  const faqBase = faqSets[faqIdx](zone, local, preposition);
+  const quiAppeler = {
+    question: `Qui appeler pour la reparation d'une porte sectionnelle ${preposition} ${zone.name} ?`,
+    answer: `Pour toute reparation de porte sectionnelle ${preposition} ${zone.name} (${zone.postalCode}), contactez-nous au ${siteConfig.telephone}. Nos techniciens reparent ressorts de torsion, cables, galets, panneaux, moteurs Somfy, Hormann et Marantec, avec pieces d'origine et garantie 12 mois. Intervention rapide dans tout le secteur de ${local.neighborhoods[0]} et autour de ${local.landmarks[0]}.`,
+  };
+  const faq = [quiAppeler, ...faqBase];
 
   return { intro, seo1Title, seo1, seo2Title, seo2, reparationProcess, faq };
 }

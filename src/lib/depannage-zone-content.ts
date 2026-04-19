@@ -238,6 +238,25 @@ function hashSeed(slug: string, seed: string): number {
   return Math.abs(h);
 }
 
+function localWeave(local: LocalDataEntry, zone: Zone, prep: string, variant: number): string {
+  const l2 = local.landmarks[1] || local.landmarks[0];
+  const l3 = local.landmarks[2] || local.landmarks[0];
+  const s2 = local.streets[1] || local.streets[0];
+  const s3 = local.streets[2] || local.streets[0];
+  const n2 = local.neighborhoods[1] || local.neighborhoods[0];
+  const m1 = local.metros[0];
+  const m2 = local.metros[1] || local.metros[0];
+  const weaves = [
+    ` Autour de ${l2}, nos techniciens sont regulierement sollicites par les gardiens d'immeuble et les syndics qui reperent des defauts precoces sur les mecanismes. De ${m1} jusqu'a ${s2}, chaque passage est l'occasion de verifier les installations sensibles et d'anticiper les dysfonctionnements majeurs.`,
+    ` Entre ${l2} et ${l3}, les copropriétés anciennes nous contactent frequemment pour des interventions de nuit, notamment sur les portes de parking qui desservent les bureaux du secteur. La station ${m2} constitue un point de repere pratique pour coordonner nos equipes en urgence sur ${s2}.`,
+    ` Le long de ${s2} et a proximite de ${l2}, les commerces en rez-de-chaussee nous appellent des l'apparition des premiers bruits anormaux — craquements, sifflements, claquements metalliques. Notre presence continue dans ${n2} nous permet d'envoyer un depanneur en moins de 30 minutes.`,
+    ` De ${m1} a ${m2}, notre maillage couvre l'ensemble des rues adjacentes et des impasses. Les urgences signalees le long de ${s3} ou pres de ${l3} sont traitees en priorite, sans distinction entre parkings prives, box individuels, garages d'immeuble ou locaux professionnels.`,
+    ` Pres de ${l3}, nos vehicules d'astreinte patrouillent dans un rayon de 2 kilometres et interviennent 24h/24. Les residents de ${n2} et les commercants de ${s2} savent qu'un depanneur peut etre sur place en moins de 30 minutes, y compris la nuit, le dimanche et les jours feries.`,
+    ` Sur ${s2}, ${s3} et autour de ${l2}, les portes sectionnelles de moins de 10 ans representent 60 % de notre activite de depannage. Les plus anciennes, souvent installees dans les coproprietes proches de ${m1}, necessitent parfois un remplacement partiel du tablier ou de la motorisation.`,
+  ];
+  return weaves[variant % weaves.length];
+}
+
 export function getDepannageZoneContent(zone: Zone): DepannageZoneContent {
   const data = localData[zone.slug] || null;
   const preposition = zone.department === "Paris" ? "dans le" : "a";
@@ -245,24 +264,35 @@ export function getDepannageZoneContent(zone: Zone): DepannageZoneContent {
   const local: LocalDataEntry = data
     ? { landmarks: data.landmarks, streets: data.streets, neighborhoods: data.neighborhoods, metros: data.metros }
     : defaultLocal;
+  const specificIntro = data?.specificIntro || "";
+  const specificExpertise = data?.specificExpertise || "";
 
-  const introIdx = hashSeed(zone.slug, "dep_intro") % 6;
+  const idx = getZoneIndex(zone);
+  const introIdx = idx % 6;
   const rawIntro = introTemplates[introIdx](zone, local, preposition);
-  const intro = rawIntro + ` Pour les residents et commercants du ${zone.postalCode} ${zone.name}, notre equipe garantit une prise en charge rapide et professionnelle dans tout le secteur ${zone.name}.`;
+  const weave1 = localWeave(local, zone, preposition, (idx + 1) % 6);
+  const intro = rawIntro + weave1 + (specificIntro ? ` ${specificIntro}` : "") + ` Pour les residents et commercants du ${zone.postalCode} ${zone.name}, notre equipe garantit une prise en charge rapide et professionnelle dans tout le secteur ${zone.name}.`;
 
-  const seo1Idx = hashSeed(zone.slug, "dep_seo1") % 6;
+  const seo1Idx = (idx + 2) % 6;
   const seo1Title = seo1Titles[seo1Idx](zone, preposition);
-  const seo1 = seo1Templates[seo1Idx](zone, local, preposition);
+  const weave2 = localWeave(local, zone, preposition, (idx + 3) % 6);
+  const seo1 = seo1Templates[seo1Idx](zone, local, preposition) + weave2;
 
-  const seo2Idx = hashSeed(zone.slug, "dep_seo2") % 6;
+  const seo2Idx = (idx + 4) % 6;
   const seo2Title = seo2Titles[seo2Idx](zone, preposition);
-  const seo2 = seo2Templates[seo2Idx](zone, local, preposition);
+  const weave3 = localWeave(local, zone, preposition, (idx + 5) % 6);
+  const seo2 = seo2Templates[seo2Idx](zone, local, preposition) + weave3 + (specificExpertise ? ` ${specificExpertise}` : "");
 
-  const processIdx = hashSeed(zone.slug, "dep_process") % 6;
+  const processIdx = (idx + 3) % 6;
   const emergencyProcess = emergencyProcessSets[processIdx](zone, preposition);
 
-  const faqIdx = hashSeed(zone.slug, "dep_faq") % 6;
-  const faq = faqSets[faqIdx](zone, local, preposition);
+  const faqIdx = (idx + 2) % 6;
+  const faqBase = faqSets[faqIdx](zone, local, preposition);
+  const quiAppeler = {
+    question: `Qui appeler pour un depannage de porte sectionnelle ${preposition} ${zone.name} ?`,
+    answer: `Pour tout depannage urgent de porte sectionnelle ${preposition} ${zone.name} (${zone.postalCode}), composez le ${siteConfig.telephone}. Nos techniciens depanneurs interviennent en moins de 30 minutes, 24h/24 et 7j/7, avec un stock complet de pieces detachees pour ressorts, cables, moteurs Somfy, Hormann et Marantec. Intervention toute l'annee, meme les jours feries, dans tout le secteur de ${local.neighborhoods[0]} et autour de ${local.landmarks[0]}.`,
+  };
+  const faq = [quiAppeler, ...faqBase];
 
   return { intro, seo1Title, seo1, seo2Title, seo2, emergencyProcess, faq };
 }

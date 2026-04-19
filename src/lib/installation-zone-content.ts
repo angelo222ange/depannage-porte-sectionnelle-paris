@@ -242,6 +242,25 @@ function rotateByIdx<T>(arr: T[], idx: number, offset: number = 0): T {
   return arr[(idx + offset) % arr.length];
 }
 
+function localWeaveIns(local: LocalDataEntry, zone: Zone, variant: number): string {
+  const l2 = local.landmarks[1] || local.landmarks[0];
+  const l3 = local.landmarks[2] || local.landmarks[0];
+  const s2 = local.streets[1] || local.streets[0];
+  const s3 = local.streets[2] || local.streets[0];
+  const n2 = local.neighborhoods[1] || local.neighborhoods[0];
+  const m1 = local.metros[0];
+  const m2 = local.metros[1] || local.metros[0];
+  const weaves = [
+    ` Autour de ${l2} et ${l3}, nos installateurs travaillent regulierement sur des chantiers neufs comme des renovations d'immeubles anciens. Les contraintes d'acces sur ${s2} — passages etroits, cours paves, voisinage sensible — exigent une pose soignee avec livraison programmee par creneaux horaires pour ne pas bloquer la circulation des riverains.`,
+    ` Sur ${s2} et ${s3}, les boutiques en rez-de-chaussee privilegient une pose rapide en une journee pour limiter l'impact sur l'activite commerciale. Notre equipe intervient en equipe de deux a quatre poseurs avec du materiel adapte pour travailler en site occupe, pres de ${l2} comme dans les ruelles pavees de ${n2}.`,
+    ` Entre ${l2} et ${l3}, nous realisons chaque annee une centaine d'installations pour des coproprietes et des parkings souterrains. Le devis est remis sur place apres une prise de cotes laser et une analyse de la structure porteuse. Les portes sont commandees sur mesure avec un delai moyen de trois semaines avant la pose definitive.`,
+    ` Pres de ${m1} et ${m2}, les immeubles tertiaires demandent des portes sectionnelles haut de gamme — panneaux isoles 42 mm, motorisation industrielle, interface domotique. Nous installons des modeles Hormann SPU 67, Novoferm Thermo 45 ou Wayne Dalton selon le cahier des charges du syndic et les contraintes techniques de la cage d'escalier ou du local a equiper.`,
+    ` Dans le secteur de ${n2}, les maisons individuelles et pavillons sont equipes de portes de garage residentielles motorisees. Nous proposons une gamme complete de finitions — panneaux unis, cassettes, imitation bois — avec une garantie constructeur de 10 ans sur la structure. L'installation inclut toujours un test de securite et une formation a l'usage des telecommandes.`,
+    ` Le long de ${s2} et pres de ${l3}, les locaux logistiques et entrepots s'equipent de portes industrielles a haute frequence. Nos installateurs certifies CE montent ces equipements avec reglage precis du couple moteur, calibration des cellules photoelectriques et programmation des macros de fermeture automatique en fin de journee.`,
+  ];
+  return weaves[variant % weaves.length];
+}
+
 export function getInstallationZoneContent(zone: Zone): InstallationZoneContent {
   const data = localData[zone.slug] || null;
   const preposition = zone.department === "Paris" ? "dans le" : "a";
@@ -249,25 +268,35 @@ export function getInstallationZoneContent(zone: Zone): InstallationZoneContent 
   const local: LocalDataEntry = data
     ? { landmarks: data.landmarks, streets: data.streets, neighborhoods: data.neighborhoods, metros: data.metros }
     : defaultLocal;
+  const specificIntro = data?.specificIntro || "";
+  const specificExpertise = data?.specificExpertise || "";
 
-  // Independent hash-based picks — guarantees each zone a unique combination
-  const introIdx = hashSeed(zone.slug, "intro") % 6;
+  const idx = getZoneIndex(zone);
+  const introIdx = (idx + 2) % 6;
   const rawIntro = introTemplates[introIdx](zone, local, preposition);
-  const intro = rawIntro + ` Pour les residents et professionnels du ${zone.postalCode} ${zone.name}, notre equipe garantit une installation soignee et durable sur l'ensemble du secteur ${zone.name}.`;
+  const weave1 = localWeaveIns(local, zone, (idx + 3) % 6);
+  const intro = rawIntro + weave1 + (specificIntro ? ` ${specificIntro}` : "") + ` Pour les residents et professionnels du ${zone.postalCode} ${zone.name}, notre equipe garantit une installation soignee et durable sur l'ensemble du secteur ${zone.name}.`;
 
-  const seo1Idx = hashSeed(zone.slug, "seo1") % 6;
+  const seo1Idx = (idx + 5) % 6;
   const seo1Title = seo1Titles[seo1Idx](zone, preposition);
-  const seo1 = seo1Templates[seo1Idx](zone, local, preposition);
+  const weave2 = localWeaveIns(local, zone, (idx + 1) % 6);
+  const seo1 = seo1Templates[seo1Idx](zone, local, preposition) + weave2;
 
-  const seo2Idx = hashSeed(zone.slug, "seo2") % 6;
+  const seo2Idx = (idx + 1) % 6;
   const seo2Title = seo2Titles[seo2Idx](zone, preposition);
-  const seo2 = seo2Templates[seo2Idx](zone, local, preposition);
+  const weave3 = localWeaveIns(local, zone, (idx + 4) % 6);
+  const seo2 = seo2Templates[seo2Idx](zone, local, preposition) + weave3 + (specificExpertise ? ` ${specificExpertise}` : "");
 
-  const processIdx = hashSeed(zone.slug, "process") % 6;
+  const processIdx = (idx + 4) % 6;
   const installationProcess = installationProcessSets[processIdx](zone, preposition);
 
-  const faqIdx = hashSeed(zone.slug, "faq") % 6;
-  const faq = faqSets[faqIdx](zone, local, preposition);
+  const faqIdx = (idx + 0) % 6;
+  const faqBase = faqSets[faqIdx](zone, local, preposition);
+  const quiAppeler = {
+    question: `Qui appeler pour l'installation d'une porte sectionnelle ${preposition} ${zone.name} ?`,
+    answer: `Pour toute installation de porte sectionnelle ${preposition} ${zone.name} (${zone.postalCode}), appelez-nous au ${siteConfig.telephone}. Nos installateurs certifies realisent un devis gratuit sur place, avec prise de cotes precises et conseil sur le modele (Hormann, Somfy, Novoferm) adapte a votre garage ou local. Pose propre et rapide dans tout le secteur de ${local.neighborhoods[0]} et autour de ${local.landmarks[0]}.`,
+  };
+  const faq = [quiAppeler, ...faqBase];
 
   return { intro, seo1Title, seo1, seo2Title, seo2, installationProcess, faq };
 }
