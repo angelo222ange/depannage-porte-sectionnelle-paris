@@ -688,33 +688,35 @@ const whyUsSets: WhyUsFn[] = [
 export function getZoneContent(zone: Zone): ZoneContent {
   const data = localData[zone.slug];
   const preposition = zone.department === "Paris" ? "dans le" : "a";
-  const zoneIdx = getZoneIndex(zone);
+
+  const hashSeed = (slug: string, seed: string): number => {
+    const s = slug + "_" + seed;
+    let h = 0;
+    for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0;
+    return Math.abs(h);
+  };
 
   // Inject postal code naturally into intro text
   const rawIntro = data?.specificIntro || generateGenericIntro(zone);
   const intro = rawIntro + ` Nos techniciens couvrent l'integralite du secteur ${zone.postalCode} ${zone.name} et ses alentours.`;
   const localExpertise = data?.specificExpertise || generateGenericExpertise(zone);
 
-  // Rotate SEO1 among 6 templates
-  const seo1Idx = zoneIdx % 6;
+  const seo1Idx = hashSeed(zone.slug, "gen_seo1") % 6;
   const seo1Title = seo1Titles[seo1Idx](zone, preposition);
   const seo1 = data
     ? seo1Templates[seo1Idx](zone, data, preposition)
     : seo1GenericTemplates[seo1Idx](zone, preposition);
 
-  // Rotate SEO2 among 6 templates — offset by 3 to avoid pairing with same-angle SEO1
-  const seo2Idx = (zoneIdx + 3) % 6;
+  const seo2Idx = hashSeed(zone.slug, "gen_seo2") % 6;
   const seo2Title = seo2Titles[seo2Idx](zone, preposition);
   const seo2 = data
     ? seo2Templates[seo2Idx](zone, data, preposition)
     : seo2GenericTemplates[seo2Idx](zone, preposition);
 
-  // Rotate FAQ among 6 sets — offset by 1 from seo1
-  const faqIdx = (zoneIdx + 1) % 6;
+  const faqIdx = hashSeed(zone.slug, "gen_faq") % 6;
   const faq = faqSets[faqIdx](zone, data, preposition);
 
-  // Rotate whyUs among 4 sets — offset by 2
-  const whyUsIdx = (zoneIdx + 2) % 4;
+  const whyUsIdx = hashSeed(zone.slug, "gen_whyus") % 4;
   const whyUs = whyUsSets[whyUsIdx](zone, data, preposition);
 
   return {

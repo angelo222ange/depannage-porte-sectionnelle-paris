@@ -231,36 +231,37 @@ const faqSets: ((zone: Zone, data: LocalDataEntry, prep: string) => { question: 
 // Main export function
 // ===============================================
 
+function hashSeed(slug: string, seed: string): number {
+  const s = slug + "_" + seed;
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0;
+  return Math.abs(h);
+}
+
 export function getDepannageZoneContent(zone: Zone): DepannageZoneContent {
   const data = localData[zone.slug] || null;
   const preposition = zone.department === "Paris" ? "dans le" : "a";
-  const zoneIdx = getZoneIndex(zone);
 
   const local: LocalDataEntry = data
     ? { landmarks: data.landmarks, streets: data.streets, neighborhoods: data.neighborhoods, metros: data.metros }
     : defaultLocal;
 
-  // Rotate intro among 6 templates
-  const introIdx = zoneIdx % 6;
+  const introIdx = hashSeed(zone.slug, "dep_intro") % 6;
   const rawIntro = introTemplates[introIdx](zone, local, preposition);
-  const intro = rawIntro + ` Pour les residents et commercants du ${zone.postalCode} ${zone.name}, notre equipe garantit une prise en charge rapide et professionnelle.`;
+  const intro = rawIntro + ` Pour les residents et commercants du ${zone.postalCode} ${zone.name}, notre equipe garantit une prise en charge rapide et professionnelle dans tout le secteur ${zone.name}.`;
 
-  // Rotate SEO1 among 6 templates
-  const seo1Idx = zoneIdx % 6;
+  const seo1Idx = hashSeed(zone.slug, "dep_seo1") % 6;
   const seo1Title = seo1Titles[seo1Idx](zone, preposition);
   const seo1 = seo1Templates[seo1Idx](zone, local, preposition);
 
-  // Rotate SEO2 — offset by 3
-  const seo2Idx = (zoneIdx + 3) % 6;
+  const seo2Idx = hashSeed(zone.slug, "dep_seo2") % 6;
   const seo2Title = seo2Titles[seo2Idx](zone, preposition);
   const seo2 = seo2Templates[seo2Idx](zone, local, preposition);
 
-  // Rotate emergency process
-  const processIdx = (zoneIdx + 2) % 6;
+  const processIdx = hashSeed(zone.slug, "dep_process") % 6;
   const emergencyProcess = emergencyProcessSets[processIdx](zone, preposition);
 
-  // Rotate FAQ — offset by 1
-  const faqIdx = (zoneIdx + 1) % 6;
+  const faqIdx = hashSeed(zone.slug, "dep_faq") % 6;
   const faq = faqSets[faqIdx](zone, local, preposition);
 
   return { intro, seo1Title, seo1, seo2Title, seo2, emergencyProcess, faq };

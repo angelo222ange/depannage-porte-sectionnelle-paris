@@ -1,0 +1,26 @@
+{
+  "secteur": "porte sectionnelle",
+  "ville": "Paris",
+  "slug": "paris",
+  "domaine": "depannage-porte-sectionnelle-paris.fr",
+  "telephone": "09 72 12 41 41",
+  "telephone_raw": "09721214141",
+  "nom_entreprise": "Depannage Porte Sectionnelle Paris",
+  "adresse": "32 Rue Lhomond, 75005 Paris",
+  "departement": "75",
+  "experience": "25+",
+  "site_gen_id": "cmo62ic5g0007l4ky69ckzyuk",
+  "template_source": "template-4 HeatFix",
+  "current_phase": 0,
+  "phases": {
+    "0": { "status": "in_progress", "completed_at": null },
+    "1": { "status": "pending", "completed_at": null },
+    "2": { "status": "pending", "completed_at": null },
+    "3": { "status": "pending", "completed_at": null },
+    "4": { "status": "pending", "completed_at": null },
+    "5": { "status": "pending", "completed_at": null },
+    "6": { "status": "pending", "completed_at": null },
+    "7": { "status": "pending", "completed_at": null }
+  },
+  "pages_validated": {}
+}
